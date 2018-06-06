@@ -4,14 +4,15 @@ description: This article helps you download and install the client tools you wi
 ---
 # Install content authoring tools
 
-This article describes the steps to interactively install Git client tools and Visual Studio Code.
+This article describes the steps to interactively install Git client tools and editing tools.
 > [!div class="checklist"]
 > * Install [Git for Windows](https://git-scm.com/download/win)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
-> * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
+> * Install [Adobe Brackets](link)
+> * Install [Adobe Docs Authoring Pack](link)
 
->[!IMPORTANT]
-> If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
+>[!NOTE]
+> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply make changes in your web browser.
 >
 > Major contributors are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
 
