@@ -32,9 +32,12 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 Documentation hosted at [docs.adobe.com](https://docs.adobe.com) resides in several different repositories at [github.com](https://www.github.com).
 
-1. If you are unsure of which repository to use, then visit the article on docs.adobe.com using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.<br>
+1. If you are unsure of which repository to use, then visit the article on docs.adobe.com using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
+
    ![Click Edit to determine the repo and file location.](assets/edit-article.png)
-2. That link takes you to github.com location for the corresponding Markdown file in the appropriate repository. Note the URL to view the repository name.<br>
+
+1. That link takes you to github.com location for the corresponding Markdown file in the appropriate repository. Note the URL to view the repository name.
+
    ![Notice the URL to determine the repository location.](media/public-repo.png)<br>
 
 ## Fork the repository
