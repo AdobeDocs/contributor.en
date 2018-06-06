@@ -22,20 +22,14 @@ Some of our Adobe documentation is open source, hosted on GitHub. You can contri
 
 Quick edits streamline the process to report and fix small errors and omissions in documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. If an article displays an edit button as shown in the following figure, you can make a quick fix yourself. 
 
-1. Click the **Edit** button to go to the source file on GitHub.
-
-![Location of the Edit link](assets/edit-article.png)
-
-1. Click the pencil icon, shown in the following figure to edit the article.
-
+1. Click the **Edit** button to go to the source file on GitHub.<br>
+![Location of the Edit link](assets/edit-article.png)<br>
+1. Click the pencil icon, shown in the following figure to edit the article.<br>
 > [!NOTE]
-> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
-
-![Location of the pencil icon](assets/edit-icon.png)
-
-1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
-
-![proposing your change](assets/submit-pull-request.png)
+> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.<br>
+![Location of the pencil icon](assets/edit-icon.png)<br>
+1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:<br>
+![proposing your change](assets/submit-pull-request.png)<br>
 
 That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
 
