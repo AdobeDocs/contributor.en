@@ -86,10 +86,9 @@ If you installed the latest version of Git for Windows and accepted the default 
     git clone https://github.com/smithj/azure-docs.git
     ```
 
-1. When you're prompted, enter your GitHub credentials.
+1. When you're prompted, enter your GitHub credentials.BOB
 
-    ![GitHub Login](./media/contribute-get-started-setup-local/github-login.png)
-
+![GitHub Login](./media/contribute-get-started-setup-local/github-login.png)
 
 1. When you're prompted, enter your two-factor authentication code.
 
