@@ -46,9 +46,11 @@ Using the appropriate repository, create a fork of the repository into your own 
 
 A personal fork is required since all main documentation repositories provide read-only access, which means you cannot make changes directly on content in the repositories. To make changes, you must submit a pull request from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
 
-1. Go to the main repository's GitHub page and click the **Fork** button on the upper right.<br>
-   ![GitHub profile example](./media/contribute-get-started-setup-local/fork.png)<br>
-2. If you are prompted, select your GitHub account tile as the destination where the fork should be created. This prompt creates a copy of the repository within your GitHub account, known as a fork.
+1. Go to the main repository's GitHub page and click the **Fork** button on the upper right.
+
+   ![GitHub profile example](./media/contribute-get-started-setup-local/fork.png)
+   
+1. If you are prompted, select your GitHub account tile as the destination where the fork should be created. This prompt creates a copy of the repository within your GitHub account, known as a fork.
 
 ## Choose a local folder
 
@@ -84,18 +86,19 @@ If you installed the latest version of Git for Windows and accepted the default 
     git clone https://github.com/smithj/azure-docs.git
     ```
 
-2. When you're prompted, enter your GitHub credentials.
+1. When you're prompted, enter your GitHub credentials.
 
     ![GitHub Login](./media/contribute-get-started-setup-local/github-login.png)
 
-3. When you're prompted, enter your two-factor authentication code.
+
+1. When you're prompted, enter your two-factor authentication code.
 
     ![GitHub two-factor authentication](./media/contribute-get-started-setup-local/github-2fa.png)
 
     > [!Note]
     > Your credentials will be saved and used to authenticate future GitHub requests. You only need to do this authentication once per computer. 
 
-4. The clone command runs and downloads a copy of the repository files from your fork into a new folder on the local disk. A new folder is made within the current folder. It may take a few minutes, depending on the repository size. You can explore the folder to see the structure once it is finished.
+1. The clone command runs and downloads a copy of the repository files from your fork into a new folder on the local disk. A new folder is made within the current folder. It may take a few minutes, depending on the repository size. You can explore the folder to see the structure once it is finished.
 
 ## Configure remote upstream
 After cloning the repository, set up a read-only remote connection to the main repository named **upstream**. You use the upstream URL to keep your local repository in sync with the latest changes made by others. The **git remote** command is used to set the configuration value. You use the **fetch** command to refresh the branch info from the upstream repository.
