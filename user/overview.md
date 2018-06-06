@@ -9,37 +9,33 @@ IMPORTANT: COPIED FROM MICROSOFT - REPLACE CONTENTS WITH OUR OWN
 
 <https://docs.microsoft.com/en-us/contribute/>
 
-Welcome to the [docs.adobe.com](https://docs.adobe.com) (Docs) Contributor Guide!
+Welcome to the Adobe Docs Contributor Guide!
 
-Several of our documentation sets are open source, hosted on GitHub. More teams are adopting this model all the time. Even document sets that are not completely open source have public-facing repos where you are invited to make pull requests. It streamlines and improves communication between the product engineers, the content teams, and our customers. Working in the open provides several advantages:
-
-- Open source repos plan in the open to get feedback on what docs are most needed.
-- Open source repos review in the open to publish the most helpful content on our first release.
-- Open source repos update in the open to make it easier to continuously improve the content.
-
-The user experience on [docs.adobe.com](https://docs.adobe.com) integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you are viewing](#quick-edits-to-existing-documents). Or, help by [reviewing new topics](#review-open-prs), or [create quality issues](#create-quality-issues).
+Some of our Adobe documentation is open source, hosted on GitHub. You can contribute to this documentation in a number of ways, from making quick edits to existing documents to submitting entire articles, complete with assets. This open source model streamlines and improves communication between the product engineers, the content teams, and our customers. 
 
 > [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](link) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](link) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](link).<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. We need you to complete the online form before we can review or accept your pull request.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.adobe.com Terms of Use](link). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 
 ## Quick edits to existing documents
 
-Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. Almost every article displays an edit button as shown in the following figure. Clicking the **Edit** button takes you to the source file on GitHub.
+Quick edits streamline the process to report and fix small errors and omissions in documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. If an article displays an edit button as shown in the following figure, you can make a quick fix yourself. 
 
-![Location of the Edit link](./media/index/edit-article.png)
+1. Click the **Edit** button to go to the source file on GitHub.
 
-Next, click the pencil icon, shown in the following figure to edit the article.
+![Location of the Edit link](assets/edit-article.png)
+
+1. Click the pencil icon, shown in the following figure to edit the article.
 
 > [!NOTE]
 > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
 
-![Location of the pencil icon](./media/index/editicon.png)
+![Location of the pencil icon](assets/edit-icon.png)
 
-Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
 
-![proposing your change](./media/index/submit-pull-request.png)
+![proposing your change](assets/submit-pull-request.png)
 
 That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
 
@@ -47,7 +43,7 @@ The GitHub editing UI responds to your permissions on the repository. The preced
 
 We use PRs for all changes, even for contributors that have write access. Most repositories have the `master` branch protected so that updates must be submitted as PRs.
 
-The in-browser editing experience is best for minor or infrequent changes. If you make large contributions, or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
+The in-browser editing experience is best for minor or infrequent changes. If you make large contributions, or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).
 
 ## Review open PRs
 
@@ -61,4 +57,4 @@ Issues start the conversation about what's needed. The content team will respond
 
 ## Get more involved
 
-Other topics help you get started productively contributing to Microsoft Docs. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Docs platform.
+Other topics help you get started productively contributing to Microsoft Docs. They explain working with GitHub repositories, Markdown tools, and extensions used in the Adobe Docs platform.
