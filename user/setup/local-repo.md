@@ -51,9 +51,11 @@ A personal fork is required since all main documentation repositories provide re
 
 Make a local folder to hold a copy of the repository locally. Some of the repositories can be large. Choose a location with available disk space.
 
-1. Choose a folder name should be easy for you to remember and type. For example, consider a root folder `C:\docs\` or make a folder in your user profile directory `~/Documents/docs/`<br>
+1. Choose a folder name should be easy for you to remember and type. For example, consider a root folder `C:\docs\` or make a folder in your user profile directory `~/Documents/docs/`
+
    > [!NOTE]
-   > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.<br>
+   > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
+   
 1. Run the **clone** command to pull a copy of the repository (your fork) down to your computer on the current directory.
 1. Next step.
 
