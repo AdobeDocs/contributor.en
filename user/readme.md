@@ -1,12 +1,10 @@
 # Contribute article
 
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams. 
+
 ## Adobe Open Source Code of Conduct
 
 This project has adopted the [Adobe Open Source Code of Conduct](link). For more information see the [Code of Conduct FAQ](link).
-
-We welcome contributions from our community as well as from Adobe employees from outside the documentation teams. 
-
-* **Employees**: 
 
 ## About your contributions to Adobe content
 
