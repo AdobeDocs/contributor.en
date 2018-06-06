@@ -29,7 +29,7 @@ Markdown is a lightweight markup language that is both easy to read and easy to 
 
 Markdown text is saved into files with .md extension.
 
-Additional details on how to write with Markdown, including Markdown basics and custom Markdown extensions, are covered in the [Using Markdown](./writing-essentials/using-markdown.md) article.
+Additional details on how to write with Markdown, including Markdown basics and custom Markdown extensions, are covered in the [Using Markdown](/user/writing-essentials/using-markdown.md) article.
 
 ## Adobe Docs Authoring Pack
 
