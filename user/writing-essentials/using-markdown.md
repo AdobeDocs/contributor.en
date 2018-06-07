@@ -6,7 +6,7 @@ description: This article provides the basics and reference information for the 
 
 Adobe Docs articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Adobe Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, we have extended Markdown in a few ways to support certain help-related features such as notes and videos.
+Because Adobe Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, we have extended Markdown in a few ways to support certain help-related features such as notes and embedded videos.
 
 ## Markdown basics
 
@@ -318,7 +318,7 @@ For example, encode `<script name>` as `&lt;script name&gt;`
 
 ### Ampersands in titles
 
-Ampersands (&) aren't allowed in titles. Use "and" instead, or use &amp;
+Ampersands (&) aren't allowed in titles. Use "and" instead, or use the `&amp;` encoding.
 
 ## See also
 
