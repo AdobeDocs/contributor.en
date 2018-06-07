@@ -4,14 +4,9 @@ description: This article provides the basics and reference information for the 
 ---
 # How to use Markdown for writing Docs
 
-Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+Adobe Docs articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
-
-* Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
-* https://github.com/lunet-io/markdig
-* Better community support
-* Better standards support
+Because Adobe Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, we have extended Markdown in a few ways to support certain help-related features such as notes and videos.
 
 ## Markdown basics
 
@@ -20,10 +15,10 @@ Because Docs content is stored in GitHub, it can use a superset of Markdown call
 To create a heading, you use a hash mark (#), as follows:
 
 ```markdown
-    # This is heading 1
-    ## This is heading 2
-    ### This is heading 3
-    #### This is heading 4
+    # This is level 1 (article title)
+    ## This is level 2
+    ### This is level 3
+    #### This is level 4
 ```
 
 ### Bold and italic text
@@ -288,40 +283,6 @@ You can choose from four types of note blocks to draw attention to specific cont
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
 
-### Includes
-
-When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the Markdig file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of includes are available to help you reuse content:
-
-- Inline: Reuse a common text snippet inline with within another sentence.
-- Block: Reuse an entire Markdown file as a block, nested within a section of an article.
-- Image: This is how standard image inclusion is implemented in Docs.
-
-An inline or block include is just a simple Markdown (.md) file. It can contain any valid Markdown. All include Markdown files should be placed in a [common `/includes` subdirectory](git-github-fundamentals.md#includes-subdirectory), in the root of the repository. When the article is published, the included file is seamlessly integrated into it.
-
-Here are requirements and considerations for includes:
-
-- Use includes whenever you need the same text to appear in multiple articles.
-- Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub rendered view of your article, because they rely on Markdig extensions. They'll be rendered only after publication.
-- Ensure that all the text in an include is written in complete sentences or phrases that do not depend on preceding text or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article that breaks the localized experience.
-- Don't embed includes within other includes. They are not supported.
-- Place media files in a media folder that's specific to the include subdirectory--for instance, the `<repo>`/includes/media folder. The media directory should not contain any images in its root. If the include does not have images, a corresponding media directory is not required.
-- As with regular articles, don't share media between include files. Use a separate file with a unique name for each include and article. Store the media file in the media folder that's associated with the include.
-- Don't use an include as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.
-
-### Selectors
-
-Use selectors in technical articles when you author multiple flavors of the same article, to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in Markdig, a single selector and a multi-selector.
-
-Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
-
-### Code snippets
-
-Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
-
-- Inclusion of centralized code samples/snippets from an external repository.
-- Tabbed UI to show multiple versions of code samples in different languages.
-
 ## Gotchas and troubleshooting
 
 ### Alt text
@@ -354,6 +315,10 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 If you use angle brackets in text (not code) in your file--for example, to denote a placeholder--you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
+
+### Ampersands in titles
+
+Ampersands (&) aren't allowed in titles. Use "and" instead, or use &amp;
 
 ## See also
 
