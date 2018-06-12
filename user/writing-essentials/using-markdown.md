@@ -124,17 +124,17 @@ will be rendered as:
 1. Do this.
     Explanation of step.
 1. Do that.
-    > ![Image](adobe_logo.png)
+    > ![Image](../../assets/adobe_logo2.png)
 1. Do the other.
 
 ### Tables
 
-Tables are not part of the core Markdown specification, but GFM supports them. You can create tables by using the pipe (|) and hyphen (-) characters. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
+Tables are not part of the core Markdown specification, but Adobe supports them. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
 
 For example, the following Markdown:
 
 ```markdown
-| Fun                  | With                 | Tables          |
+| Left                 | Center              | Right            |
 | :------------------- | -------------------: |:---------------:|
 | left-aligned column  | right-aligned column | centered column |
 | $100                 | $100                 | $100            |
@@ -144,7 +144,7 @@ For example, the following Markdown:
 
 will be rendered as:
 
-| Fun                  | With                 | Tables          |
+| Left                 | Center              | Right            |
 | :------------------- | -------------------: |:---------------:|
 | left-aligned column  | right-aligned column | centered column |
 | $100                 | $100                 | $100            |
