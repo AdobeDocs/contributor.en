@@ -124,7 +124,7 @@ will be rendered as:
 1. Do this.
     Explanation of step.
 1. Do that.
-    > ![Image](../../assets/adobe_logo2.png)
+    > ![Image](/assets/adobe_logo2.png)
 1. Do the other.
 
 ### Tables
