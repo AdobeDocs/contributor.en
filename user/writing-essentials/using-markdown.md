@@ -115,7 +115,7 @@ To nest content within list items, indent the child list items. For example, the
 1. Do this.
     Explanation of step.
 1. Do that.
-    > ![Image](adobe_logo.png)
+    > ![Image](/assets/adobe_logo.png)
 1. Do the other.
 ```
 
