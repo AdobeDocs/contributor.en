@@ -1,10 +1,10 @@
 ---
 title: How to use Markdown for writing Docs
-description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
+description: This article provides the basics and reference information for the Markdown language used for writing articles.
 ---
 # How to use Markdown for writing Docs
 
-Adobe Docs articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+Adobe Docs articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. 
 
 Because Adobe Docs content is stored in GitHub, it can use a version of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Adobe extended Markdown in a few ways to support certain help-related features such as notes and embedded videos.
 
@@ -21,7 +21,7 @@ To create a heading, you use a hash mark (#), as follows:
     #### This is level 4
 ```
 
-### Bold and italic text
+### Basic text
 
 To format text as **bold**, you enclose it in two asterisks:
 
@@ -41,6 +41,24 @@ To format text as both ***bold and italic***, you enclose it in three asterisks:
     This is text is both ***bold and italic***.
 ```
 
+To format superscript () and subscript text:
+
+```markdown
+This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
+```
+
+To ignore Markdown formatting characters, use \ before the character:
+
+```markdown
+This is not \*italicized\* type.
+```
+
+```markdown
+    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
+```
+
+    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
+
 ### Lists
 
 #### Unordered list
@@ -59,7 +77,7 @@ will be rendered as:
 - List item 2
 - List item 3
 
-To nest a list within another list, indent the child list items. For example, the following Markdown:
+To nest content within list items, indent the child list items. For example, the following Markdown:
 
 ```markdown
 - List item 1
@@ -77,35 +95,37 @@ will be rendered as:
 
 #### Ordered list
 
-To format an ordered/stepwise list, you use corresponding numbers. For example, the following Markdown:
+To format an ordered list, you use corresponding numbers. For example, the following Markdown:
 
 ```markdown
-1. First instruction
-2. Second instruction
-3. Third instruction
+1. Step 1
+1. Step 2
+1. Step 3
 ```
 
 will be rendered as:
 
-1. First instruction
-2. Second instruction
-3. Third instruction
+1. Step 1
+1. Step 2
+1. Step 3
 
-To nest a list within another list, indent the child list items. For example, the following Markdown:
+To nest content within list items, indent the child list items. For example, the following Markdown:
 
 ```markdown
-1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
-2. Second instruction
+1. Do this.
+    Explanation of step.
+1. Do that.
+    > ![Image](image.png)
+1. Do the other.
 ```
 
 will be rendered as:
 
-1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
-2. Second instruction
+1. Do this.
+    Explanation of step.
+1. Do that.
+    > ![Image](image.png)
+1. Do the other.
 
 ### Tables
 
