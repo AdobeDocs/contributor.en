@@ -41,7 +41,7 @@ To format text as both ***bold and italic***, you enclose it in three asterisks:
     This is text is both ***bold and italic***.
 ```
 
-To format superscript () and subscript text:
+To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
 
 ```markdown
 This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
@@ -115,7 +115,7 @@ To nest content within list items, indent the child list items. For example, the
 1. Do this.
     Explanation of step.
 1. Do that.
-    > ![Image](image.png)
+    > ![Image](adobe_logo.png)
 1. Do the other.
 ```
 
@@ -124,7 +124,7 @@ will be rendered as:
 1. Do this.
     Explanation of step.
 1. Do that.
-    > ![Image](image.png)
+    > ![Image](adobe_logo.png)
 1. Do the other.
 
 ### Tables
