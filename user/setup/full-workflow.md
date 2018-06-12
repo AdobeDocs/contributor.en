@@ -1,21 +1,17 @@
 ---
 title: GitHub contribution workflow for major or long-running changes
-description: This article shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
+description: This article shows you how to use the "major" contributor workflow to make contributions to Adobe Docs articles.
 ---
 # GitHub contribution workflow for major or long-running changes
 
 > [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All Adobe repositories have adopted either the [Adobe Open Source Code of Conduct](link) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Docs Terms of Use](legal). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
 
 ## Overview
 
 This workflow is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing (long-running) changes, which go through multiple build/validation/staging cycles or span multiple days before pull request sign-off and merge.
-
-Examples of these types of contributions include:
-
-[!INCLUDE[contribute-major-changes-change-definition](includes/contribute-how-to-write-workflows-major-change-definition.md)]
 
 ### Terminology
 
@@ -31,7 +27,7 @@ Before you start, let's review some of the Git/GitHub terms and monikers used in
 ## Workflow
 
 >[!IMPORTANT]
-> If you haven't already, you must complete the steps in the [Setup](get-started-setup-github.md) section. This section walks you through setting up your GitHub account, installing Git Bash and a Markdown editor, creating a fork, and setting up your local repository. If you are unfamiliar with Git and GitHub concepts such as a repository or branch, please first review [Git and GitHub fundamentals](git-github-fundamentals.md).
+> If you haven't already, you must complete the steps in the [Setup](get-started-setup-github.md) section. This section walks you through setting up your GitHub account, installing Git tools and a Markdown editor, creating a fork, and setting up your local repository. If you are unfamiliar with Git and GitHub concepts such as a repository or branch, please first review [Git and GitHub fundamentals](gitfundamentals.md).
 
 In this workflow, changes flow in a repetitive cycle. Starting from your device's local repository, they flow back up to your GitHub fork, into the main GitHub repository, and back down locally again as you incorporate changes from other contributors.
 
@@ -47,9 +43,3 @@ Isolating related changes to a specific branch allows you to control and introdu
 Now let's create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
 
 [!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
-
-## Next steps
-
-That's it! You've made a contribution to docs.microsoft.com content!
-
-- To learn more about topics such as Markdown and Markdown extensions syntax, continue to the "Writing essentials" section.
