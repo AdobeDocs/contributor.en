@@ -12,7 +12,7 @@ Because Adobe Docs content is stored in GitHub, it can use a version of Markdown
 
 ### Headings
 
-To create a heading, you use a hash mark (#), as follows:
+To create a heading, use a hash mark (#) at the beginning of a line:
 
 ```markdown
     # This is level 1 (article title)
@@ -23,21 +23,13 @@ To create a heading, you use a hash mark (#), as follows:
 
 ### Basic text
 
-To format text as **bold**, you enclose it in two asterisks:
+A paragraph requires no special syntax in Markdown.
+
+To format text as **bold**, you enclose it in two asterisks. To format text as *italic*, you enclose it in a single asterisk:
 
 ```markdown
     This text is **bold**.
-```
-
-To format text as *italic*, you enclose it in a single asterisk:
-
-```markdown
     This text is *italic*.
-```
-
-To format text as both ***bold and italic***, you enclose it in three asterisks:
-
-```markdown
     This is text is both ***bold and italic***.
 ```
 
@@ -53,103 +45,87 @@ To ignore Markdown formatting characters, use \ before the character:
 This is not \*italicized\* type.
 ```
 
-```markdown
-    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
-```
+### Numbered lists and bullet lists
 
-    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
-
-### Lists
-
-#### Unordered list
-
-To format an unordered/bulleted list, you can use either asterisks or dashes. For example, the following Markdown:
+To create numbered lists, begin a line with 1. or 1), but don't use both formats within the same list, or you'll start a new list. You don't need to specify the numbers. GitHub does that for you.
 
 ```markdown
-- List item 1
-- List item 2
-- List item 3
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 ```
 
-will be rendered as:
+Rendered:
 
-- List item 1
-- List item 2
-- List item 3
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 
-To nest content within list items, indent the child list items. For example, the following Markdown:
+To create bullet lists, begin a line with * or - or +, but don't mix the formats within the same list. (If you mix the formats, such as * and +, you essentially start a new list.)
 
 ```markdown
-- List item 1
-  - List item A
-  - List item B
-- List item 2
+- First item in an unordered list.
+- Another item.
+- Here we go again.
 ```
 
-will be rendered as:
+Rendered:
 
-- List item 1
-  - List item A
-  - List item B
-- List item 2
+- First item in an unordered list.
+- Another item.
+- Here we go again.
 
-#### Ordered list
-
-To format an ordered list, you use corresponding numbers. For example, the following Markdown:
+You can also embed lists within lists and add content between list items.
 
 ```markdown
-1. Step 1
-1. Step 2
-1. Step 3
+1. Set up your table and code blocks.
+1. Perform this step.
+   ![screen](/assets/core-services_96.png)
+1. Make sure that your table looks like this: 
+   >| Hello | World |
+   >|---|---|
+   >| How | are you? |  
+1. This is the fourth step.
+   >[!NOTE]
+   >
+   >This is note text.
+1. Do another step.
 ```
 
-will be rendered as:
+Rendered:
 
-1. Step 1
-1. Step 2
-1. Step 3
-
-To nest content within list items, indent the child list items. For example, the following Markdown:
-
-```markdown
-1. Do this.
-    Explanation of step.
-1. Do that.
-    > ![Image](/assets/adobe_logo.png)
-1. Do the other.
-```
-
-will be rendered as:
-
-1. Do this.
-    Explanation of step.
-1. Do that.
-    > ![Image](/assets/adobe_logo2.png)
-1. Do the other.
+1. Set up your table and code blocks.
+1. Perform this step.
+   ![screen](/assets/core-services_96.png)
+1. Make sure that your table looks like this: 
+   >| Hello | World |
+   >|---|---|
+   >| How | are you? |  
+1. This is the fourth step.
+   >[!NOTE]
+   >
+   >This is note text.
+1. Do another step.
 
 ### Tables
 
-Tables are not part of the core Markdown specification, but Adobe supports them. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
-
-For example, the following Markdown:
+Tables are not part of the core Markdown specification, but Adobe supports them to an extent. Markdown doesn't support multiple lines lists in cells. Best practice is to avoid using multiple lines in tables. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
 
 ```markdown
-| Left                 | Center              | Right            |
-| :------------------- | -------------------: |:---------------:|
-| left-aligned column  | right-aligned column | centered column |
-| $100                 | $100                 | $100            |
-| $10                  | $10                  | $10             |
-| $1                   | $1                   | $1              |
+| Header | Another header | Yet another header |
+|------------|:---------------:|-----------------------:|
+| row 1 | centered column 2 | right-aligned column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
-will be rendered as:
+Rendered
 
-| Left                 | Center              | Right            |
-| :------------------- | -------------------: |:---------------:|
-| left-aligned column  | right-aligned column | centered column |
-| $100                 | $100                 | $100            |
-| $10                  | $10                  | $10             |
-| $1                   | $1                   | $1              |
+| Header | Another header | Yet another header |
+|------------|:---------------:|-----------------------:|
+| row 1 | centered column 2 | right-aligned column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
+
+Simple tables work adequately in Markdown. However, tables that include multiple paragraphs or lists within a cell are difficult to work with. For such content, we recommend using a different format, such as headings & text.
 
 For more information on creating tables, see:
 
@@ -256,7 +232,6 @@ public class Hello1
     }
 }
 ```
-
 #### Example: SQL
 
 __Markdown__
@@ -276,6 +251,15 @@ CREATE TABLE T1 (
   c2 varchar(50) SPARSE NULL
 );
 ```
+
+#### Remarks and comments
+
+```markdown
+<!-- standard comment code 
+-->
+```
+
+Comments (remarks) do not appear in the public-facing help articles. However, comments do appear in the public-facing Markdown files that users can see and edit.
 
 ## OPS custom Markdown extensions
 
