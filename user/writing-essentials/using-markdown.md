@@ -186,10 +186,10 @@ This is `inline code` within a paragraph of text.
 This is a fenced code block:
 
 ```markdown
-\`\`\`javascript
+\```javascript
 function test() {
  console.log("notice the blank line before this function?");
-\`\`\`
+\```
 ```
 
 Rendered:
