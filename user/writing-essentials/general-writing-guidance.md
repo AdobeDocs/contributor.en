@@ -2,7 +2,7 @@
 title: Writing guidance for Adobe documentation
 description: This article includes essential guidance for contributing to Adobe documentation.
 ---
-# Docs style and voice quick start
+# Writing guidance for Adobe documentation
 
 These guidelines apply whether you are creating new documentation or updating existing documentation.
 
