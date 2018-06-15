@@ -1,30 +1,30 @@
 ---
-title: Git and GitHub essentials for Documentation
+title: Git and GitHub documentation essentials
 description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for Adobe documentation.
 ---
-# Git and GitHub essentials for Docs
+# Git and GitHub documentation essentials
 
 ## Overview
 
-As a contributor to Docs content, you will interact with multiple tools and processes. You can work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
+As a contributor to Adobe documentation content, you can interact with multiple tools and processes. You can work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
-Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
+Git is an open-source version control system that allows collaboration. Multiple contributors can work on files that live in *repositories*. 
 
 GitHub is a web-based hosting service for Git repositories, such as those used to store [docs.adobe.com](https://docs.adobe.com) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
-Git has a unique contribution workflow and terminology to support its distributed model. For instance, there is no file locking that is normally associated with check-out/check-in operations. As a matter of fact, Git is concerned about changes at an even finer level, comparing files byte by byte.
+Git has a unique contribution workflow and terminology to support its distributed model. For instance, there is no file locking that is normally associated with check-out/check-in operations. Git allows changes to be resolved at an even finer level, comparing files byte by byte.
 
 Git also uses a tiered structure to store and manage content for a project:
 
 - *Repository*: Also known as a *repo*, this is the highest unit of storage. A repository contains one or more branches.
-- *Branch*: A unit of storage that contains the files and  folders that make up a project's content set. Branches separate streams of work (typically referred to as versions). Contributions are always made and scoped to a specific branch. All repositories contain a default branch (typically named "master") and one or more branches that are destined to be merged back into the master branch. The master branch serves as the current version and "single source of truth" for the project. It's the parent from which all other branches in the repository are created.
+- *Branch*: All repositories contain a default branch (typically named "master") and one or more branches that are destined to be merged back into the master branch. The master branch serves as the current version and source from which content is published. It's the parent from which all other branches in the repository are created.
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
-- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories
-- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository
+- Locally through tools such as the GitHub Desktop.
+- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository.
 
 ## GitHub
 

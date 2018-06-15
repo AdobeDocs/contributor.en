@@ -12,7 +12,7 @@ Because Adobe Docs content is stored in GitHub, it can use a version of Markdown
 
 ### Headings
 
-To create a heading, you use a hash mark (#), as follows:
+To create a heading, use a hash mark (#) at the beginning of a line:
 
 ```markdown
     # This is level 1 (article title)
@@ -23,21 +23,13 @@ To create a heading, you use a hash mark (#), as follows:
 
 ### Basic text
 
-To format text as **bold**, you enclose it in two asterisks:
+A paragraph requires no special syntax in Markdown.
+
+To format text as **bold**, you enclose it in two asterisks. To format text as *italic*, you enclose it in a single asterisk:
 
 ```markdown
     This text is **bold**.
-```
-
-To format text as *italic*, you enclose it in a single asterisk:
-
-```markdown
     This text is *italic*.
-```
-
-To format text as both ***bold and italic***, you enclose it in three asterisks:
-
-```markdown
     This is text is both ***bold and italic***.
 ```
 
@@ -53,111 +45,92 @@ To ignore Markdown formatting characters, use \ before the character:
 This is not \*italicized\* type.
 ```
 
-```markdown
-    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
-```
+### Numbered lists and bullet lists
 
-    To create an indent, press Tab or add four spaces at the beginning of the paragraph.
-
-### Lists
-
-#### Unordered list
-
-To format an unordered/bulleted list, you can use either asterisks or dashes. For example, the following Markdown:
+To create numbered lists, begin a line with 1. or 1), but don't use both formats within the same list, or you'll start a new list. You don't need to specify the numbers. GitHub does that for you.
 
 ```markdown
-- List item 1
-- List item 2
-- List item 3
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 ```
 
-will be rendered as:
+Rendered:
 
-- List item 1
-- List item 2
-- List item 3
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 
-To nest content within list items, indent the child list items. For example, the following Markdown:
+To create bullet lists, begin a line with * or - or +, but don't mix the formats within the same list. (If you mix the formats, such as * and +, you essentially start a new list.)
 
 ```markdown
-- List item 1
-  - List item A
-  - List item B
-- List item 2
+- First item in an unordered list.
+- Another item.
+- Here we go again.
 ```
 
-will be rendered as:
+Rendered:
 
-- List item 1
-  - List item A
-  - List item B
-- List item 2
+- First item in an unordered list.
+- Another item.
+- Here we go again.
 
-#### Ordered list
-
-To format an ordered list, you use corresponding numbers. For example, the following Markdown:
+You can also embed lists within lists and add content between list items.
 
 ```markdown
-1. Step 1
-1. Step 2
-1. Step 3
+1. Set up your table and code blocks.
+1. Perform this step.
+   ![screen](/assets/core-services_96.png)
+1. Make sure that your table looks like this: 
+   >| Hello | World |
+   >|---|---|
+   >| How | are you? |  
+1. This is the fourth step.
+   >[!NOTE]
+   >
+   >This is note text.
+1. Do another step.
 ```
 
-will be rendered as:
+Rendered:
 
-1. Step 1
-1. Step 2
-1. Step 3
-
-To nest content within list items, indent the child list items. For example, the following Markdown:
-
-```markdown
-1. Do this.
-    Explanation of step.
-1. Do that.
-    > ![Image](adobe_logo.png)
-1. Do the other.
-```
-
-will be rendered as:
-
-1. Do this.
-    Explanation of step.
-1. Do that.
-    > ![Image](/assets/adobe_logo2.png)
-1. Do the other.
+1. Set up your table and code blocks.
+1. Perform this step.
+   ![screen](/assets/core-services_96.png)
+1. Make sure that your table looks like this: 
+   >| Hello | World |
+   >|---|---|
+   >| How | are you? |  
+1. This is the fourth step.
+   >[!NOTE]
+   >
+   >This is note text.
+1. Do another step.
 
 ### Tables
 
-Tables are not part of the core Markdown specification, but Adobe supports them. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
-
-For example, the following Markdown:
+Tables are not part of the core Markdown specification, but Adobe supports them to an extent. Markdown doesn't support multiple lines lists in cells. Best practice is to avoid using multiple lines in tables. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column's header, while pipes separate each column. Include a blank line before your table so it's rendered correctly.
 
 ```markdown
-| Left                 | Center              | Right            |
-| :------------------- | -------------------: |:---------------:|
-| left-aligned column  | right-aligned column | centered column |
-| $100                 | $100                 | $100            |
-| $10                  | $10                  | $10             |
-| $1                   | $1                   | $1              |
+| Header | Another header | Yet another header |
+|------------|:---------------:|-----------------------:|
+| row 1 | centered column 2 | right-aligned column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
-will be rendered as:
+Rendered
 
-| Left                 | Center              | Right            |
-| :------------------- | -------------------: |:---------------:|
-| left-aligned column  | right-aligned column | centered column |
-| $100                 | $100                 | $100            |
-| $10                  | $10                  | $10             |
-| $1                   | $1                   | $1              |
+| Header | Another header | Yet another header |
+|------------|:---------------:|-----------------------:|
+| row 1 | centered column 2 | right-aligned column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
+
+Simple tables work adequately in Markdown. However, tables that include multiple paragraphs or lists within a cell are difficult to work with. For such content, we recommend using a different format, such as headings & text.
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
 - GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
 - The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
-- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
-- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table)
 - [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Links
@@ -166,142 +139,198 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 
  `[link text](file-name.md)`
 
-For more information on linking, see:
-
-- The [Markdown syntax guide](https://daringfireball.net/projects/markdown/syntax#link) for details on Markdown's base linking support.
-- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that Markdig provides.
-
-### Code snippets
-
-Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For details, see:
-
-- [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
-- [GFM support for code fencing and syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
-
-Fenced code blocks are an easy way to enable syntax highlighting for your code snippets. The general format for fenced code blocks is:
-
-    ```alias
-    ...
-    your code goes in here
-    ...
-    ```
-
-The alias after the initial three backtick (`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages in Docs content and the matching label:
-
-These languages have friendly name support and most have language highlighting.
-
-|Name|Markdown Label|
-|-----|-------|
-|.NET Console|dotnetcli|
-|ASP.NET (C#)|aspx-csharp|
-|ASP.NET (VB)|aspx-vb|
-|AzCopy|azcopy|
-|Azure CLI|azurecli|
-|Azure PowerShell|azurepowershell|
-|C++|cpp|
-|C++/CX|cppcx|
-|C++/WinRT|cppwinrt|
-|C#|csharp|
-|CSHTML|cshtml|
-|DAX|dax|
-|F#|fsharp|
-|Go|go|
-|HTML|html|
-|HTTP|http|
-|Java|java|
-|JavaScript|javascript|
-|JSON|json|
-|Markdown|md|
-|NodeJS|nodejs|
-|Objective-C|objc|
-|OData|odata|
-|PHP|php|
-|Power Apps Formula|powerappsfl|
-|PowerShell|powershell|
-|Python|python|
-|Q#|qsharp|
-|Ruby|ruby|
-|SQL|sql|
-|Swift|swift|
-|TypeScript|typescript|
-|VB|vb|
-|VSTS CLI|vstscli|
-|XAML|xaml|
-|XML|xml|
-
-#### Example: C\#
-
-__Markdown__
-
-    ```csharp
-    // Hello1.cs
-    public class Hello1
-    {
-        public static void Main()
-        {
-            System.Console.WriteLine("Hello, World!");
-        }
-    }
-    ```
-
-__Render__
-
-```csharp
-// Hello1.cs
-public class Hello1
-{
-    public static void Main()
-    {
-        System.Console.WriteLine("Hello, World!");
-    }
-}
+```markdown
+[Adobe](https://www.adobe.com) or <https://www.adobe.com>
 ```
 
-#### Example: SQL
+Rendered:
 
-__Markdown__
+[Adobe](https://www.adobe.com) or <https://www.adobe.com>
 
-    ```sql
-    CREATE TABLE T1 (
-      c1 int PRIMARY KEY,
-      c2 varchar(50) SPARSE NULL
-    );
-    ```
+For links to articles (cross-references) within the repository, use relative links. You can use all relative link operands, such as ./ (current directory), ../ (back one directory), and ../../ (back two directories).
 
-__Render__
-
-```sql
-CREATE TABLE T1 (
-  c1 int PRIMARY KEY,
-  c2 varchar(50) SPARSE NULL
-);
+```markdown
+See [Overview example article](../../overview.md)
 ```
 
-## OPS custom Markdown extensions
+Rendered:
 
-> [!NOTE]
-> Open Publishing Services (OPS) implements a Markdig Parser for Markdown, which is highly compatible with GitHub Flavored Markdown (GFM). Markdig adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "Markdig and Markdown extensions" and "Code snippets" in the table of contents.)
+<<<<<<< HEAD
+1. Do this.
+    Explanation of step.
+1. Do that.
+    > ![Image](/assets/adobe_logo2.png)
+1. Do the other.
+=======
+See [Overview example article](../../overview.md)
+>>>>>>> 1d2e5ac633f17f9858d3d5d32cffbe8e9535c9fc
 
-Docs articles use GFM for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use Markdig features such as:
+For more information on linking, see the [Links](linking.md) article of this guide for linking syntax.
+
+### Images
+
+```markdown
+![Git Path Image](/assets/adobe_logo2.png "Hover text")
+```
+
+![Git Path Image](/assets/adobe_logo2.png "Hover text")
+
+### Code blocks
+
+Markdown supports the placement of code blocks both inline in a sentence and as a separate "fenced" block between sentences. For details, see [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
+
+Use back ticks ( \` ) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (\`\`\`) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: \`\`\`javascript
+
+Examples:
+
+```markdown
+This is `inline code` within a paragraph of text.
+```
+
+Rendered:
+
+This is `inline code` within a paragraph of text.
+
+This is a fenced code block:
+
+```markdown
+\```javascript
+function test() {
+ console.log("notice the blank line before this function?");
+\```
+```
+
+Rendered:
+
+```javascript
+function test() {
+ console.log("notice the blank line before this function?");
+```
+
+You can specify properties for code blocks to turn off line numbers (on by default) or add a line wrap (off by default). Use {line-numbers="no"} and {line-wrap="yes"}. These properties are custom Markdown extensions.
+
+\`\`\`javascript {line-numbers="no"}
+function test() {
+ console.log("notice the blank line before this function?");
+\`\`\`
+
+### Definition Lists
+
+A definition list is a Markdown extension that supports the Definition List component in AEM. A definition list consists of a term and its definition.
+
+```markdown
+Frog
+: An amphibious green creature. Likes flies.
+
+Cat
+: A less amphibious creature than frogs.
+```
+
+Rendered:
+
+Frog
+: An amphibious green creature. Likes flies.
+
+Cat
+: A less amphibious creature than frogs.
+
+#### Remarks and comments
+
+```markdown
+<!-- standard comment code 
+-->
+```
+
+Comments (remarks) do not appear in the public-facing help articles. However, comments do appear in the public-facing Markdown files that users can see and edit.
+
+## Custom Markdown extensions
+
+Adobe articles use standard Markdown for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use extended Markdown features such as:
 
 - Note blocks
-- Includes
-- Selectors
 - Embedded videos
-- Code snippets/samples
+- More like this
+- Do not localize
 
-For the complete list, refer to "Markdig and Markdown extensions" and "Code snippets" in the table of contents.
+Use the Markdown block quote ( > ) at the beginning of every line to tie together an extended component, such as a note. If you need to use subcomponents within components, add an extra level of block quotes (>  >) for that subcomponent section. For example, a NOTE within a DONOTLOCALIZE section should begin with >    >.
+
+Some common Markdown elements such as headings and code blocks include extended properties. If you need to change default properties, add the parameters in french braces /{ /} after the component. Extended properties are described in context.
 
 ### Note blocks
 
 You can choose from four types of note blocks to draw attention to specific content:
 
-- NOTE
-- WARNING
-- TIP
-- IMPORTANT
+- [!NOTE]
+- [!CAUTION]
+- [!TIP]
+- [!IMPORTANT]
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
+
+
+```markdown
+>[!NOTE]
+>This is a standard NOTE block.
+```
+
+Rendered:
+
+>[!NOTE]
+>This is a standard NOTE block.
+
+```markdown
+>[!TIP]
+>This is a standard tip.
+```
+
+Rendered:
+
+>[!TIP]
+>This is a standard tip.
+
+### Videos
+
+Embedded videos won't natively render in Markdown, but you can use this Markdown extension.
+
+```markdown
+>[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
+```
+
+Rendered:
+
+>[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
+
+### More Like This
+
+The "More Like This" component in AEM appears at the end of an article. It displays related links. When the article is rendered, it can be formatted the same as level-2 headings (##) without being added to the mini-TOC.
+
+```markdown
+>[!MORE]
+>* [Article 1](https://helpx.adobe.com/support/analytics.html){target="current-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+```
+
+Rendered:
+
+>[!MORE]
+>* [Article 1](https://helpx.adobe.com/support/analytics.html){target="current-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+
+### DONOTLOCALIZE
+
+In some cases, we need to flag certain sections of content within an article to be English only. For sections of text that should not be localized, use the [!DONOTLOCALIZE] extension and use block quotes ( > ) to mark the entire English-only section.
+
+Example:
+
+```markdown
+>[!DONOTLOCALIZE]
+>## Exporting widgets
+> This section will not be localized.
+> 1. Do the first step.  
+>    > [!NOTE]
+>    > Remember to do the first step properly.
+> 1. Do the second step.
+```
 
 ## Gotchas and troubleshooting
 
@@ -310,13 +339,13 @@ In general, note blocks should be used sparingly because they can be disruptive.
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
 ```markdown
-![ADextension_2FA_Configure_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![Settings_Step_2] (./assets/Settings_Step_2.PNG)
 ```
 
 Escape the underscores like this:
 
 ```markdown
-![ADextension\_2FA\_Configure\_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![Settings\_Step\_2] (./assets/Settings_Step_2.PNG)
 ```
 
 ### Apostrophes and quotation marks
@@ -345,5 +374,4 @@ Ampersands (&) aren't allowed in titles. Use "and" instead, or use the `&amp;` e
 ### Markdown resources
 
 - [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [Docs Markdown cheat sheet](./media/documents/markdown-cheatsheet.pdf?raw=true)
 - [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
