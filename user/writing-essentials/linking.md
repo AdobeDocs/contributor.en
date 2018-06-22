@@ -8,19 +8,19 @@ This article describes how to use hyperlinks from pages. Links are easy to add i
 > [!IMPORTANT]
 > All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
 
-## Link text
+## Link to URLs
 
-The words that you include in link text should be friendly. In other words, they should be normal English words or the title of the page that you're linking to.
+The words that you include in link text should be the title of the page that you're linking to or specific, descriptive text.
 
 **Examples:**
 
-- `For more information, see the [article](https://github.com/AdobeDocs/target.en/help/overview.md).`
+- `For more information, see the [overview article](https://github.com/AdobeDocs/target.en/help/overview.md).`
 
-- `For more details, see the [article](https://www.adobe.com) reference.`
+- `For more details, see [Adobe Legal Concerns](https://www.adobe.com/legal).`
 
-## Links from one article to another
+## Link from one article to another
 
-To create an inline link from a Docs technical article to another technical article within the same repository, use the following link syntax:
+To create an inline link from one article to another article within the same repository, use the following link syntax:
 
 - An article in a directory links to another article in the same directory:
 
@@ -46,14 +46,14 @@ To create an inline link from a Docs technical article to another technical arti
 
   `[link text](../../directory/article-name.md)`
   
-## Links to anchors
+## Link to anchors
 
 You do not have to create anchors. They're automatically generated at publishing time for all H2 headings. The only thing you have to do is create links to the H2 (##) sections.
 
 - To link to a heading within the same article:
 
-  `[link](#the-text-of-the-H2-section-separated-by-hyphens)`
-  `[Create cache](#links-to-anchors)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[Link to anchors](#links-to-anchors)`
 
 - To link to an anchor in another article in the same subdirectory:
 
@@ -65,7 +65,7 @@ You do not have to create anchors. They're automatically generated at publishing
   `[link text](../directory/article-name.md#anchor-name)`
   `[Configure your profile](../overview.md#configure-your-profile)`
 
-## Links to images
+## Link to images
 
 As a best practice, images and files are stored in an `assets` directory in the user guide directory.
 
