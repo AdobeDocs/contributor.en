@@ -170,10 +170,10 @@ For more information on linking, see the [Links](linking.md) article of this gui
 ### Images
 
 ```markdown
-![Git Path Image](/assets/adobe_logo2.png "Hover text")
+![Adobe Logo](../assets/adobe_logo2.png "Hover text")
 ```
 
-![Git Path Image](/assets/adobe_logo2.png "Hover text")
+![Adobe Logo](../assets/adobe_logo2.png "Hover text")
 
 ### Code blocks
 
