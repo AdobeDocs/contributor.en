@@ -30,6 +30,10 @@ To create an inline link from a Docs technical article to another technical arti
 
   `[link text](../article-name.md)`
 
+- An article links from a sub-subdirectory to an article in the root directory:
+
+  `[link text](../../article-name.md)`
+
 - An article in the root directory links to an article in a subdirectory:
 
   `[link text](./directory/article-name.md)`
@@ -37,6 +41,10 @@ To create an inline link from a Docs technical article to another technical arti
 - An article in a subdirectory links to an article in another subdirectory:
 
   `[link text](../directory/article-name.md)`
+
+- An article in a sub-subdirectory links to an article in another subdirectory:
+
+  `[link text](../../directory/article-name.md)`
   
 ## Links to anchors
 
@@ -56,3 +64,19 @@ You do not have to create anchors. They're automatically generated at publishing
 
   `[link text](../directory/article-name.md#anchor-name)`
   `[Configure your profile](../overview.md#configure-your-profile)`
+
+## Links to images
+
+As a best practice, images and files are stored in an `assets` directory in the user guide directory.
+
+- An article in a subdirectory links to an image in the `assets` subdirectory:
+
+  `![alt text](../assets/image-name.png)`
+
+- An article in a sub-subdirectory links to an image in the `assets` subdirectory:
+
+  `![alt text](../../assets/image-name.png)`
+
+- An article in a subdirectory links to an image in the `assets\no-localize` subdirectory:
+
+  `![alt text](../assets/no-localize/image-name.png)`
