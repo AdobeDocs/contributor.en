@@ -5,9 +5,9 @@ description: This article shows you how to use the "major" contributor workflow 
 # GitHub contribution workflow for major or long-running changes
 
 > [!IMPORTANT]
-> All Adobe repositories have adopted either the [Adobe Open Source Code of Conduct](link) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
+> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../CODE-OF-CONDUCT.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../CONTRIBUTING.md) article.
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Docs Terms of Use](legal). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 
 ## Overview
 
@@ -42,4 +42,3 @@ Isolating related changes to a specific branch allows you to control and introdu
 
 Now let's create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
 
-[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
