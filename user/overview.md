@@ -16,7 +16,7 @@ This is a PR test.
 Some of our Adobe documentation is open source, hosted on GitHub. You can contribute to this documentation in a number of ways, from making quick edits to existing documents to submitting entire articles, complete with assets. This open source model improves communication between the product teams, the documentation teams, and customers. 
 
 > [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../CODE-OF-CONDUCT.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../CONTRIBUTING.md).
+> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../CODE-OF-CONDUCT.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../CONTRIBUTING.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](link). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 
@@ -24,15 +24,15 @@ Some of our Adobe documentation is open source, hosted on GitHub. You can contri
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to fix the issue.
 
-1. Click the **Edit** button to go to the source file on GitHub. <br>
-![Location of the Edit link](assets/edit-article.png) <br>
-1. Click the pencil icon to edit the article.<br>
+1. Click the **Edit** button to go to the source file on GitHub.
+![Location of the Edit link](assets/edit-article.png)
+1. Click the pencil icon to edit the article.
 > [!NOTE]
 > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.<br>
-![Location of the pencil icon](assets/edit-icon.png)<br>
+![Location of the pencil icon](assets/edit-icon.png)
 1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
-1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:<br>
-![proposing your change](assets/submit-pull-request.png)<br>
+1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+![proposing your change](assets/submit-pull-request.png)
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
