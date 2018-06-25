@@ -23,7 +23,7 @@ Some of our Adobe documentation is open source, hosted on GitHub. You can contri
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to fix the issue.
 
 1. Click the **Edit** button to go to the source file on GitHub.  
-   ![Location of the Edit link](assets/edit-article.png)
+   <!---![Location of the Edit link](assets/edit-article.png)-->
 1. Click the pencil icon to edit the article.  
    > [!NOTE]
    > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
