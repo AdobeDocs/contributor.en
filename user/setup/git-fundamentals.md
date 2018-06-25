@@ -32,9 +32,9 @@ All workflows begin and end at the GitHub level, where the main repository for a
 
 ### Directory organization
 
-As mentioned earlier, a project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it—is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
+A project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding pages. Subdirectories are used for organizing content and image assets.
 
-You can typically find a main `articles` directory off the root of the repository. The articles directory contains a set of subdirectories. Articles in the subdirectories are formatted as Markdown files that use an *.md* extension.
+You can typically find a main `help` directory off the root of the repository. The articles directory contains a set of subdirectories. Articles in the subdirectories are formatted as Markdown files that use an *.md* extension.
 
 Within the root of this directory, you can find general articles that relate to the overall service or product. And typically, you can then find another series of subdirectories that match the features/services or common scenarios. 
 
@@ -42,6 +42,7 @@ Within the root of this directory, you can find general articles that relate to 
 
 Each user guide directory contains an `/assets` subdirectory for corresponding image files. Image files contain images used by articles that have image references.
 
+<!---
 ### Markdown file template
 
 For convenience, the root directory of each repository typically contains a Markdown template file named `template.md`. You can use this template file as a "starter file" if you need to create a new article for submission to the repository. The file contains:
@@ -51,9 +52,10 @@ For convenience, the root directory of each repository typically contains a Mark
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of docs.adobe.com extensions**, which you can use for special controls such as buttons and selectors.
+-->
 
 ## Pull requests
 
 A *pull request* provides a convenient way for a contributor to propose a set of changes that will be applied to the default branch. The changes (also known as *commits*) are stored in a contributor's branch, so GitHub can first model the impact of *merging* them into the default branch. A pull request also serves as a mechanism to provide the contributor with feedback from a build/validation process, the pull request reviewer, to resolve potential issues or questions before the changes are merged into the default branch.
 
-There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
+There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](local-repo.md) section of this guide.
