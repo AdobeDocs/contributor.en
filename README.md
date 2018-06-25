@@ -4,7 +4,7 @@ We welcome contributions from our community as well as from Adobe employees from
 
 ## Adobe Open Source Code of Conduct
 
-This project has adopted the [Adobe Open Source Code of Conduct](link). For more information see the [Code of Conduct FAQ](link).
+This project has adopted the [Adobe Open Source Code of Conduct](CODE-OF-CONDUCT.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](CONTRIBUTING.md) article.
 
 ## About your contributions to Adobe content
 
@@ -12,9 +12,9 @@ How you contribute depends on who you are and the sort of changes you'd like to 
 
 ### Minor changes
 
-If you are contributing minor updates out of the goodness of your heart, visit the article on [https://docs.adobe.com/](link) and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://docs.adobe.com/contribute/) for more information.
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](user/introduction.md) for more information.
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse).
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
 ### Major changes or new articles from community members
 
