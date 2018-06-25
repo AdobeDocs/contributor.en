@@ -1,17 +1,15 @@
 ---
-title: Adobe Docs contributor guide overview
+title: Contributor guide overview for Adobe documentation
 description: The guide describes how you can contribute to the Adobe documentation site.
 ---
 
-# Adobe Docs contributor guide overview
+# Contributor Guide Overview for Adobe Documentation
 
 <!---
 <https://docs.microsoft.com/en-us/contribute/>
 -->
 
-Welcome to the Adobe Docs Contributor Guide!
-
-This is a PR test.
+Welcome to the Adobe Documentation Contributor Guide!
 
 Some of our Adobe documentation is open source, hosted on GitHub. You can contribute to this documentation in a number of ways, from making quick edits to existing documents to submitting entire articles, complete with assets. This open source model improves communication between the product teams, the documentation teams, and customers. 
 
@@ -29,7 +27,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Click the pencil icon to edit the article.
 > [!NOTE]
 > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.<br>
-![Location of the pencil icon](assets/edit-icon.png)
+![Location of the pencil icon](assets/no-localize/edit-icon.png)
 1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
 1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
 ![proposing your change](assets/submit-pull-request.png)
