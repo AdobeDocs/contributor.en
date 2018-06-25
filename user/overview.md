@@ -22,14 +22,14 @@ Some of our Adobe documentation is open source, hosted on GitHub. You can contri
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to fix the issue.
 
-1. Click the **Edit** button to go to the source file on GitHub.
+1. Click the **Edit** button to go to the source file on GitHub.  
    ![Location of the Edit link](assets/edit-article.png)
-1. Click the pencil icon to edit the article.
+1. Click the pencil icon to edit the article.  
    > [!NOTE]
-   > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.<br>
+   > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
    ![Location of the pencil icon](assets/no-localize/edit-icon.png)
 1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
-1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:  
    ![proposing your change](assets/submit-pull-request.png)
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
