@@ -9,7 +9,7 @@ This article describes the steps to interactively install Git client tools and e
 >[!NOTE]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply make changes in your web browser.
 >
-> Major contributors are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
+> Major contributors are encouraged to complete these steps, which enable you to use the [major changes workflow](local-repo.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
 
 ## Install Git client tools
 
