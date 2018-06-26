@@ -49,19 +49,21 @@ A personal fork is required since all main documentation repositories provide re
 
 1. If you are prompted, select your GitHub account tile as the destination where the fork should be created. This prompt creates a copy of the repository within your GitHub account, known as a fork.
 
-1. Choose a folder name should be easy for you to remember and type. For example, consider making a folder in your user profile directory `~/Documents/docs/`
+1. Choose a folder name should be easy for you to remember and type.
 
-   Make a local folder to hold a copy of the repository locally. Some of the repositories can be large. Choose a location with available disk space.
+Some of the repositories can be large. Choose a location with available disk space.
 
    > [!NOTE]
    > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
 
 ## Create a local clone of the repository
 
-1. Run the **clone** command to pull a copy of the repository (your fork) down to your computer on the current directory.
+By creating a clone of the forked repository, you download a copy of the files to your computer. When you're ready, you can push edits from your local drive to the forked repository on the server. Then you can submit a pull request to merge the edits upstream to the main repository. 
 
-   Be sure to specify the path to *your fork* during the cloning process, not the main repository from which you created the fork. Otherwise, you cannot contribute changes. Your fork is referenced through your personal GitHub user account, such as `github.com/<github-username>/<repo>`.
+These steps assume you are using GitHub Desktop. If you are using a different client, make the appropriate adjustments.
 
-   <!--
-   Add GitHub Desktop instructions
-   -->
+1. Click **Clone or download** and then choose **Open in Desktop** to pull a copy of the repository (your fork) down to your computer on the current directory.
+
+1. Use GitHub Desktop to keep the local files in sync with the forked repository.
+
+For details, see [GitHub Desktop Documentation](https://help.github.com/desktop/).
