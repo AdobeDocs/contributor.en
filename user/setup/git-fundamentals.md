@@ -6,6 +6,8 @@ description: This article explains an overview of Git,  GitHub repository, and h
 
 ## Overview
 
+If you just need to make minor, text-only changes to articles, you do not need to understand the details of this article. This article describes the workflow for making major edits, such as creating new articles, adding images, or making ongoing edits to Adobe documentation. 
+
 As a contributor to Adobe documentation content, you can interact with multiple tools and processes. You can work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
 Git is an open-source version control system that allows collaboration. Multiple contributors can work on files that live in *repositories*. 
@@ -28,11 +30,11 @@ Contributors interact with Git to update and manipulate repositories at both the
 
 ## GitHub
 
-All workflows begin and end at the GitHub level, where the main repository for any Adobe Docs project is stored. The copies that contributors create for their own use are distributed across multiple computers. These copies are eventually reconciled back into the project's main GitHub repository.
+All workflows begin and end at the GitHub level, where the main repository for any Adobe documentation project is stored. The copies that contributors create for their own use are distributed across multiple computers. These copies are eventually reconciled back into the project's main GitHub repository.
 
 ### Directory organization
 
-A project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding pages. Subdirectories are used for organizing content and image assets.
+A project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--aligns with the organization of the article topics. Subdirectories are used for organizing content and image assets.
 
 You can typically find a main `help` directory off the root of the repository. The articles directory contains a set of subdirectories. Articles in the subdirectories are formatted as Markdown files that use an *.md* extension.
 

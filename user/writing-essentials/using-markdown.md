@@ -55,7 +55,7 @@ To create numbered lists, begin a line with 1. or 1), but don't use both formats
 1. This is yet another step, the third.
 ```
 
-Rendered:
+Displayed:
 
 1. This is step 1.
 1. This is the next step.
@@ -69,7 +69,7 @@ To create bullet lists, begin a line with * or - or +, but don't mix the formats
 - Here we go again.
 ```
 
-Rendered:
+Displayed:
 
 - First item in an unordered list.
 - Another item.
@@ -92,7 +92,7 @@ You can also embed lists within lists and add content between list items.
 1. Do another step.
 ```
 
-Rendered:
+Displayed:
 
 1. Set up your table and code blocks.
 1. Perform this step.
@@ -118,7 +118,7 @@ Tables are not part of the core Markdown specification, but Adobe supports them 
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
-Rendered
+Displayed:
 
 | Header | Another header | Yet another header |
 |------------|:---------------:|-----------------------:|
@@ -143,7 +143,7 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 [Adobe](https://www.adobe.com) or <https://www.adobe.com>
 ```
 
-Rendered:
+Displayed:
 
 [Adobe](https://www.adobe.com) or <https://www.adobe.com>
 
@@ -153,18 +153,6 @@ For links to articles (cross-references) within the repository, use relative lin
 See [Overview example article](../../overview.md)
 ```
 
-Rendered:
-
-<<<<<<< HEAD
-1. Do this.
-    Explanation of step.
-1. Do that.
-    > ![Image](/assets/adobe_logo2.png)
-1. Do the other.
-=======
-See [Overview example article](../../overview.md)
->>>>>>> 1d2e5ac633f17f9858d3d5d32cffbe8e9535c9fc
-
 For more information on linking, see the [Links](linking.md) article of this guide for linking syntax.
 
 ### Images
@@ -172,6 +160,8 @@ For more information on linking, see the [Links](linking.md) article of this gui
 ```markdown
 ![Adobe Logo](../assets/adobe_logo2.png "Hover text")
 ```
+
+Displayed:
 
 ![Adobe Logo](../assets/adobe_logo2.png "Hover text")
 
@@ -187,7 +177,7 @@ Examples:
 This is `inline code` within a paragraph of text.
 ```
 
-Rendered:
+Displayed:
 
 This is `inline code` within a paragraph of text.
 
@@ -200,7 +190,7 @@ function test() {
 \```
 ```
 
-Rendered:
+Displayed:
 
 ```javascript
 function test() {
@@ -226,7 +216,7 @@ Cat
 : A less amphibious creature than frogs.
 ```
 
-Rendered:
+Displayed:
 
 Frog
 : An amphibious green creature. Likes flies.
@@ -251,6 +241,7 @@ Adobe articles use standard Markdown for most article formatting, such as paragr
 - Embedded videos
 - More like this
 - Do not localize
+- Component properties, such as assigning a different heading ID to a heading
 
 Use the Markdown block quote ( > ) at the beginning of every line to tie together an extended component, such as a note. If you need to use subcomponents within components, add an extra level of block quotes (>  >) for that subcomponent section. For example, a NOTE within a DONOTLOCALIZE section should begin with >    >.
 
@@ -273,7 +264,7 @@ In general, note blocks should be used sparingly because they can be disruptive.
 >This is a standard NOTE block.
 ```
 
-Rendered:
+Displayed:
 
 >[!NOTE]
 >This is a standard NOTE block.
@@ -283,7 +274,7 @@ Rendered:
 >This is a standard tip.
 ```
 
-Rendered:
+Displayed:
 
 >[!TIP]
 >This is a standard tip.
@@ -296,7 +287,7 @@ Embedded videos won't natively render in Markdown, but you can use this Markdown
 >[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
 ```
 
-Rendered:
+Displayed:
 
 >[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
 
@@ -306,14 +297,14 @@ The "More Like This" component in AEM appears at the end of an article. It displ
 
 ```markdown
 >[!MORE]
->* [Article 1](https://helpx.adobe.com/support/analytics.html){target="current-window"}
+>* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
 ```
 
-Rendered:
+Displayed:
 
 >[!MORE]
->* [Article 1](https://helpx.adobe.com/support/analytics.html){target="current-window"}
+>* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
 
 ### DONOTLOCALIZE
@@ -348,9 +339,11 @@ Escape the underscores like this:
 ![Settings\_Step\_2] (./assets/Settings_Step_2.PNG)
 ```
 
+Better yet, use hyphens (-) instead of underscores (_) in filenames.
+
 ### Apostrophes and quotation marks
 
-If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
+If you copy text into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with odd characters like this when the file is published: Itâ€™s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 

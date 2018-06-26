@@ -31,8 +31,10 @@ Markdown text is saved into files with .md extension.
 
 Additional details on how to write with Markdown, including Markdown basics and custom Markdown extensions, are covered in the [Using Markdown](/user/writing-essentials/using-markdown.md) article.
 
+<!--
 ## Adobe Docs Authoring Pack
 
 Install the Docs Authoring Pack. This set of extensions includes basic authoring assistance for help when writing Markdown, and a preview feature, so that you can see what the Markdown looks like in the style of the docs.adobe.com site.
 
-Link to when available
+Link when available
+-->

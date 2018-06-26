@@ -53,16 +53,19 @@ You do not have to create anchors. They're automatically generated at publishing
 - To link to a heading within the same article:
 
   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  
   `[Link to anchors](#links-to-anchors)`
 
 - To link to an anchor in another article in the same subdirectory:
 
   `[link text](article-name.md#anchor-name)`
+  
   `[Configure your profile](overview.md#getting-started)`
 
 - To link to an anchor in another service subdirectory:
 
   `[link text](../directory/article-name.md#anchor-name)`
+  
   `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## Link to images
