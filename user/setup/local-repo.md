@@ -43,9 +43,7 @@ A personal fork is required since all main documentation repositories provide re
 
 1. Go to the main repository's GitHub page and click the **Fork** button on the upper right.
 
-   <!--
-   ![GitHub profile example](./media/contribute-get-started-setup-local/fork.png)
-   -->
+   ![GitHub fork](../assets/fork-simple.png)
 
 1. If you are prompted, select your GitHub account tile as the destination where the fork should be created. This prompt creates a copy of the repository within your GitHub account, known as a fork.
 
@@ -63,6 +61,8 @@ By creating a clone of the forked repository, you download a copy of the files t
 These steps assume you are using GitHub Desktop. If you are using a different client, make the appropriate adjustments.
 
 1. Click **Clone or download** and then choose **Open in Desktop** to pull a copy of the repository (your fork) down to your computer on the current directory.
+
+   [Clone repo](../assets/clone-pulldown.png)
 
 1. Use GitHub Desktop to keep the local files in sync with the forked repository.
 
