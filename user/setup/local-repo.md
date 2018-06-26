@@ -62,7 +62,7 @@ These steps assume you are using GitHub Desktop. If you are using a different cl
 
 1. Click **Clone or download** and then choose **Open in Desktop** to pull a copy of the repository (your fork) down to your computer on the current directory.
 
-   [Clone repo](../assets/clone-pulldown.png)
+   ![Clone repo](../assets/clone-pulldown.png)
 
 1. Use GitHub Desktop to keep the local files in sync with the forked repository.
 
