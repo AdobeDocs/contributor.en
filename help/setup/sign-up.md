@@ -1,8 +1,8 @@
 ---
-title: GitHub account setup steps
-description: Step through the process of setting up accounts for GitHub, required in order to contribute content.
+lastModified: 2018-06-28
+title: github account setup steps
+description: step through the process of setting up accounts for github, required in order to contribute content.
 ---
-
 # GitHub account setup
 
 To contribute changes or additions to Adobe (or other organizations) documentation on GitHub, you need to set up your own GitHub account. It's easy.
@@ -15,4 +15,3 @@ Identify any affilations in your GitHub profile. Identification helps us build a
 
 > [!NOTE] 
 >If you are an Adobe employee, we recommend that you go to https://git.corp.adobe.com/adobedocs, sign in using your LDAP account, and locate the content you want to edit. You can then use either the minor (in-browser) or major (forking and local closing) approach to editing articles and submitting pull requests.
- 

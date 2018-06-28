@@ -1,15 +1,16 @@
 ---
-title: GitHub contribution workflow for major changes
-description: This article shows you how to use the "major" contributor workflow to make contributions to Adobe documentation.
+lastModified: 2018-06-28
+title: github contribution workflow for major changes
+description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
 ---
-
 # GitHub contribution workflow for major changes
 
+<!--
 > [!IMPORTANT]
 > All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../CODE-OF-CONDUCT.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../CONTRIBUTING.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
-
+--->
 ## Overview
 
 This workflow is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing (long-running) changes, which go through multiple build/validation/staging cycles or span multiple days before pull request sign-off and merge.
@@ -25,7 +26,7 @@ Before you start, let's review some of the Git/GitHub terms used in this workflo
 |origin|The name assigned to the connection between your local repository and the repository from which it was cloned. In this workflow, origin represents the connection to your fork. It's sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to origin."|
 |upstream|Like the origin remote, upstream is a named connection to another repository. In this workflow, upstream represents the connection between your local repository and the main repository, from which your fork was created. It's sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the changes from upstream."|
 
-If you are unfamiliar with Git and GitHub concepts such as a repository or branch, please first review [Git and GitHub fundamentals](gitfundamentals.md).
+If you are unfamiliar with Git and GitHub concepts such as a repository or branch, please first review [Git and GitHub fundamentals](git-fundamentals.md).
 
 ## Workflow
 
@@ -63,4 +64,4 @@ When the pull request is issue-free and signed off, your changes are merged back
 
 Remember, your pull request has to be merged by a PR reviewer before the changes can be included in the next scheduled publishing run. Pull requests are normally reviewed/merged in the order of submission. If your pull request requires merging for a specific publishing run, you will need to work with your PR reviewer ahead of time to ensure that merging happens prior to publishing.
 
-After your contributions are approved and merged, the docs.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary. 
+After your contributions are approved and merged, the docs.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary.

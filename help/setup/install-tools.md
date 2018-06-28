@@ -1,6 +1,7 @@
 ---
-title: Install authoring tools
-description: This article helps you download and install the client tools you will need for Git and editing markdown files.
+lastModified: 2018-06-28
+title: install authoring tools
+description: this article helps you download and install the client tools you will need for git and editing markdown files.
 ---
 # Install authoring tools
 
@@ -29,7 +30,7 @@ Markdown is a lightweight markup language that is both easy to read and easy to 
 
 Markdown text is saved into files with .md extension.
 
-Additional details on how to write with Markdown, including Markdown basics and custom Markdown extensions, are covered in the [Using Markdown](/user/writing-essentials/using-markdown.md) article.
+Additional details on how to write with Markdown, including Markdown basics and custom Markdown extensions, are covered in the [Using Markdown](../writing-essentials/using-markdown.md) article.
 
 <!--
 ## Adobe Docs Authoring Pack
