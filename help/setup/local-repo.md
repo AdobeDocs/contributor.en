@@ -1,6 +1,7 @@
 ---
-title: Set up Git repository locally
-description: This article provides guidance to create your local Git repository and contribute to documentation, including the forking and cloning process.
+lastModified: 2018-06-28
+title: set up git repository locally
+description: this article provides guidance to create your local git repository and contribute to documentation, including the forking and cloning process.
 ---
 # Set up Git repository locally for documentation
 
@@ -62,7 +63,7 @@ These steps assume you are using GitHub Desktop. If you are using a different cl
 
 1. Click **Clone or download** and then choose **Open in Desktop** to pull a copy of the repository (your fork) down to your computer on the current directory.
 
-   [Clone repo](../assets/clone-pulldown.png)
+   ![Clone repo](../assets/clone-pulldown.png)
 
 1. Use GitHub Desktop to keep the local files in sync with the forked repository.
 

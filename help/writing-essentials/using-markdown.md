@@ -1,6 +1,7 @@
 ---
-title: How to use Markdown for writing Docs
-description: This article provides the basics and reference information for the Markdown language used for writing articles.
+lastModified: 2018-06-28
+title: how to use markdown for writing docs
+description: this article provides the basics and reference information for the markdown language used for writing articles.
 ---
 # How to use Markdown for writing Docs
 
@@ -33,6 +34,7 @@ To format text as **bold**, you enclose it in two asterisks. To format text as *
     This is text is both ***bold and italic***.
 ```
 
+
 To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
 
 ```markdown
@@ -61,7 +63,7 @@ Displayed:
 1. This is the next step.
 1. This is yet another step, the third.
 
-To create bullet lists, begin a line with * or - or +, but don't mix the formats within the same list. (If you mix the formats, such as * and +, you essentially start a new list.)
+To create bullet lists, begin a line with \* or \- or +, but don't mix the formats within the same list. (If you mix the formats, such as \* and \+, you essentially start a new list.)
 
 ```markdown
 - First item in an unordered list.
@@ -80,7 +82,7 @@ You can also embed lists within lists and add content between list items.
 ```markdown
 1. Set up your table and code blocks.
 1. Perform this step.
-   ![screen](../assets/core-services_96.png)
+   ![screen](../assets/adobe_logo2.png)
 1. Make sure that your table looks like this: 
    >| Hello | World |
    >|---|---|
@@ -96,7 +98,7 @@ Displayed:
 
 1. Set up your table and code blocks.
 1. Perform this step.
-   ![screen](../assets/core-services_96.png)
+   ![screen](../assets/adobe_logo2.png)
 1. Make sure that your table looks like this: 
    >| Hello | World |
    >|---|---|
@@ -208,6 +210,7 @@ function test() {
 
 A definition list is a Markdown extension that supports the Definition List component in AEM. A definition list consists of a term and its definition.
 
+<!--
 ```markdown
 Frog
 : An amphibious green creature. Likes flies.
@@ -223,13 +226,9 @@ Frog
 
 Cat
 : A less amphibious creature than frogs.
+--->
 
 #### Remarks and comments
-
-```markdown
-<!-- standard comment code 
--->
-```
 
 Comments (remarks) do not appear in the public-facing help articles. However, comments do appear in the public-facing Markdown files that users can see and edit.
 

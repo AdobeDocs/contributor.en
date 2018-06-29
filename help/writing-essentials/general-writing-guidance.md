@@ -1,6 +1,7 @@
 ---
-title: Writing guidance for Adobe documentation
-description: This article includes essential guidance for contributing to Adobe documentation.
+lastModified: 2018-06-28
+title: writing guidance for adobe documentation
+description: this article includes essential guidance for contributing to adobe documentation.
 ---
 # Writing guidance for Adobe documentation
 
