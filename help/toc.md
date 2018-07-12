@@ -1,7 +1,6 @@
 # Contributor Guide for Adobe Documentation
 
-[Introduction](introduction.md)
-
++ [Introduction](introduction.md)
 + Set up with GitHub
     + [1. Sign up for GitHub](setup/sign-up.md)
     + [2. Install Git and Markdown tools](setup/install-tools.md)
