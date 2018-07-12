@@ -160,12 +160,12 @@ For more information on linking, see the [Links](linking.md) article of this gui
 ### Images
 
 ```markdown
-![Adobe Logo](../assets/adobe_standard_logo.png "Hover text")
+![Adobe Logo](../assets/no-localize/adobe_standard_logo.png "Hover text")
 ```
 
 Displayed:
 
-![Adobe Logo](../assets/adobe_standard_logo.png "Hover text")
+![Adobe Logo](../assets/no-localize/adobe_standard_logo.png "Hover text")
 
 ### Code blocks
 
