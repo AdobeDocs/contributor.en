@@ -6,3 +6,8 @@
     + [3. Set up a local Git repository](local-repo.md)
     + [GitHub fundamentals](git-fundamentals.md)
     + [Full workflow](full-workflow.md)
+
++ Writing essentials
+    + [Using Markdown](using-markdown.md)
+    + [General writing guidance](general-writing-guidance.md)
+    + [Linking](linking.md)
