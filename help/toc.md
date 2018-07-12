@@ -10,6 +10,6 @@
     + [Full workflow](setup/full-workflow.md)
 
 + Writing essentials
-    + [Using Markdown](essentials/using-markdown.md)
-    + [General writing guidance](essentials/general-writing-guidance.md)
-    + [Linking](essentials/linking.md)
+    + [Using Markdown](writing-essentials/using-markdown.md)
+    + [General writing guidance](writing-essentials/general-writing-guidance.md)
+    + [Linking](writing-essentials/linking.md)
