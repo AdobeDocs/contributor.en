@@ -250,10 +250,10 @@ Some common Markdown elements such as headings and code blocks include extended 
 
 You can choose from four types of note blocks to draw attention to specific content:
 
-- [!NOTE]
-- [!CAUTION]
-- [!TIP]
-- [!IMPORTANT]
+- `[!NOTE]`
+- `[!CAUTION]`
+- `[!TIP]`
+- `[!IMPORTANT]`
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
 
