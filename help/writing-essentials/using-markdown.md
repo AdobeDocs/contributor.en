@@ -82,7 +82,7 @@ You can also embed lists within lists and add content between list items.
 ```markdown
 1. Set up your table and code blocks.
 1. Perform this step.
-   ![screen](../assets/adobe_logo2.png)
+   ![screen](../assets/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
    >| Hello | World |
    >|---|---|
@@ -98,7 +98,7 @@ Displayed:
 
 1. Set up your table and code blocks.
 1. Perform this step.
-   ![screen](../assets/adobe_logo2.png)
+   ![screen](../assets/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
    >| Hello | World |
    >|---|---|
@@ -160,12 +160,12 @@ For more information on linking, see the [Links](linking.md) article of this gui
 ### Images
 
 ```markdown
-![Adobe Logo](../assets/adobe_logo2.png "Hover text")
+![Adobe Logo](../assets/adobe_standard_logo.png "Hover text")
 ```
 
 Displayed:
 
-![Adobe Logo](../assets/adobe_logo2.png "Hover text")
+![Adobe Logo](../assets/adobe_standard_logo.png "Hover text")
 
 ### Code blocks
 

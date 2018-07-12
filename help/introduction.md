@@ -28,7 +28,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Click the pencil icon to edit the article.  
    > [!NOTE]
    > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
-   ![Location of the pencil icon](assets/no-localize/edit-icon.png)
+   ![Location of the pencil icon](assets/edit-icon.png)
 1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
 1. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:  
    ![proposing your change](assets/submit-pull-request.png)
