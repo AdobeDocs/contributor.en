@@ -1,7 +1,9 @@
 ---
 lastModified: 2018-06-28
-title: install authoring tools
-description: this article helps you download and install the client tools you will need for git and editing markdown files.
+title: Install authoring tools
+seo-title: Install Git and GitHub authoring tools for Adobe documentation
+description: This article helps you download and install the client tools you will need for Git/GitHub and for editing Markdown files.
+seo-description: This article helps you download and install the client tools you will need for Git/GitHub and for editing Markdown files for Adobe documentation.
 ---
 # Install authoring tools
 
