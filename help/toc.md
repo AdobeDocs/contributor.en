@@ -11,4 +11,4 @@
     + [Using Markdown](writing-essentials/using-markdown.md)
     + [General writing guidance](writing-essentials/general-writing-guidance.md)
     + [Linking](writing-essentials/linking.md)
-+ Git and GitHub learning resources
++ [Git and GitHub learning resources](resources.md)
