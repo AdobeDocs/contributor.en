@@ -1,9 +1,11 @@
 ---
 lastModified: 2018-06-28
-title: how to use markdown for writing docs
+title: How to use Markdown for writing documentation
+seo-title: How to use Markdown for writing Adobe documentation
 description: this article provides the basics and reference information for the markdown language used for writing articles.
+seo-description: this article provides the basics and reference information for the markdown language used for writing articles for Adobe documentation.
 ---
-# How to use Markdown for writing Docs
+# How to use Markdown for writing documentation
 
 Adobe Docs articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. 
 
