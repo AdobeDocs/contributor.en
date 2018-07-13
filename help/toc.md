@@ -2,11 +2,11 @@
 
 + [Introduction](introduction.md)
 + Set up with GitHub
-    + [1. Sign up for GitHub](setup/sign-up.md)
-    + [2. Install Git and Markdown tools](setup/install-tools.md)
-    + [3. Set up a local Git repository](setup/local-repo.md)
-    + [GitHub fundamentals](setup/git-fundamentals.md)
-    + [Full workflow](setup/full-workflow.md)
+    + [Set up GitHub account](setup/sign-up.md)
+    + [Install Git and Markdown authoring tools](setup/install-tools.md)
+    + [Set up a local Git repository](setup/local-repo.md)
+    + [GitHub documentation essentials](setup/git-fundamentals.md)
+    + [GitHub workflow for major changes](setup/full-workflow.md)
 
 + Writing essentials
     + [Using Markdown](writing-essentials/using-markdown.md)
