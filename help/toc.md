@@ -1,4 +1,4 @@
-# Contributor Guide for Adobe Documentation
+# Contributor guide for Adobe documentation
 
 + [Introduction](introduction.md)
 + Set up with GitHub
