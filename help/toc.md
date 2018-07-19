@@ -1,3 +1,6 @@
+---
+git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
+---
 # Contributor guide for Adobe documentation
 
 + [Introduction](introduction.md)
