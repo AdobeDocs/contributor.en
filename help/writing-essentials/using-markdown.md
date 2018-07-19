@@ -87,25 +87,27 @@ You can also embed lists within lists and add content between list items.
 1. Perform this step.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
-   >| Hello | World |
-   >|---|---|
-   >| How | are you? |  
+
+    | Hello | World |
+    |---|---|
+    | How | are you? |  
 1. This is the fourth step.
    >[!NOTE]
    >
    >This is note text.
-1. Do another step.
-```
+1. Do another step.```
 
 Displayed:
 
 1. Set up your table and code blocks.
 1. Perform this step.
+
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
-   >| Hello | World |
-   >|---|---|
-   >| How | are you? |  
+
+    | Hello | World |
+    |---|---|
+    | How | are you? |  
 1. This is the fourth step.
    >[!NOTE]
    >
