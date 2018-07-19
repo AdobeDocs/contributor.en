@@ -73,16 +73,12 @@ You do not have to create anchors. They're automatically generated at publishing
 
 ## Link to images
 
-As a best practice, images and files are stored in an `assets` directory in the user guide directory.
+As a best practice, images and files are stored in an `assets` directory at the same level as the Markdown file that links to it.
 
-- An article in a subdirectory links to an image in the `assets` subdirectory:
+- An article links to an image in the `assets` subdirectory:
 
-  `![alt text](../assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
-- An article in a sub-subdirectory links to an image in the `assets` subdirectory:
+- An article links to an image in the `assets\no-localize` subdirectory:
 
-  `![alt text](../../assets/image-name.png)`
-
-- An article in a subdirectory links to an image in the `assets\no-localize` subdirectory:
-
-  `![alt text](../assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`
