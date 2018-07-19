@@ -87,9 +87,9 @@ You can also embed lists within lists and add content between list items.
 1. Perform this step.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
-   >| Hello | World |
-   >|---|---|
-   >| How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
    >[!NOTE]
    >
@@ -103,9 +103,9 @@ Displayed:
 1. Perform this step.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
-   >| Hello | World |
-   >|---|---|
-   >| How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
    >[!NOTE]
    >
@@ -241,7 +241,6 @@ Adobe articles use standard Markdown for most article formatting, such as paragr
 
 - Note blocks
 - Embedded videos
-- More like this
 - Do not localize
 - Component properties, such as assigning a different heading ID to a heading
 
@@ -286,17 +285,18 @@ Displayed:
 Embedded videos won't natively render in Markdown, but you can use this Markdown extension.
 
 ```markdown
->[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
+>[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
 Displayed:
 
->[!VIDEO]{title="Video Title" description="Description here" url="https://www.youtube.com/watch?v=A0EcD2AxvJE"}
+>[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
 ### More Like This
 
 The "More Like This" component in AEM appears at the end of an article. It displays related links. When the article is rendered, it can be formatted the same as level-2 headings (##) without being added to the mini-TOC.
 
+<!--
 ```markdown
 >[!MORE]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
@@ -308,6 +308,7 @@ Displayed:
 >[!MORE]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+-->
 
 ### DONOTLOCALIZE
 
