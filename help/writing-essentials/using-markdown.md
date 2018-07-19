@@ -36,12 +36,13 @@ To format text as **bold**, you enclose it in two asterisks. To format text as *
     This is text is both ***bold and italic***.
 ```
 
-
+<!--
 To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
 
 ```markdown
 This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
 ```
+-->
 
 To ignore Markdown formatting characters, use \ before the character:
 
