@@ -1,5 +1,6 @@
 ---
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
+cloud: experience-cloud
 ---
 # Contributor guide for Adobe documentation
 
