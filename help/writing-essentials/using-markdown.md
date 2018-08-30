@@ -66,7 +66,9 @@ Displayed:
 1. This is the next step.
 1. This is yet another step, the third.
 
-To create bullet lists, begin a line with \* or \- or +, but don't mix the formats within the same list. (If you mix the formats, such as \* and \+, you essentially start a new list.)
+<!-- markdownlint-disable MD037 -->
+To create bullet lists, begin a line with \* or - or +, but don't mix the formats within the same list. (If you mix the formats, such as \* and \+, you essentially start a new list.)
+<!-- markdownlint-disable MD037 -->
 
 ```markdown
 - First item in an unordered list.
