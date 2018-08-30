@@ -21,6 +21,7 @@ Some of our Adobe documentation is open source, hosted on GitHub. You can contri
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 --->
+    
 ## Make quick edits to existing documents
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to fix the issue.

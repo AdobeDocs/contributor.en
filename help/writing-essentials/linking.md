@@ -6,6 +6,7 @@ description: this article provides guidance on creating links to content and ima
 seo-description: this article provides guidance on creating links to content and images for Adobe documentation.
 ---
 # Using links in documentation
+
 This article describes how to use hyperlinks from pages. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
 
 > [!IMPORTANT]

@@ -24,18 +24,21 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Major changes from Adobe Employees
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository (https://github.com/AdobeDocs). Employees from other parts of the Adobe world should use the public repo for minor updates.
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://github.com/AdobeDocs](https://github.com/AdobeDocs). Employees from other parts of the Adobe world should use the public repo for minor updates.
 
 ## Tools and setup
+
 Community contributors can use the GitHub UI or fork the repo to contribute. See the [Adobe Docs contributor guide](https://docs.adobe.com/contribute). 
 
 ## How to use markdown to format your topic
+
 All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
 * [Markdown basics](https://help.github.com/articles/markdown-basics/)
 * [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Labels
+
 In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
 * **Change sent to author**: The author has been notified of the pending pull request.
