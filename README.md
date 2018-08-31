@@ -28,7 +28,9 @@ If you are a technical writer, program manager, or developer from the product te
 
 ## Tools and setup
 
-Community contributors can use the GitHub UI or fork the repo to contribute. See the [Adobe Docs contributor guide](https://docs.adobe.com/contribute). 
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
+
+<!-- See the AdobeDocs Contributor Guide for details. -->
 
 ## How to use markdown to format your topic
 
