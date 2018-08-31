@@ -12,7 +12,9 @@ How you contribute depends on who you are and the sort of changes you'd like to 
 
 ### Minor changes
 
-If you are contributing minor updates out of the goodness of your heart, visit the article on [https://docs.adobe.com/](link) and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://docs.adobe.com/contribute/) for more information.
+If you are contributing minor updates out of the goodness of your heart, visit the article on https://docs.adobe.com and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general Adobe Docs Contributor Guide for more information.
+
+<!-- Bob - add link above and later -->
 
 Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse).
 
@@ -28,7 +30,7 @@ If you are a technical writer, program manager, or developer from the product te
 
 ## Tools and setup
 
-Community contributors can use the GitHub UI or fork the repo to contribute. See the [Adobe Docs contributor guide](https://docs.adobe.com/contribute). 
+Community contributors can use the GitHub UI or fork the repo to contribute. See the Adobe Docs Contributor Guide. 
 
 ## How to use markdown to format your topic
 
