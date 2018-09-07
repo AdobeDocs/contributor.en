@@ -45,7 +45,7 @@ Within the root of this directory, you can find general articles that relate to 
 
 ### Assets directory
 
-Each user guide directory contains an `/assets` subdirectory for corresponding image files. Image files contain images used by articles that have image references.
+User guide directories contain `/assets` subdirectories for image files that are referenced within a directory.
 
 <!---
 ### Markdown file template
