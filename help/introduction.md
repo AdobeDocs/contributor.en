@@ -3,6 +3,7 @@ title: Contributor guide overview for Adobe documentation
 seo-title: Contributor guide overview for Adobe documentation
 description: The guide describes how you can contribute to the Adobe documentation site.
 seo-description: The guide describes how you can contribute to the Adobe documentation site.
+index: no
 ---
 
 # Contributor Guide Overview for Adobe Documentation
