@@ -1,9 +1,9 @@
 ---
-lastModified: 2018-06-28
 title: Git and GitHub documentation essentials
 seo-title: Git and GitHub documentation essentials
 description: This article explains an overview of Git, GitHub repository, and how content is organized, and naming conventions used for Adobe documentation.
 seo-description: this article explains an overview of git,  github repository, and how content is organized, and naming conventions used for adobe documentation.
+index: no
 ---
 # Git and GitHub documentation essentials
 
