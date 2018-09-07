@@ -80,6 +80,6 @@ As a best practice, images and files are stored in an `assets` directory at the 
 
   `![alt text](assets/image-name.png)`
 
-- An article links to an image in the `assets\no-localize` subdirectory:
+- An article links to an image in the `assets/no-localize` subdirectory:
 
   `![alt text](assets/no-localize/image-name.png)`
