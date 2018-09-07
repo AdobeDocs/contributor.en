@@ -1,9 +1,9 @@
 ---
-lastModified: 2018-06-28
 title: Set up Git repository locally
 seo-title: Set up Git repository locally for Adobe documentation
 description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
 seo-description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
+index: no
 ---
 # Set up Git repository locally for documentation
 
@@ -14,7 +14,7 @@ This article describes the steps to set up a git repository on your local machin
 
 ## Overview
 
-To contribute to Adobe documentation, you first need to fork the appropriate repository into your own GitHub account so that you have read/write permissions. Then, you can can make and edit Markdown files locally by cloning the corresponding documentation repository. Then you use pull requests to merge (submit) changes into the read-only central shared repository.
+To contribute to Adobe documentation, you can fork the appropriate repository into your own GitHub account so that you have read/write permissions. Then, you can can make and edit Markdown files locally by cloning the corresponding documentation repository. Then you use pull requests to merge (submit) changes into the read-only central shared repository.
 
 * Determine the appropriate repository
 * Fork the repository to your GitHub account
@@ -24,11 +24,11 @@ To contribute to Adobe documentation, you first need to fork the appropriate rep
 
 ## Determine the repository
 
-Adobe Experience Cloud documentation resides in several different repositories at [github.com](https://www.github.com/adobedocs).
+You fork the appropriate repository into your own GitHub account so that you have read/write permissions there to store your proposed changes. Adobe Experience Cloud documentation resides in several different repositories at [github.com](https://www.github.com/adobedocs). 
 
 1. If you are unsure of which repository to use, then visit the article using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article. (If you don't see an Edit link, that content is not yet available in GitHub.)
 
-To contribute to Adobe documentation, you can make and edit Markdown files locally by cloning the corresponding documentation repository. You fork the appropriate repository into your own GitHub account so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
+To contribute to Adobe documentation, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Then you use pull requests to merge changes into the read-only central shared repository.
 
 <!---
 ![GitHub Triangle](/assets/git-and-github-initial-setup.png)
@@ -50,9 +50,9 @@ A personal fork is required since all main documentation repositories provide re
 
 1. If you are prompted, select your GitHub account tile as the destination where the fork should be created. This prompt creates a copy of the repository within your GitHub account, known as a fork.
 
-1. Choose a folder name should be easy for you to remember and type.
+1. Choose a folder name that should be easy for you to remember and type.
 
-Some of the repositories can be large. Choose a location with available disk space.
+   Some of the repositories can be large. Choose a location with available disk space.
 
    > [!NOTE]
    > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
