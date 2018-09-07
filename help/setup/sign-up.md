@@ -4,6 +4,7 @@ title: GitHub account setup steps
 seo-title: github account setup steps for Adobe documentation
 description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
 seo-description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
+index: no
 ---
 # GitHub account setup
 
