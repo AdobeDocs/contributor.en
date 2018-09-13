@@ -12,7 +12,7 @@ index: no
 <https://docs.microsoft.com/en-us/contribute/>
 -->
 
-Welcome to the Adobe Documentation Contributor Guide!
+**Welcome to the Adobe Documentation Contributor Guide!**
 
 Some of our Adobe documentation is open source, hosted on GitHub. You can contribute to this documentation in a number of ways, from making quick edits to existing documents to submitting entire articles, complete with assets. This open source model improves communication between the product teams, the documentation teams, and customers. 
 
