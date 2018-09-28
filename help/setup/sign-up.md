@@ -17,4 +17,4 @@ To contribute changes or additions to Adobe (or other organizations) documentati
 Identify any affilations in your GitHub profile. Identification helps us build a complete profile of all your activitives.
 
 > [!NOTE] 
->If you are an Adobe employee, we recommend that you go to [https://git.corp.adobe.com/adobedocs](https://git.corp.adobe.com/adobedocs), sign in using your LDAP account, and locate the content you want to edit. You can then use either the minor (in-browser) or major (forking and local closing) approach to editing articles and submitting pull requests.
+>If you are an Adobe employee, we recommend that you go to [https://git.corp.adobe.com/adobedocs](https://git.corp.adobe.com/adobedocs), sign in using your LDAP account, and locate the content you want to edit. You can then use either the minor (in-browser) or major (forking and local cloning) approach to editing articles and submitting pull requests.
