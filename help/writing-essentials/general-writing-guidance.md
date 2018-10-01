@@ -20,6 +20,6 @@ Please do the following:
 Keep the following in mind when writing documentation.
 
 - **Write concisely**: Don't waste words. Keep sentences short and concise. Keep your article focused. Keep the number of notes to a minimum.
-- **Focus on the audience and purpose**: Before you begin writing, clearly determine who the customer is and what task he or she is trying to do. Write your article to help that customer do that task.
+- **Focus on the audience and purpose**: Before you begin writing, clearly determine who the customer is and what task he or she is trying to accomplish. Write your article to help that customer do that task.
 - **Use examples**: Provide examples to explain concepts.
 - **Organize your content**: Create sections to divide instructions into more manageable groups of steps. Use a screenshot when it adds clarity.
