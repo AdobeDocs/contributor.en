@@ -34,8 +34,6 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    <!---![Location of the Edit link](assets/edit-article.png)-->
 
-   If the **Edit** button is dimmed, you need to sign in or [sign up](https://github.com) using a GitHub account.
-
 1. Click the pencil icon to edit the article.  
    > [!NOTE]
    > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
