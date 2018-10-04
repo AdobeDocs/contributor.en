@@ -2,6 +2,9 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 index: no
+hub: https://helpx.adobe.com/support/experience-cloud.html
+getting-started: https://landing.adobe.com/experience-league/
+tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
 # Contributor guide for Adobe documentation
 
