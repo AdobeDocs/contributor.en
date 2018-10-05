@@ -8,7 +8,7 @@ index: no
 ---
 # Install authoring tools
 
-This article describes the steps to interactively install Git client tools and editing tools.
+_This article describes the steps to interactively install Git client tools and editing tools._
 
 >[!NOTE]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply make changes in your web browser.
