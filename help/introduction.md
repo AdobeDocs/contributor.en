@@ -47,11 +47,15 @@ That's all there is to it. Thank you! Documentation team members will review and
 Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
 
 1. If you see a problem with a piece of content, click the **Log an Issue** link in the lower right of any page. See figure below:
+
+   ![](assets/git_log_issue.png)
+   
    > [!NOTE]
    > You will need to login to your GitHub account, or create a new account, to log an issue. 
    
-1. Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface
-1. Fill in the title, write a short description of the issue, and then click **Submit new issue**
+   Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
+   
+1. Fill in the title, write a short description of the issue, and then click **Submit new issue**.
 
 This will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
 
