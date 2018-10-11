@@ -42,6 +42,25 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
+## Log an Issue
+
+Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
+
+1. If you see a problem with a piece of content, click the **Log an Issue** link in the lower right of any page. See figure below:
+
+   ![](assets/git_log_issue.png)
+   
+   > [!NOTE]
+   > You will need to login to your GitHub account, or create a new account, to log an issue. 
+   
+   Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
+   
+1. Fill in the title, write a short description of the issue, and then click **Submit new issue**.
+
+   ![](assets/git_issue_example.png)
+
+This will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
+
 ## Understand GitHub permissions
 
 The GitHub editing UI adapts to your repository permissions. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo.
