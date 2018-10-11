@@ -6,6 +6,7 @@ hub: https://helpx.adobe.com/support/experience-cloud.html
 getting-started: https://landing.adobe.com/experience-league/
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
+
 # Contributor guide for Adobe documentation
 
 + [Introduction](introduction.md)
