@@ -11,11 +11,10 @@ seo-description: The guide describes how you can contribute to the Adobe documen
 <https://docs.microsoft.com/en-us/contribute/>
 -->
 
-## Welcome to the Adobe Documentation Contributor Guide
+## Working with Collaborative Documentation
 
 The documentation for Adobe Experience Cloud is transitioning to an open source model, utilizing Github, Markdown and Adobe Experience Manager. As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you can contribute to this documentation in several simple ways; everything from making quick edits to existing documents to submitting entire articles, complete with assets and code samples. This open source model improves communication between the product teams, the documentation teams, and customers. 
  
-
 <!--
 > [!IMPORTANT]
 > All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
