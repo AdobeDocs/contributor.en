@@ -5,7 +5,7 @@ description: The guide describes how you can contribute suggestions and addition
 seo-description: The guide describes how you can contribute to the Adobe documentation site.
 ---
 
-# Contributor Guide Overview for Adobe Documentation
+# Contributor Guide Overview for Adobe Docs
 
 <!---
 <https://docs.microsoft.com/en-us/contribute/>
