@@ -2,10 +2,10 @@
 title: Contributor guide overview for Adobe tech docs
 seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
-seo-description: The guide describes how you can contribute to the Adobe documentation site.
+seo-description: The guide describes how you can contribute to the Adobe Experience Cloud technical documentation.
 ---
 
-# Contributor Guide Overview for Adobe Docs
+# Contributor Guide Overview for Adobe Technical Docs
 
 <!---
 <https://docs.microsoft.com/en-us/contribute/>
