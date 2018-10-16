@@ -10,7 +10,7 @@ tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 # Contributor guide for Adobe documentation
 
 + [Introduction](introduction.md)
-+ Set up with GitHub {#github-setup}
++ Set up with GitHub {#setup}
   + [Set up GitHub account](setup/sign-up.md)
   + [Install Git and Markdown authoring tools](setup/install-tools.md)
   + [Set up a local Git repository](setup/local-repo.md)
