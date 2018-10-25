@@ -2,7 +2,10 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 index: no
-hub: https://helpx.adobe.com/support/experience-cloud.html
+user-guide-url: null
+solution-title: Experience Cloud
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
+solution-image: assets/experience-cloud.png
 getting-started: https://landing.adobe.com/experience-league/
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
