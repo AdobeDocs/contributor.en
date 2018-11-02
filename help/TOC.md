@@ -5,12 +5,14 @@ index: no
 user-guide-url: null
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
-solution-image: assets/experience-cloud.png
+solution-image: assets/experience-cloud-logo-24.png
+getting-started-title: Getting Started
 getting-started: https://landing.adobe.com/experience-league/
+tutorials-title: Tutorials
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
 
-# Contributor guide for Adobe documentation
+# Contributor guide for Adobe documentation{#contributor-guide}
 
 + [Introduction](introduction.md)
 + Set up with GitHub {#setup}
