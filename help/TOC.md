@@ -1,5 +1,5 @@
 ---
-git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.en
+git-repo: https://github.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 index: no
 user-guide-url: https://www.adobe.com
