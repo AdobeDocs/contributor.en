@@ -10,7 +10,7 @@ solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Experience League
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
-tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
+tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
 
 # Contributor Guide for Adobe documentation{#contributor-guide}
