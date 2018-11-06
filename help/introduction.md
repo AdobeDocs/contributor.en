@@ -5,7 +5,7 @@ description: The guide describes how you can contribute suggestions and addition
 seo-description: The guide describes how you can contribute to the Adobe Experience Cloud technical documentation.
 ---
 
-# Contributor Guide Overview for Adobe Technical Docs
+# Contributor Guide Overview for Documentation
 
 <!---
 <https://docs.microsoft.com/en-us/contribute/>
