@@ -2,17 +2,18 @@
 git-repo: https://github.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 index: no
+user-guide-title: Adobe Contributor Guide
 user-guide-url: https://www.adobe.com
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Getting Started
+getting-started-title: Experience League
 getting-started: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
 
-# Contributor guide for Adobe documentation{#contributor-guide}
+# Contributor Guide for Adobe documentation{#contributor-guide}
 
 + [Introduction](introduction.md)
 + Set up with GitHub {#setup}
