@@ -8,7 +8,7 @@ solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Experience League
-getting-started: https://landing.adobe.com/experience-league/
+getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutorials
 tutorials: https://helpx.adobe.com/experience-cloud/tutorials.html
 ---
