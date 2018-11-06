@@ -40,7 +40,7 @@ See the [Adobe Docs Contributor Guide](help/introduction.html) for details.
 
 All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-* [Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Labels
@@ -49,5 +49,3 @@ In the public repository, automated labels are assigned to pull requests to help
 
 * **Change sent to author**: The author has been notified of the pending pull request.
 * **ready-to-merge**: Ready for review by our pull request review team.
-
-
