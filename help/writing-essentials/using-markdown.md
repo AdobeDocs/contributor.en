@@ -9,7 +9,7 @@ seo-description: this article provides the basics and reference information for 
 
 Adobe technical documentation articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. 
 
-As we are storing Adobe Docs content in GitHub, it can use a version of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Adobe extended Markdown in a few ways to support certain help-related features such as notes and embedded videos.
+As we are storing Adobe Docs content in GitHub, it can use a version of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Adobe extended Markdown in a few ways to support certain help-related features such as notes, tips, and embedded videos.
 
 ## Markdown basics
 
@@ -22,6 +22,7 @@ To create a heading, use a hash mark (#) at the beginning of a line:
    ## This is level 2
    ### This is level 3
    #### This is level 4
+   ##### This is level 5
 ```
 
 ### Basic text
