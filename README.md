@@ -34,7 +34,7 @@ If you are a technical writer, program manager, or developer from the product te
 
 Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-See the [Adobe Docs Contributor Guide](help/introduction.html) for details.
+See the [Adobe Docs Contributor Guide](help/introduction.md) for details.
 
 ## How to use markdown to format your topic
 
