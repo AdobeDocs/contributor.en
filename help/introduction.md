@@ -26,7 +26,7 @@ The documentation for Adobe Experience Cloud is transitioning to an open source 
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
 
-1. Click **Edit** to go to the markdown source file on GitHub.
+1. Click **Edit this page** on the right column to go to the markdown source file on GitHub.
 
    <!---![Location of the Edit link](assets/edit-article.png)-->
 
