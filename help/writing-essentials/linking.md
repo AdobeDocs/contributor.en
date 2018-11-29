@@ -84,6 +84,7 @@ As a best practice, images and files are stored in an `assets` directory at the 
 
   `![alt text](assets/no-localize/image-name.png)`
 
+<!--
 ## Bob's link test
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
@@ -108,3 +109,4 @@ As a best practice, images and files are stored in an `assets` directory at the 
   </tr> 
  </tbody> 
 </table>
+-->
