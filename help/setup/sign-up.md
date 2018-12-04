@@ -21,6 +21,7 @@ Identify any affilations in your GitHub profile. Identification helps us build a
 ## Adobe Employees
 
 >[!NOTE] 
->If you are an Adobe employee, we recommend that you go to [https://git.corp.adobe.com/adobedocs](https://git.corp.adobe.com/adobedocs), sign in using your LDAP account, and locate the content you want to edit. 
+>
+>If you are an Adobe employee, we recommend that you go to `https://git.corp.adobe.com/adobedocs`, sign in using your LDAP account, and locate the content you want to edit. 
 >
 >You can then use either the minor (in-browser) or major (forking and local cloning) approach to editing articles and submitting pull requests.
