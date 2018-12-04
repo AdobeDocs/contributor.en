@@ -14,3 +14,9 @@ If you are unfamiliar with Git or GitHub, check out these resources.
 - Pro Git e-book [web](https://git-scm.com/book/en/v2) or [PDF](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): View this thorough Git reference in HTML or PDF format.
 - [GitHub Guides](https://guides.github.com/): The home of GitHub documentation.
 - [Glossary](https://help.github.com/articles/github-glossary): A handy glossary of git and GitHub terms.
+
+**Contributions and conduct**
+
+- [Adobe-Contributor-License-Agreement.pdf](assets/Adobe-Contributor-License-Agreement.pdf)
+- [code-of-conduct.md](assets/code-of-conduct.md)
+- [contributing.md](assets/contributing.md)
