@@ -27,3 +27,6 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [General writing guidance](writing-essentials/general-writing-guidance.md)
   + [Linking](writing-essentials/linking.md)
 + [Git and GitHub learning resources](resources.md)
++ Conduct and contributions {#conduct-contributions}
+  + [Code of Conduct](conduct/code-of-conduct.md)
+  + [Contributions overview](conduct/contributing.md)
