@@ -9,7 +9,7 @@ index: no
 
 ## Overview
 
-If you just need to make minor, text-only changes to articles, you do not need to understand the details of this article. This article describes the workflow for making major edits, such as creating new articles, adding images, or making ongoing edits to Adobe documentation. 
+If you only need to make minor, text-only changes to articles, you do not need to understand the details of this article. This article describes the workflow for making major edits, such as creating new articles, adding images, or making ongoing edits to Adobe documentation. 
 
 As a contributor to Adobe documentation content, you can interact with multiple tools and processes. You can work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
