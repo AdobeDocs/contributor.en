@@ -8,7 +8,7 @@ This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct
 
 ## About your contributions to Adobe content
 
-See the [Adobe Docs Contributor Guide](help/introduction.md).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
@@ -36,7 +36,7 @@ If you are a technical writer, program manager, or developer from the product te
 
 Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-See the [Adobe Docs Contributor Guide](help/introduction.md) for details.
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## How to use markdown to format your topic
 
