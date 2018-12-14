@@ -5,6 +5,7 @@ seo-title: GitHub contribution workflow for major changes to Adobe documentation
 description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
 seo-description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
 ---
+
 # GitHub contribution workflow for major changes
 
 <!--

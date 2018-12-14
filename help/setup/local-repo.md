@@ -24,7 +24,7 @@ To contribute to Adobe documentation, you can fork the appropriate repository in
 
 ## Determine the repository
 
-You fork the appropriate repository into your own GitHub account so that you have read/write permissions there to store your proposed changes. Adobe Experience Cloud documentation resides in several different repositories at [github.com](https://www.github.com/adobedocs). 
+You fork the appropriate repository into your own GitHub account so that you have read/write permissions there to store your proposed changes. [!UICONTROL Adobe Experience Cloud] documentation resides in several different repositories at [github.com](https://www.github.com/adobedocs). 
 
 1. If you are unsure of which repository to use, then visit the article using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article. (If you don't see an Edit link, that content is not yet available in GitHub.)
 

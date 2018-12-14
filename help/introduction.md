@@ -1,8 +1,8 @@
 ---
 title: Contributor guide for Adobe documentation
-seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
+seo-title: Contributor guide overview for [!UICONTROL Adobe Experience Cloud] technical documentation
 description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
-seo-description: The guide describes how you can contribute to the Adobe Experience Cloud technical documentation.
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 ---
 
 # Contributor Guide Overview for Documentation
@@ -13,7 +13,7 @@ seo-description: The guide describes how you can contribute to the Adobe Experie
 
 ## Working with Collaborative Documentation
 
-The documentation for Adobe Experience Cloud is transitioning to an open source model, utilizing Github, Markdown and Adobe Experience Manager. As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you can contribute to this documentation in several simple ways; everything from making quick edits to existing documents to submitting entire articles, complete with assets and code samples. This open source model improves communication between the product teams, the documentation teams, and customers. 
+The documentation for [!UICONTROL Adobe Experience Cloud] is transitioning to an open source model, utilizing Github, Markdown and [!UICONTROL Adobe Experience Manager]. As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you can contribute to this documentation in several simple ways; everything from making quick edits to existing documents to submitting entire articles, complete with assets and code samples. This open source model improves communication between the product teams, the documentation teams, and customers. 
  
 <!--
 > [!IMPORTANT]
@@ -26,11 +26,11 @@ The documentation for Adobe Experience Cloud is transitioning to an open source 
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
 
-1. Click **Edit this page** on the right column to go to the markdown source file on GitHub.
+1. Click `Edit this page` on the right column to go to the markdown source file on GitHub.
 
    <!---![Location of the Edit link](assets/edit-article.png)-->
 
-1. Click the **pencil icon** to edit the article.  
+1. Click the `pencil icon` to edit the article.  
    > [!NOTE]
    > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
 
@@ -46,7 +46,7 @@ That's all there is to it. Thank you! Documentation team members will review and
 
 Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
 
-1. If you see a problem with a piece of content, click the **Log an Issue** link in the lower right of any page. See figure below:
+1. If you see a problem with a piece of content, click the `Log an Issue` link in the lower right of any page. See figure below:
 
    ![](assets/git_log_issue.png)
    
@@ -55,7 +55,7 @@ Another easy way to let us know about a problem with a piece of content is to 'L
    
    Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
    
-1. Fill in the title, write a short description of the issue, and then click **Submit new issue**.
+1. The URL of the page with the issue will automatically populate in the description field. Fill in the title, write a short description of the issue, and then click *Submit new issue*.
 
    ![](assets/git_issue_example.png)
 
@@ -73,4 +73,4 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 
 With a solution set as large as Adobe's, the documentation is always a work in progress. If you spot errors, log an issue, if you have suggestions on material please let us know. Tell us what information you were looking for. Let us know if you couldn't find what you needed, or if you had difficulty completing your task, please let us know how we can help you learn our solutions.
 
-Thanks from the Collaborative Documentation team and all the writers and content producers in the Adobe Experience Cloud.
+Thanks from the Collaborative Documentation team and all the writers and content producers in the [!UICONTROL Adobe Experience Cloud].

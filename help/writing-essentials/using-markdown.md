@@ -320,20 +320,33 @@ Displayed:
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
 -->
 
-### DONOTLOCALIZE
+### DNL - Do Not Localize - and UICONTROL
 
-In some cases, we need to flag certain sections of content within an article to be English only. For sections of text that should not be localized, use the [!DONOTLOCALIZE] extension and use block quotes ( > ) to mark the entire English-only section.
+In some cases, we need to flag certain sections of content within an article to be English only. 
+Words, phrases and other elements need to be declared to our translation systems, and creates the ability to manage a controlled lexicon.
 
-Example:
+For words or phrases that should not be localized, use the `[!DNL]` extension to wrap the word or section.
+
+For elements in the user interface and menus of a solution, we use the `[!UICONTROL]` extension.
+
+**Example:**
+
+In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+
+**Source:**
 
 ```markdown
->[!DONOTLOCALIZE]
->## Exporting widgets
-> This section will not be localized.
-> 1. Do the first step.  
->    > [!NOTE]
->    > Remember to do the first step properly.
-> 1. Do the second step.
+In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+```
+
+**Example**
+
+Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+
+**Source:**
+
+```markdown
+Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
 ```
 
 ## Gotchas and troubleshooting
@@ -343,16 +356,14 @@ Example:
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
 ```markdown
-![Settings_Step_2] (./assets/Settings_Step_2.PNG)
+![Settings_Step_2] (/assets/settings_step_2.png)
 ```
 
-Escape the underscores like this:
+OUr best practice is to use hyphens (-) instead of underscores (_) in filenames.
 
 ```markdown
-![Settings\_Step\_2] (./assets/Settings_Step_2.PNG)
+![Settings-Step-2] (/assets/settings-step-2.png)
 ```
-
-Better yet, use hyphens (-) instead of underscores (_) in filenames.
 
 ### Apostrophes and quotation marks
 
