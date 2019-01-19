@@ -23,8 +23,8 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [GitHub documentation essentials](setup/git-fundamentals.md)
   + [GitHub workflow for major changes](setup/full-workflow.md)
 + Writing essentials {#writing-essentials}
-  + [Using Markdown](writing-essentials/using-markdown.md)
   + [General writing guidance](writing-essentials/general-writing-guidance.md)
+  + [Using Markdown](writing-essentials/using-markdown.md)
   + [Linking](writing-essentials/linking.md)
 + [Git and GitHub learning resources](resources.md)
 + Conduct and contributions {#conduct-contributions}
