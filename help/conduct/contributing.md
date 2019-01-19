@@ -4,7 +4,7 @@ Thanks for choosing to contribute!
 
 The following are a set of guidelines to follow when contributing to this project.
 
-## Code Of Conduct
+## Code of Conduct
 
 This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
 you are expected to uphold this code. Please report unacceptable behavior to
