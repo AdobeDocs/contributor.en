@@ -16,7 +16,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 # Contributor Guide for Adobe documentation{#contributor-guide}
 
 + [Introduction](introduction.md)
-+ Set up with GitHub {#setup}
++ Set up with GitHub {#setup-1}
   + [Set up GitHub account](setup/sign-up.md)
   + [Install Git and Markdown authoring tools](setup/install-tools.md)
   + [Set up a local Git repository](setup/local-repo.md)
@@ -26,7 +26,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
   + [Using Markdown](writing-essentials/using-markdown.md)
   + [General writing guidance](writing-essentials/general-writing-guidance.md)
   + [Linking](writing-essentials/linking.md)
-+ [Git and GitHub learning resources](resources.md)
++ [Git and GitHub learning resources](resources-1.md)
 + Conduct and contributions {#conduct-contributions}
   + [Code of Conduct](conduct/code-of-conduct.md)
   + [Contributions overview](conduct/contributing.md)
