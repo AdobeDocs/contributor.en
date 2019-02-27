@@ -5,15 +5,27 @@ description: The guide describes how you can contribute suggestions and addition
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 ---
 
-# Contributor Guide Overview for Documentation
+# Contributor Guide Overview for Adobe Documentation
 
 <!---
 <https://docs.microsoft.com/en-us/contribute/>
 -->
 
+## What is Collaborative Documentation
+
+During 2019, all the technical documentation and enablement content for Adobe Experience Cloud is transitioning to a new platform, based around open source principles, utilizing Github, Markdown and Adobe Experience Cloud solutions, including Adobe Experience Manager, Analytics, Launch and Target. 
+
+This open source model improves content quality, and communication between customers, documentation teams and product teams. On every page you can now rate content usefulness, log issues, and even contribute content suggestions as Git pull requests (PRs). The Adobe documentation teams monitor the contributions and issues on a daily basis and make updates, tweaks and adjustments as necessary.
+
 ## Working with Collaborative Documentation
 
-The documentation for [!UICONTROL Adobe Experience Cloud] is transitioning to an open source model, utilizing Github, Markdown and [!UICONTROL Adobe Experience Manager]. As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you can contribute to this documentation in several simple ways; everything from making quick edits to existing documents to submitting entire articles, complete with assets and code samples. This open source model improves communication between the product teams, the documentation teams, and customers. 
+As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you have the choice of contributing to this documentation in several simple ways;
+
+* rate the helpfulness of the page
+* log an issue against a specific page
+* even submit a quick edits through to authoring entire articles, complete with assets and code samples
+
+This guide outlines everything you need to know to interact with and contribute to this material set.
  
 <!--
 > [!IMPORTANT]
