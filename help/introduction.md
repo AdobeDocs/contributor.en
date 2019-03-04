@@ -33,11 +33,14 @@ This guide outlines everything you need to know to interact with and contribute 
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 --->
-    
+
 ## Make quick edits to existing documents
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
 
+1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+
+   You only need to submit an Adobe CLA one time.
 1. Click `Edit this page` on the right column to go to the markdown source file on GitHub.
 
    <!-- Bob, check steps -->
@@ -49,8 +52,11 @@ Making quick edits is a good way to fix small errors and omissions in documents.
    ![Location of the pencil icon](assets/edit-icon.png)
 
 1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
-1. Once you have made your change(s), scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:  
+1. Once you have made your change(s), scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+
    ![proposing your change](assets/submit-pull-request.png)
+
+   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), Command-click **Details** to open the license agreement in a new tab. Sign the agreement if acceptible. Then return to the pull request window, click a change link to make another edit to the page, and then submit it. Your CLA should then be verified, and you can submit the pull request. 
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
