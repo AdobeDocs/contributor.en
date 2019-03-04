@@ -28,7 +28,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
 1. Click `Edit this page` on the right column to go to the markdown source file on GitHub.
 
-   <!---![Location of the Edit link](assets/edit-article.png)-->
+   <!-- Bob, check steps -->
 
 1. Click the `pencil icon` to edit the article.  
    > [!NOTE]
