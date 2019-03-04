@@ -61,7 +61,7 @@ Another easy way to let us know about a problem with a piece of content is to 'L
 
 This will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
 
-Alva was here.
+Alva was here. Yes I was.
 
 ## Understand GitHub permissions
 
