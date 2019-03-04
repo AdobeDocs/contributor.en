@@ -1,14 +1,14 @@
 ---
 lastModified: 2018-10-15
 title: GitHub account setup steps
-seo-title: Github account setup steps for [!UICONTROL Adobe Experience Cloud] documentation
+seo-title: Github account setup steps for Adobe Experience Cloud documentation
 description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
 seo-description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
 index: no
 ---
 # GitHub account setup
 
-## Set up account
+## Set up a GitHub account
 
 To contribute changes or additions to Adobe (or other organizations) documentation on GitHub, you need to set up your own GitHub account. It's easy.
 
@@ -17,6 +17,12 @@ To contribute changes or additions to Adobe (or other organizations) documentati
 1. If you're unfamiliar with GitHub, go through the tutorial at the end of the setup process.
 
 Identify any affilations in your GitHub profile. Identification helps us build a complete profile of all your activitives.
+
+## Sign the Contributor License Agreement (CLA)
+
+All third-party contributions to this project must be accompanied by a signed contributor license agreement. This gives Adobe permission to redistribute your contributions as part of the project. 
+
+1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
 
 ## Adobe Employees
 
