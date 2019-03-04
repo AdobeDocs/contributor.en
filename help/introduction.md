@@ -52,7 +52,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![proposing your change](assets/submit-pull-request.png)
 
-   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement if acceptible. Then close and open pull request, and continue.
+   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptible. Then close and open pull request, and continue.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
