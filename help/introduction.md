@@ -7,10 +7,6 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 
 # Contributor Guide Overview for Adobe Documentation
 
-<!---
-<https://docs.microsoft.com/en-us/contribute/>
--->
-
 ## What is Collaborative Documentation
 
 During 2019, all the technical documentation and enablement content for Adobe Experience Cloud is transitioning to a new platform, based around open source principles, utilizing Github, Markdown and Adobe Experience Cloud solutions, including Adobe Experience Manager, Analytics, Launch and Target. 
@@ -56,7 +52,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![proposing your change](assets/submit-pull-request.png)
 
-   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), Command-click **Details** to open the license agreement in a new tab. Sign the agreement if acceptible. Then return to the pull request window, click a change link to make another edit to the page, and then submit it. Your CLA should then be verified, and you can submit the pull request. 
+   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement if acceptible. Then close and open pull request, and continue.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
