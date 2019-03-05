@@ -73,7 +73,7 @@ Another easy way to let us know about a problem with a piece of content is to 'L
 
    ![](assets/git_issue_example.png)
 
-This will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
+Submitting an issue will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
 
 ## Understand GitHub permissions
 
