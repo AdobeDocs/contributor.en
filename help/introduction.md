@@ -37,7 +37,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
 
    You only need to submit an Adobe CLA one time.
-1. Click `Edit this page` on the right column to go to the markdown source file on GitHub.
+1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
 
    <!-- Bob, check steps -->
 
