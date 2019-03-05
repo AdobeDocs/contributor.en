@@ -2,8 +2,8 @@
 lastModified: 2018-06-28
 title: Using links in documentation
 seo-title: Using links in Adobe Git/Markdown documentation
-description: this article provides guidance on creating links to content and images.
-seo-description: this article provides guidance on creating links to content and images for Adobe documentation.
+description: This article provides guidance on creating links to content and images.
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
 ---
 # Using links in documentation
 
