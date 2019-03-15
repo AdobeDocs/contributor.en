@@ -17,7 +17,7 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 
 + [Introduction](introduction.md)
 + Set up with GitHub {#setup}
-  + [Set up GitHub account](setup/sign-up.md)
+  + [Set up GitHub account](setup/github-signup.md)
   + [Install Git and Markdown authoring tools](setup/install-tools.md)
   + [Set up a local Git repository](setup/local-repo.md)
   + [GitHub documentation essentials](setup/git-fundamentals.md)

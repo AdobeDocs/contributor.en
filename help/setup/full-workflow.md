@@ -35,7 +35,7 @@ If you are unfamiliar with Git and GitHub concepts such as a repository or branc
 ## Workflow
 
 >[!IMPORTANT]
-> If you haven't already, you must complete the steps in the [Setup](sign-up.md) section. 
+> If you haven't already, you must complete the steps in the [Setup](github-signup.md) section. 
 
 In this workflow, changes flow in a repetitive cycle. Starting from your device's local repository, they flow back up to your GitHub fork, into the main GitHub repository, and back down locally again as you incorporate changes from other contributors.
 
