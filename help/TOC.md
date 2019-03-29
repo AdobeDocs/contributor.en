@@ -1,7 +1,7 @@
 ---
 git-repo: https://github.com/AdobeDocs/contributor.en
 cloud: experience-cloud
-index: no
+index: yes
 user-guide-title: Adobe Contributor Guide
 user-guide-url: https://www.adobe.com
 solution-title: Experience Cloud
