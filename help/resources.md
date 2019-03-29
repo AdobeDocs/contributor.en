@@ -3,7 +3,7 @@ title: Git and GitHub learning resources
 description: Learning resources for Git and GitHub.
 ---
 
-# Git and GitHub learning resources
+# List of Git and GitHub learning resources
 
 If you are unfamiliar with Git or GitHub, check out these resources.
 
