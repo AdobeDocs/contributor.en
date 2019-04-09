@@ -5,7 +5,7 @@ description: Learning resources for Git and GitHub.
 
 # List of Git and GitHub learning resources
 
-If you are unfamiliar with Git or GitHub, please check out these resources.
+If you are unfamiliar with Git or GitHub, check out these resources.
 
 - [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics): Basic overview of Git basics.
 - [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
