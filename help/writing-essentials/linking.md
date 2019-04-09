@@ -8,7 +8,7 @@ seo-description: This article provides guidance on creating links to content and
 
 # Using links in documentation
 
-This article describes using hyperlinks in documentation pages. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
+This article describes the use of hyperlinks in documentation pages. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
 
 > [!IMPORTANT]
 > All links should, ideally, be secure links (`https` vs `http`) whenever the target supports it (which the vast majority should).
