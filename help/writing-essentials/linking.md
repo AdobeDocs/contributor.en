@@ -5,12 +5,13 @@ seo-title: Using links in Adobe Git/Markdown documentation
 description: This article provides guidance on creating links to content and images.
 seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
 ---
+
 # Using links in documentation
 
 This article describes using hyperlinks in documentation pages. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
 
 > [!IMPORTANT]
-> All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
+> All links should, ideally, be secure links (`https` vs `http`) whenever the target supports it (which the vast majority should).
 
 ## Link to URLs
 
