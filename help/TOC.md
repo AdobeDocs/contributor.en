@@ -24,7 +24,7 @@ test-meta: testing
   + [GitHub documentation essentials](setup/git-fundamentals.md)
   + [GitHub workflow for major changes](setup/full-workflow.md)
 + Writing essentials {#writing-essentials}
-  + [Using Markdown](writing-essentials/using-markdown.md)
+  + [Using Markdown](writing-essentials/markdown.md)
   + [General writing guidance](writing-essentials/general-writing-guidance.md)
   + [Linking](writing-essentials/linking.md)
 + [Git and GitHub learning resources](resources.md)
