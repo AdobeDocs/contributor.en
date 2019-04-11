@@ -34,7 +34,7 @@ To format text as **bold**, you enclose it in two asterisks. To format text as *
 ```markdown
     This text is **bold**.
     This text is *italic*.
-    This is text is both ***bold and italic***.
+    This text is both ***bold and italic***.
 ```
 
 <!--
