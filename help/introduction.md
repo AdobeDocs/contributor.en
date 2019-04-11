@@ -38,10 +38,8 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    You only need to submit an Adobe CLA one time.
 1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
+1. Click the pencil icon to edit the article.
 
-   <!-- Bob, check steps -->
-
-1. Click the `pencil icon` to edit the article.  
    > [!NOTE]
    > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
 
