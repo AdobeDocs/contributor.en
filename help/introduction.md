@@ -7,7 +7,7 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 
 # Contributor Guide Overview for Adobe Documentation
 
-## What is Collaborative Documentation
+## What is Collaborative Documentation?
 
 During 2019, all the technical documentation and enablement content for Adobe Experience Cloud is transitioning to a new platform, based around open source principles, utilizing Github, Markdown and Adobe Experience Cloud solutions, including Adobe Experience Manager, Analytics, Launch and Target. 
 
