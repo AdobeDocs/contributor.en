@@ -12,7 +12,7 @@ index: yes
 
 To contribute changes or additions to Adobe (or other organizations) documentation on GitHub, you need to set up your own GitHub account. It's easy.
 
-1. If you don't already have a GitHub account, go to [https://github.com/join](https://github.com/join).
+1. If you don't already have a GitHub account, go to [https://github.com/join](https://github.com/join)
 1. Follow the prompts to create your account. 
 1. If you're unfamiliar with GitHub, go through the tutorial at the end of the setup process.
 
