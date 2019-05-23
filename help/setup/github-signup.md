@@ -6,6 +6,7 @@ description: Step through the process of setting up accounts for GitHub, require
 seo-description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
 index: yes
 ---
+
 # GitHub account setup
 
 ## Set up a GitHub account
