@@ -1,12 +1,12 @@
 ---
-title: Machine Translation for Customers
-description: Product documentation about Adobe's machine translation program for customers, and how to provide feedback about the quality of the machine translation service.
+title: Translation Experience for Customers
+description: Product documentation about Adobe's translation program for customers, and how to provide feedback about the overall translation progam. In the future, Adobe will collect feedback on the human translations.
 doc-type: reference
 ---
 
 # Language Support for Adobe Digital Experience Documentation and Support Content
 
-Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice, and to provide feedback to the quality of translated content.
+Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice, and in the future, to provide feedback to the quality of translation service.
 
 ## Select a language
 
