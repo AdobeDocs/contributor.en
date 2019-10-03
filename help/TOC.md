@@ -27,6 +27,8 @@ test-meta: testing
   + [Using Markdown](writing-essentials/markdown.md)
   + [General writing guidance](writing-essentials/general-writing-guidance.md)
   + [Linking](writing-essentials/linking.md)
++ Translation feedback {#localization}
+  + [Language Support for Adobe Experience Cloud Product Documentation](localization/machine-translation.md)
 + [Git and GitHub learning resources](resources.md)
 + Conduct and contributions {#conduct-contributions}
   + [Code of Conduct](conduct/code-of-conduct.md)
