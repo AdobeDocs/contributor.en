@@ -41,7 +41,7 @@ Automatic translation is ubiquitous on the internet and its usage is generally a
 
 ### Automatic Translation via the Browser
 
-If you have set your browser preferences to automatically translate any page into your language, be aware that the resulting translations will differ from those obtained through the Adobe page. That is because the service offered by the browser may be stock translations, while the Adobe translations will have been customized to adhere to Adobe style guidelines and terminology. To obtain optimal automatic translation results, we recommend that you either disable the browser option for this specific site in your browser preferences, or click **![UICONTROL Never translate...]** each time.
+If you have set your browser preferences to automatically translate any page into your language, be aware that the resulting translations will differ from those obtained through the Adobe page. That is because the service offered by the browser may be stock translations, while the Adobe translations will have been customized to adhere to Adobe style guidelines and terminology. To obtain optimal automatic translation results, we recommend that you either disable the browser option for this specific site in your browser preferences, or click **Never translate** when it displays.
 
 ### Known Issues
 
