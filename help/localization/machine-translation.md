@@ -37,7 +37,7 @@ You can view Adobe Experience Cloud product documentation in most languages.
 
 Adobe takes advantage of automatic translation capabilities to publish product support content in various languages, as close to content creation time as possible. Because support content is critical to product usage, we prioritize the translation of content by skilled professionals, but we may also opt for automatic translation where velocity and urgency matter most.
 
-Automatic translation is ubiquitous on the internet and its usage is generally accepted as a powerful information-gathering tool. It has been widely adopted for knowledge base content, where there may be little to no human intervention. Although there have been major technological breakthroughs in recent years, automatically-generated translations may contain occasional inaccuracies and errors in language and meaning.<!-- [Link to Legal Disclaimer, which could also appear on all MT pages.] -->
+Automatic translation is ubiquitous on the internet and its usage is generally accepted as a powerful information-gathering tool. It has been widely adopted for knowledge base content, where there may be little to no human intervention. Although there have been major technological breakthroughs in recent years, automatically-generated translations may contain occasional inaccuracies and errors in language and meaning.
 
 ### Automatic Translation via the Browser
 
@@ -52,8 +52,6 @@ below.
 |--------------|-------------------------------------------------------------------------------------|------------|
 | G11N3558     | Some Audience Manager pages are half English and half translated (French, Spanish). | OPEN       |
 
-<!-- [NOTE List of known issues in this format, like this example https://www.tableau.com/support/known-issues] -->
-
 ### Feedback
 
 Whenever content is automatically translated, either by default or user action, there is the option to provide feedback to Adobe about the translations. In the
@@ -67,20 +65,3 @@ additional languages. Some of these features are already available on the Englis
 experience on these pages.
 
 ![Improve this page](assets/feedback.png)
-
-<!-- #### Legal Disclaimer
-
-[NOTE: Original Adobe disclaimer dating back \~5 years. It was human translated into 30 languages already.]
-
-The following article has been automatically translated using automatic
-translation technology. Because the translation was done by a computer program,
-the translation may contain errors. Adobe offers these translations so that more
-articles are available for more users worldwide.
-
-[NOTE: not to be published, but a reference for the DX authors and publishers
-who will adapt this content to fit Adobe’s style.
-
-REFERENCES:
-
-<https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=DMaG11n&title=MT+widget+for+Digital+Experience+documentation+pages>]
- -->
