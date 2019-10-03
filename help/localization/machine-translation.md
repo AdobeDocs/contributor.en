@@ -1,10 +1,11 @@
 ---
-title: Language Support for Adobe Experience Cloud Help and Documentation
-description: Product documentation about Adobe's translation program for customers, and how to provide feedback about the overall translation progam.
-doc-type: reference
+title: Language Support for Adobe Experience Cloud Product Documentation
+seo-title: Language Support for Adobe Experience Cloud Product Documentation
+description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 ---
 
-# Language Support for Adobe Experience Cloud Help and Documentation
+# Language Support for Adobe Experience Cloud Product Documentation
 
 Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice and to provide feedback on the quality of translated content.
 
