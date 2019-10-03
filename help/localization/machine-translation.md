@@ -1,12 +1,12 @@
 ---
-title: Translation Experience for Customers
-description: Product documentation about Adobe's translation program for customers, and how to provide feedback about the overall translation progam. In the future, Adobe will collect feedback on the human translations.
+title: Language Support for Adobe Experience Cloud Help and Documentation
+description: Product documentation about Adobe's translation program for customers, and how to provide feedback about the overall translation progam.
 doc-type: reference
 ---
 
-# Language Support for Adobe Digital Experience Documentation and Support Content
+# Language Support for Adobe Experience Cloud Help and Documentation
 
-Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice, and to provide feedback no the quality of translated content.
+Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice and to provide feedback on the quality of translated content.
 
 ## Select a language
 
