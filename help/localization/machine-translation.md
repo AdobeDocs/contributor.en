@@ -65,3 +65,9 @@ additional languages. Some of these features are already available on the Englis
 experience on these pages.
 
 ![Improve this page](assets/feedback.png)
+
+### Translation Disclaimer
+ 
+Adobe uses a machine translation program to translate text into a number of different languages. Please be aware that computerized translations are literal translations and may contain errors. Adobe does not warrant the accuracy, reliability, or timeliness of the translations provided. Adobe will not be responsible for any losses or damages incurred due to reliance on the accuracy or reliability of translated information. If there are differences between English and another language, the English version controls.
+ 
+If you would like to report a translation error or inaccuracy, we encourage you to please contact us.
