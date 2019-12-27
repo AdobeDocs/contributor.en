@@ -34,7 +34,7 @@ This guide outlines everything you need to know to interact with and contribute 
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
 
    You only need to submit an Adobe CLA one time.
 1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
@@ -50,7 +50,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![proposing your change](assets/submit-pull-request.png)
 
-   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptible. Then close and open pull request, and continue.
+   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
