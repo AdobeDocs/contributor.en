@@ -54,7 +54,7 @@ This is not \*italicized\* type.
 
 ### Numbered lists and bullet lists
 
-To create numbered lists, begin a line with 1. or 1), but don't use both formats within the same list, or you'll start a new list. You don't need to specify the numbers. GitHub does that for you.
+To create numbered lists, begin a line with `1.` or `1)`, but don't use both formats within the same list. You don't need to specify the numbers. GitHub does that for you.
 
 ```markdown
 1. This is step 1.
@@ -69,20 +69,20 @@ Displayed:
 1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
-To create bullet lists, begin a line with \* or - or +, but don't mix the formats within the same list. (If you mix the formats, such as \* and \+, you essentially start a new list.)
+To create bullet lists, begin a line with \* or - or +, but don't mix the formats within the same list. (Do not mix bullet formats, such as \* and \+, within the same document.)
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 ```
 
 Displayed:
 
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 
 You can also embed lists within lists and add content between list items.
 
@@ -93,9 +93,9 @@ You can also embed lists within lists and add content between list items.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -112,9 +112,9 @@ Displayed:
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -128,39 +128,39 @@ Tables are not part of the core Markdown specification, but Adobe supports them 
 
 ```markdown
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
 Displayed:
 
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 
 Simple tables work adequately in Markdown. However, tables that include multiple paragraphs or lists within a cell are difficult to work with. For such content, we recommend using a different format, such as headings & text.
 
 For more information on creating tables, see:
 
-- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
-- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
+* GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
+* The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
+* [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Links
 
 The Markdown syntax for an inline link consists of the `[link text]` portion, which is the text that will be hyperlinked, followed by the `(file-name.md)` portion, which is the URL or file name that's being linked to:
 
- `[link text](file-name.md)`
+`[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 ```
 
 Displayed:
 
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 
 For links to articles (cross-references) within the repository, use relative links. You can use all relative link operands, such as ./ (current directory), ../ (back one directory), and ../../ (back two directories).
 
@@ -250,10 +250,10 @@ Comments (remarks) do not appear in the public-facing help articles. However, co
 
 Adobe articles use standard Markdown for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use extended Markdown features such as:
 
-- Note blocks
-- Embedded videos
-- Do not localize
-- Component properties, such as assigning a different heading ID to a heading
+* Note blocks
+* Embedded videos
+* Do not localize
+* Component properties, such as assigning a different heading ID to a heading
 
 Use the Markdown block quote ( > ) at the beginning of every line to tie together an extended component, such as a note. If you need to use subcomponents within components, add an extra level of block quotes (>  >) for that subcomponent section. For example, a NOTE within a DONOTLOCALIZE section should begin with >    >.
 
@@ -263,10 +263,10 @@ Some common Markdown elements such as headings and code blocks include extended 
 
 You can choose from four types of note blocks to draw attention to specific content:
 
-- `[!NOTE]`
-- `[!CAUTION]`
-- `[!TIP]`
-- `[!IMPORTANT]`
+* `[!NOTE]`
+* `[!CAUTION]`
+* `[!TIP]`
+* `[!IMPORTANT]`
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
 
@@ -307,19 +307,17 @@ Displayed:
 
 The "More Like This" component in AEM appears at the end of an article. It displays related links. When the article is rendered, it can be formatted the same as level-2 headings (##) without being added to the mini-TOC.
 
-<!--
 ```markdown
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
 Displayed:
 
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
--->
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 
 ### DNL - Do Not Localize - and UICONTROL
 
@@ -357,13 +355,13 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
 ```markdown
-![Settings_Step_2] (/assets/settings_step_2.png)
+![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
 OUr best practice is to use hyphens (-) instead of underscores (_) in filenames.
 
 ```markdown
-![Settings-Step-2] (/assets/settings-step-2.png)
+![Settings-Step-2](/assets/settings-step-2.png)
 ```
 
 ### Apostrophes and quotation marks
@@ -372,10 +370,10 @@ If you copy text into a Markdown editor, the text might contain "smart" (curly) 
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
-- Left (opening) quotation mark: `&#8220;`
-- Right (closing) quotation mark: `&#8221;`
-- Right (closing) single quotation mark or apostrophe: `&#8217;`
-- Left (opening) single quotation mark (rarely used): `&#8216;`
+* Left (opening) quotation mark: `&#8220;`
+* Right (closing) quotation mark: `&#8221;`
+* Right (closing) single quotation mark or apostrophe: `&#8217;`
+* Left (opening) single quotation mark (rarely used): `&#8216;`
 
 ### Angle brackets
 
@@ -391,5 +389,5 @@ Ampersands (&) aren't allowed in titles. Use "and" instead, or use the `&amp;` e
 
 ### Markdown resources
 
-- [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
+* [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
+* [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
