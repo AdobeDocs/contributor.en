@@ -40,8 +40,9 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
 1. Click the pencil icon to edit the article.
 
-   > [!NOTE]
-   > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
+   >[!NOTE]
+   >
+   >If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
 
    ![Location of the pencil icon](assets/edit-icon.png)
 
@@ -50,7 +51,9 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![proposing your change](assets/submit-pull-request.png)
 
-   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
+   >[!NOTE]
+   >
+   >If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
@@ -62,8 +65,9 @@ Another easy way to let us know about a problem with a piece of content is to 'L
 
    ![](assets/git_log_issue.png)
    
-   > [!NOTE]
-   > You will need to login to your GitHub account, or create a new account, to log an issue. 
+   >[!NOTE]
+   >
+   >You will need to login to your GitHub account, or create a new account, to log an issue. 
    
    Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
    

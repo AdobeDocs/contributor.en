@@ -54,8 +54,9 @@ A personal fork is required since all main documentation repositories provide re
 
    Some of the repositories can be large. Choose a location with available disk space.
 
-   > [!NOTE]
-   > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
+   >[!NOTE]
+   >
+   >Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
 
 ## Create a local clone of the repository
 

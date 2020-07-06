@@ -101,6 +101,7 @@ You can also embed lists within lists and add content between list items.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -120,6 +121,7 @@ Displayed:
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 
 ### Tables
@@ -273,22 +275,26 @@ In general, note blocks should be used sparingly because they can be disruptive.
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 Displayed:
 
 >[!NOTE]
+>
 >This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 Displayed:
 
 >[!TIP]
+>
 >This is a standard tip.
 
 ### Videos
