@@ -9,8 +9,8 @@ seo-description: This article provides guidance to create your local Git reposit
 
 This article describes the steps to set up a git repository on your local machine, with the intent to contribute to Adobe documentation. Contributors may use a locally cloned repository to add new articles, do major edits on existing articles, or change artwork.
 
-> [!IMPORTANT]
-> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply click the Edit icon and make text edits in your browser.
+>[!IMPORTANT]
+>If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply click the Edit icon and make text edits in your browser.
 
 ## Overview
 
