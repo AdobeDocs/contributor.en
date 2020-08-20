@@ -214,13 +214,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-You can specify properties for code blocks to turn off line numbers (on by default) or add a line wrap (off by default). Use {line-numbers="no"} and {line-wrap="yes"}. These properties are custom Markdown extensions.
-
-\`\`\`javascript {line-numbers="no"}
-function test() {
- console.log("notice the blank line before this function?");
-\`\`\`
-
 ### Definition Lists
 
 A definition list is a Markdown extension that supports the Definition List component in AEM. A definition list consists of a term and its definition.
