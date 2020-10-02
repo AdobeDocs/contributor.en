@@ -295,12 +295,12 @@ Displayed:
 Embedded videos won't natively render in Markdown, but you can use this Markdown extension.
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 Displayed:
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### More Like This
 
