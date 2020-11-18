@@ -37,7 +37,10 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
 
    You only need to submit an Adobe CLA one time.
-1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
+1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+
+   ![Edit this page icon](/help/assets/git_edit.png)
+
 1. Click the pencil icon to edit the article.
 
    >[!NOTE]
@@ -61,13 +64,13 @@ That's all there is to it. Thank you! Documentation team members will review and
 
 Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
 
-1. If you see a problem with a piece of content, click the `Log an Issue` link in the lower right of any page. See figure below:
+1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
 
    ![](assets/git_log_issue.png)
-   
+
    >[!NOTE]
    >
-   >You will need to login to your GitHub account, or create a new account, to log an issue. 
+   >You will need to log in to your GitHub account, or create a new account, to log an issue. 
    
    Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
    
