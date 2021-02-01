@@ -1,8 +1,6 @@
 ---
 title: Set up Git repository locally
-seo-title: Set up Git repository locally for Adobe documentation
 description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
-seo-description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
 ---
 
 # Set up Git repository locally for documentation

@@ -9,7 +9,7 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 
 ## What is Collaborative Documentation
 
-During 2019, all the technical documentation and enablement content for Adobe Experience Cloud is transitioning to a new platform, based around open source principles, utilizing Github, Markdown and Adobe Experience Cloud solutions, including Adobe Experience Manager, Analytics, Launch and Target. 
+The technical documentation and enablement content for Adobe Experience Cloud and other Adobe Enterprise products transitioned to a new platform. This new platform is based on open source principles that utilize Github, Markdown, and Adobe Experience Cloud solutions. 
 
 This open source model improves content quality, and communication between customers, documentation teams and product teams. On every page you can now rate content usefulness, log issues, and even contribute content suggestions as Git pull requests (PRs). The Adobe documentation teams monitor the contributions and issues on a daily basis and make updates, tweaks and adjustments as necessary.
 

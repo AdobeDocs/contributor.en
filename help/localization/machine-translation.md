@@ -1,8 +1,6 @@
 ---
 title: Language Support for Adobe Experience Cloud Product Documentation
-seo-title: Language Support for Adobe Experience Cloud Product Documentation
 description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
-seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 ---
 
 # Language Support for Adobe Experience Cloud Product Documentation
@@ -25,6 +23,7 @@ You can view Adobe Experience Cloud product documentation in most languages.
 
    ![Translated page](assets/french.png)
 
+<!--
    In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
 
    ![Translation message](assets/machine-translation-message.png)
@@ -32,6 +31,7 @@ You can view Adobe Experience Cloud product documentation in most languages.
    The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
 
    Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
+-->
 
 ## Why use automatic translation
 
@@ -64,7 +64,9 @@ In the future, we plan to allow you to provide more extensive feedback, in the f
 additional languages. Some of these features are already available on the English pages. In the long run, we believe this will help Adobe improve the user
 experience on these pages.
 
+<!--
 ![Improve this page](assets/feedback.png)
+-->
 
 ### Translation Disclaimer
  

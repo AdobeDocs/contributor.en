@@ -1,10 +1,6 @@
 ---
-lastModified: 2018-10-15
 title: GitHub account setup steps
-seo-title: Github account setup steps for Adobe Experience Cloud documentation
 description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
-seo-description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
-index: yes
 ---
 
 # GitHub account setup

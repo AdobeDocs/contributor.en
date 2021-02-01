@@ -1,9 +1,6 @@
 ---
-lastModified: 2018-06-28
 title: How to use Markdown for writing documentation
-seo-title: How to use Markdown for writing Adobe documentation
 description: this article provides the basics and reference information for the markdown language used for writing articles.
-seo-description: this article provides the basics and reference information for the markdown language used for writing articles for Adobe documentation.
 ---
 
 # How to use Markdown for writing technical documentation
@@ -19,11 +16,11 @@ As we are storing Adobe Docs content in GitHub, it can use a version of Markdown
 To create a heading, use a hash mark (#) at the beginning of a line:
 
 ```
-   # This is level 1 (article title)
-   ## This is level 2
-   ### This is level 3
-   #### This is level 4
-   ##### This is level 5
+# This is level 1 (article title)
+## This is level 2
+### This is level 3
+#### This is level 4
+##### This is level 5
 ```
 
 ### Basic text
@@ -33,18 +30,10 @@ A paragraph requires no special syntax in Markdown.
 To format text as **bold**, you enclose it in two asterisks. To format text as *italic*, you enclose it in a single asterisk:
 
 ```markdown
-    This text is **bold**.
-    This text is *italic*.
-    This text is both ***bold and italic***.
+   This text is **bold**.
+   This text is *italic*.
+   This text is both ***bold and italic***.
 ```
-
-<!--
-To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
-
-```markdown
-This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
-```
--->
 
 To ignore Markdown formatting characters, use \ before the character:
 
@@ -68,9 +57,7 @@ Displayed:
 1. This is the next step.
 1. This is yet another step, the third.
 
-<!-- markdownlint-disable MD037 -->
 To create bullet lists, begin a line with \* or - or +, but don't mix the formats within the same list. (Do not mix bullet formats, such as \* and \+, within the same document.)
-<!-- markdownlint-disable MD037 -->
 
 ```markdown
 * First item in an unordered list.
@@ -214,33 +201,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-### Definition Lists
-
-A definition list is a Markdown extension that supports the Definition List component in AEM. A definition list consists of a term and its definition.
-
-<!--
-
-```markdown
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
-```
-
-Displayed:
-
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
---->
-
-#### Remarks and comments
-
-Comments (remarks) do not appear in the public-facing help articles. However, comments do appear in the public-facing Markdown files that users can see and edit.
-
 ## Custom Markdown extensions
 
 Adobe articles use standard Markdown for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use extended Markdown features such as:
@@ -256,12 +216,16 @@ Some common Markdown elements such as headings and code blocks include extended 
 
 ### Note blocks
 
-You can choose from four types of note blocks to draw attention to specific content:
+You can choose from these types of note blocks to draw attention to specific content:
 
 * `[!NOTE]`
-* `[!CAUTION]`
 * `[!TIP]`
 * `[!IMPORTANT]`
+* `[!CAUTION]`
+* `[!WARNING]`
+* `[!ADMINISTRATION]`
+* `[!AVAILABILITY]`
+* `[!PREREQUISITES]`
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
 
