@@ -9,7 +9,7 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 
 ## What is Collaborative Documentation
 
-During 2019, all the technical documentation and enablement content for Adobe Experience Cloud is transitioning to a new platform, based around open source principles, utilizing Github, Markdown and Adobe Experience Cloud solutions, including Adobe Experience Manager, Analytics, Launch and Target. 
+The technical documentation and enablement content for Adobe Experience Cloud and other Adobe Enterprise products transitioned to a new platform. This new platform is based on open source principles that utilize Github, Markdown, and Adobe Experience Cloud solutions. 
 
 This open source model improves content quality, and communication between customers, documentation teams and product teams. On every page you can now rate content usefulness, log issues, and even contribute content suggestions as Git pull requests (PRs). The Adobe documentation teams monitor the contributions and issues on a daily basis and make updates, tweaks and adjustments as necessary.
 
@@ -24,24 +24,28 @@ As a user of this material - regardless of if you are an employee, partner, cust
 This guide outlines everything you need to know to interact with and contribute to this material set.
  
 <!--
-> [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
+>[!IMPORTANT]
+>All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
---->
+-->
 
 ## Make quick edits to existing documents
 
 Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
 
    You only need to submit an Adobe CLA one time.
-1. Click **`Edit this page`** on the right column to go to the markdown source file on GitHub.
+1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+
+   ![Edit this page icon](/help/assets/git_edit.png)
+
 1. Click the pencil icon to edit the article.
 
-   > [!NOTE]
-   > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
+   >[!NOTE]
+   >
+   >If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
 
    ![Location of the pencil icon](assets/edit-icon.png)
 
@@ -50,7 +54,9 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![proposing your change](assets/submit-pull-request.png)
 
-   >[!NOTE] If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptible. Then close and open pull request, and continue.
+   >[!NOTE]
+   >
+   >If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
@@ -58,12 +64,13 @@ That's all there is to it. Thank you! Documentation team members will review and
 
 Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
 
-1. If you see a problem with a piece of content, click the `Log an Issue` link in the lower right of any page. See figure below:
+1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
 
    ![](assets/git_log_issue.png)
-   
-   > [!NOTE]
-   > You will need to login to your GitHub account, or create a new account, to log an issue. 
+
+   >[!NOTE]
+   >
+   >You will need to log in to your GitHub account, or create a new account, to log an issue. 
    
    Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
    

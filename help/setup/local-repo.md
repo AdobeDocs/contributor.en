@@ -1,16 +1,14 @@
 ---
 title: Set up Git repository locally
-seo-title: Set up Git repository locally for Adobe documentation
 description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
-seo-description: This article provides guidance to create your local Git repository and contribute to Adobe documentation, including the forking and cloning process.
 ---
 
 # Set up Git repository locally for documentation
 
 This article describes the steps to set up a git repository on your local machine, with the intent to contribute to Adobe documentation. Contributors may use a locally cloned repository to add new articles, do major edits on existing articles, or change artwork.
 
-> [!IMPORTANT]
-> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply click the Edit icon and make text edits in your browser.
+>[!IMPORTANT]
+>If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can simply click the Edit icon and make text edits in your browser.
 
 ## Overview
 
@@ -54,8 +52,9 @@ A personal fork is required since all main documentation repositories provide re
 
    Some of the repositories can be large. Choose a location with available disk space.
 
-   > [!NOTE]
-   > Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
+   >[!NOTE]
+   >
+   >Avoid choosing a local folder path that is nested inside of another git repository folder location. While it is acceptable to store the git cloned folders adjacent to each other, nesting git folders inside one another causes errors for the file tracking.
 
 ## Create a local clone of the repository
 

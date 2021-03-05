@@ -1,16 +1,13 @@
 ---
-lastModified: 2018-06-28
 title: GitHub contribution workflow for major changes
-seo-title: GitHub contribution workflow for major changes to Adobe documentation
 description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
-seo-description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
 ---
 
 # GitHub contribution workflow for major changes
 
 <!--
-> [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
+>[!IMPORTANT]
+>All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 --->
@@ -46,6 +43,7 @@ Recall from [Git and GitHub fundamentals](git-fundamentals.md) that a Git reposi
 Isolating related changes to a specific branch allows you to control and introduce those changes independently, targeting them to a specific release time in the publishing cycle. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
 
 >[!NOTE]
+>
 >Making your changes in the master branch *is not a good practice*. Imagine that you use the master branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the master branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
 
 The next step is to create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
@@ -67,5 +65,3 @@ When the pull request is issue-free and signed off, your changes are merged back
 ### Publishing
 
 Remember, your pull request has to be merged by a PR reviewer before the changes can be included in the next scheduled publishing run. Pull requests are normally reviewed/merged in the order of submission. If your pull request requires merging for a specific publishing run, you will need to work with your PR reviewer ahead of time to ensure that merging happens prior to publishing.
-
-After your contributions are approved and merged, the docs.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary.
