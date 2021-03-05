@@ -292,57 +292,71 @@ All of our Markdown help content is localized using machine translation initiall
 During machine translation, items tagged with [!UICONTROL] are checked against a localization database for the appropriate translation. In the case that the UI is not localized, this tag will allow the system to leave the UI reference in English for that particular language (ie. Analytics references in Italian).
 
 **Example:**
-Go to the **[!UICONTROL Run Process]** screen.
-Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-The [!UICONTROL Processing Rules] dialog box appears.
+
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 
 **Source:**
+
 ```markdown
-Go to the **[!UICONTROL Run Process]** screen.
-Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-The [!UICONTROL Processing Rules] dialog box appears.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
+
 **NOTE:** Of the three tagging options, this is the most crucial to deliver high quality and is mandatory.
 
-**[!DNL]**
-A a rule, we use a "Do not translate" list to tell the machine translation engines what to keep in English. The most prevalent items would be the long solution names like "Adobe Analytics", "Adobe Campaign", and "Adobe Target". However, there may be cases where we need to force the engine to use English because the term in question may be used in a specific or general way. This most obvious case would be short names for the solutions like "Analytics", "Campaign", "Target" etc. It would be difficult for a machine to understand that these are solution names and not general terms. The tag may also be used for third-party names/features which always remain in English or for shorter sections of text like a phrase or sentence which must remain in English.
+**`[!DNL]`**
+
+As a rule, we use a "Do not translate" list to tell the machine translation engines what to keep in English. The most prevalent items would be the long solution names like "Adobe Analytics", "Adobe Campaign", and "Adobe Target". However, there may be cases where we need to force the engine to use English because the term in question may be used in a specific or general way. This most obvious case would be short names for the solutions like "Analytics", "Campaign", "Target" etc. It would be difficult for a machine to understand that these are solution names and not general terms. The tag may also be used for third-party names/features which always remain in English or for shorter sections of text like a phrase or sentence which must remain in English.
 
 **Example:**
-*With [!DNL Target], you can create A/B tests to find the optimal 
-*Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 
 **Source:**
+
 ```markdown
-*With [!DNL Target], you can create A/B tests to find the optimal 
-*Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
-**[!DONOTLOCALIZE]**
+**`[!DONOTLOCALIZE]`**
+
 In some cases, we need to flag certain sections of content within an article to be English only. For sections of text that should not be localized, use the [!DONOTLOCALIZE] extension and use block quotes ( > ) to mark the entire English-only section.
 
 **NOTE:** Code blocks (`code`) are not localized by default. There is no need to apply the DONOTLOCALIZE tag to code blocks.
+
 **NOTE:** The content after the DONOTLOCALIZE block will be localized when the file is submitted.
 
 **Example:**
+
 >[!DONOTLOCALIZE]
 >
 >## Exporting widgets
+>
 > This section will not be localized.
+>
 > 1. Do the first step.
 >    > [!NOTE]
 >    > Remember to do the first step properly.
-> 2. Do the second step.
+> 1. Do the second step.
 
 **Source:**
+
 ```markdown
 >[!DONOTLOCALIZE]
 >
 >## Exporting widgets
+>
 > This section will not be localized.
+>
 > 1. Do the first step.
 >    > [!NOTE]
 >    > Remember to do the first step properly.
-> 2. Do the second step.
+> 1. Do the second step.
 ```
 
 ## Gotchas and troubleshooting
