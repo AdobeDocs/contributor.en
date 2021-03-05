@@ -284,12 +284,13 @@ Displayed:
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 
-### UICONTROL, DNL, and DONOTLOCALIZE
+### UICONTROL and DNL
 
 All of our Markdown help content is localized using machine translation initially. If the help has never been localized, then we keep the machine translation. However, if the help content has been localized in the past, then the machine translated content will act as a placeholder while the content is in the process of human translation. 
 
-**[!UICONTROL]**
-During machine translation, items tagged with [!UICONTROL] are checked against a localization database for the appropriate translation. In the case that the UI is not localized, this tag will allow the system to leave the UI reference in English for that particular language (ie. Analytics references in Italian).
+**`[!UICONTROL]`**
+
+During machine translation, items tagged with `[!UICONTROL]` are checked against a localization database for the appropriate translation. In the case that the UI is not localized, this tag will allow the system to leave the UI reference in English for that particular language (ie. Analytics references in Italian).
 
 **Example:**
 
@@ -321,42 +322,6 @@ As a rule, we use a "Do not translate" list to tell the machine translation engi
 ```markdown
 * With [!DNL Target], you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
-```
-
-**`[!DONOTLOCALIZE]`**
-
-In some cases, we need to flag certain sections of content within an article to be English only. For sections of text that should not be localized, use the [!DONOTLOCALIZE] extension and use block quotes ( > ) to mark the entire English-only section.
-
-**NOTE:** Code blocks (`code`) are not localized by default. There is no need to apply the DONOTLOCALIZE tag to code blocks.
-
-**NOTE:** The content after the DONOTLOCALIZE block will be localized when the file is submitted.
-
-**Example:**
-
->[!DONOTLOCALIZE]
->
->## Exporting widgets
->
-> This section will not be localized.
->
-> 1. Do the first step.
->    > [!NOTE]
->    > Remember to do the first step properly.
-> 1. Do the second step.
-
-**Source:**
-
-```markdown
->[!DONOTLOCALIZE]
->
->## Exporting widgets
->
-> This section will not be localized.
->
-> 1. Do the first step.
->    > [!NOTE]
->    > Remember to do the first step properly.
-> 1. Do the second step.
 ```
 
 ## Gotchas and troubleshooting
