@@ -169,6 +169,8 @@ Displayed:
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
+**NOTE:** For images that should not be localized, create a separate `do-not-localize` folder in the assets folder. Typically, images without text or images containing only sample content would be placed there. This removes any "noise" from the assets folder and reduces the amount of questions.
+
 ### Code blocks
 
 Markdown supports the placement of code blocks both inline in a sentence and as a separate "fenced" block between sentences. For details, see [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -282,33 +284,44 @@ Displayed:
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 
-### DNL - Do Not Localize - and UICONTROL
+### UICONTROL and DNL
 
-In some cases, we need to flag certain sections of content within an article to be English only. 
-Words, phrases and other elements need to be declared to our translation systems, and creates the ability to manage a controlled lexicon.
+All of our Markdown help content is localized using machine translation initially. If the help has never been localized, then we keep the machine translation. However, if the help content has been localized in the past, then the machine translated content will act as a placeholder while the content is in the process of human translation. 
 
-For words or phrases that should not be localized, use the `[!DNL]` extension to wrap the word or section.
+**`[!UICONTROL]`**
 
-For elements in the user interface and menus of a solution, we use the `[!UICONTROL]` extension.
+During machine translation, items tagged with `[!UICONTROL]` are checked against a localization database for the appropriate translation. In the case that the UI is not localized, this tag will allow the system to leave the UI reference in English for that particular language (ie. Analytics references in Italian).
 
 **Example:**
 
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 
 **Source:**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**Example**
+**NOTE:** Of the three tagging options, this is the most crucial to deliver high quality and is mandatory.
 
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+**`[!DNL]`**
+
+As a rule, we use a "Do not translate" list to tell the machine translation engines what to keep in English. The most prevalent items would be the long solution names like "Adobe Analytics", "Adobe Campaign", and "Adobe Target". However, there may be cases where we need to force the engine to use English because the term in question may be used in a specific or general way. This most obvious case would be short names for the solutions like "Analytics", "Campaign", "Target" etc. It would be difficult for a machine to understand that these are solution names and not general terms. The tag may also be used for third-party names/features which always remain in English or for shorter sections of text like a phrase or sentence which must remain in English.
+
+**Example:**
+
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 
 **Source:**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## Gotchas and troubleshooting
