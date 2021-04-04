@@ -1,8 +1,8 @@
 ---
 title: GitHub contribution workflow for major changes
 description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
+exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
 ---
-
 # GitHub contribution workflow for major changes
 
 <!--

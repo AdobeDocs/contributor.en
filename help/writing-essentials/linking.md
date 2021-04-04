@@ -4,8 +4,8 @@ title: Using links in documentation
 seo-title: Using links in Adobe Git/Markdown documentation
 description: This article provides guidance on creating links to content and images.
 seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
+exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
 ---
-
 # Using links in documentation
 
 This article describes the use of hyperlinks in documentation pages. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.

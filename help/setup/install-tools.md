@@ -1,8 +1,8 @@
 ---
 title: Install authoring tools
 description: This article helps you download and install the client tools you will need for Git/GitHub and for editing Markdown files.
+exl-id: 930185cf-fff5-485a-9824-70c32c55800d
 ---
-
 # Install authoring tools
 
 *This article describes the steps to interactively install Git client tools and editing tools.*

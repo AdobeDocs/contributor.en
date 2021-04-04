@@ -1,3 +1,7 @@
+---
+
+exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
+---
 # Adobe Code of Conduct
 
 ## Our Pledge

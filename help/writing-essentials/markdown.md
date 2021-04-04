@@ -1,8 +1,8 @@
 ---
 title: How to use Markdown for writing documentation
 description: this article provides the basics and reference information for the markdown language used for writing articles.
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 ---
-
 # How to use Markdown for writing technical documentation
 
 Adobe technical documentation articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. 

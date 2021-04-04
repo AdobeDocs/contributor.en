@@ -1,8 +1,8 @@
 ---
 title: Git and GitHub learning resources
 description: Learning resources for Git and GitHub.
+exl-id: a112954a-76d9-4ee7-86be-676c5bd92994
 ---
-
 # List of Git and GitHub learning resources
 
 If you are unfamiliar with Git or GitHub, check out these resources.

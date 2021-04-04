@@ -1,8 +1,8 @@
 ---
 title: GitHub account setup steps
 description: Step through the process of setting up accounts for GitHub, required in order to contribute content to Adobe documentation.
+exl-id: 62be9e5a-bbbc-4a78-82e9-24cf658e6d35
 ---
-
 # GitHub account setup
 
 ## Set up a GitHub account

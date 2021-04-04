@@ -4,8 +4,8 @@ title: Writing guidance for Adobe documentation
 seo-title: Writing guidance for Adobe documentation
 description: this article includes essential guidance for contributing to adobe documentation.
 seo-description: this article includes essential guidance for contributing to adobe documentation.
+exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 ---
-
 # Writing guidance for Adobe Documentation
 
 These guidelines apply whether you are creating new documentation or updating existing documentation.

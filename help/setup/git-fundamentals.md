@@ -1,8 +1,8 @@
 ---
 title: Git and GitHub documentation essentials
 description: This article explains an overview of Git, GitHub repository, and how content is organized, and naming conventions used for Adobe documentation.
+exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 ---
-
 # Git and GitHub documentation essentials
 
 ## Overview
