@@ -45,7 +45,8 @@ Within the root of this directory, you can find general articles that relate to 
 
 User guide directories contain `/assets` subdirectories for image files that are referenced within a directory.
 
-<!---
+<!--
+
 ### Markdown file template
 
 For convenience, the root directory of each repository typically contains a Markdown template file named `template.md`. You can use this template file as a "starter file" if you need to create a new article for submission to the repository. The file contains:
@@ -55,6 +56,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of docs.adobe.com extensions**, which you can use for special controls such as buttons and selectors.
+
 -->
 
 ## Pull requests
