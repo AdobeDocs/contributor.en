@@ -175,7 +175,7 @@ Displayed:
 
 Markdown supports the placement of code blocks both inline in a sentence and as a separate "fenced" block between sentences. For details, see [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Use back ticks ( &grave; ) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (&grave;&grave;&grave;) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: &grave;&grave;&grave;javascript
+Use back ticks (`` ` ``) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (` ``` `) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: ` ```javascript`
 
 Examples:
 
