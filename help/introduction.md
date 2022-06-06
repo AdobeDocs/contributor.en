@@ -19,7 +19,7 @@ As a user of this material - regardless of if you are an employee, partner, cust
 
 * rate the helpfulness of the page
 * log an issue against a specific page
-* even submit a quick edits through to authoring entire articles, complete with assets and code samples
+* even submit quick edits through to authoring entire articles, complete with assets and code samples
 
 This guide outlines everything you need to know to interact with and contribute to this material set.
  
