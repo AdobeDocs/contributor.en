@@ -1,9 +1,7 @@
 ---
 lastModified: 2018-06-28
-title: Writing guidance for Adobe documentation
-seo-title: Writing guidance for Adobe documentation
+title: Authoring guidelines for external contributors
 description: Learn about authoring and editorial guidelines for external contributors to Experience League.
-seo-description: this article includes essential guidance for contributing to adobe documentation.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 ---
 # Authoring style guidelines for external contributors
@@ -54,8 +52,6 @@ Use _More information_ headings for cross-reference lists (or maps). Example:
 * Use italics for the formal names of guides or page names (when not using link text)
 * Do not punctuate the heading (or any heading)
 * Avoid numbers in headings
-
-  See [Heading-) for more information.
 
 ### Mismatching TOC entry, breadcrumb, and page name{#toc}
 
