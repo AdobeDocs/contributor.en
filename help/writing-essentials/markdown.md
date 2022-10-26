@@ -1,6 +1,6 @@
 ---
 title: How to use Markdown for writing documentation
-description: this article provides the basics and reference information for the markdown language used for writing articles.
+description: Learn the basics of Markdown authoring. Find reference information for the Markdown language used for writing articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 ---
 # How to use Markdown for writing technical documentation
@@ -10,6 +10,8 @@ Adobe technical documentation articles are written in a lightweight markup langu
 As we are storing Adobe Docs content in GitHub, it can use a version of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Adobe extended Markdown in a few ways to support certain help-related features such as notes, tips, and embedded videos.
 
 ## Markdown basics
+
+The following sections describe the basics of authoring in Markdown.
 
 ### Headings
 
@@ -333,7 +335,7 @@ OUr best practice is to use hyphens (-) instead of underscores (_) in filenames.
 
 ### Apostrophes and quotation marks
 
-If you copy text into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with odd characters like this when the file is published: Itâ€™s
+If you copy text into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with odd characters like this when the file is published: Itâ&euro;&trade;s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 

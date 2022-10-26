@@ -6,26 +6,29 @@ description: Learn about authoring and editorial guidelines for external contrib
 seo-description: this article includes essential guidance for contributing to adobe documentation.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 ---
-# Authoring guidelines for Adobe Documentation
+# Authoring style guidelines for external contributors
 
-These guidelines apply whether you are creating new documentation or updating existing documentation.
+This page provides editorial guidelines for external authors creating content or updating existing content on Experience League. Before you begin, ensure that you:
 
-Please do the following:
+* Get familiar with [Markdown](markdown.md) authoring 
+* Check the spelling and grammar in your articles
+* Use a friendly tone, consistent presentation, and simple sentences to improve machine translation
+* Follow [best-practices](#writing-tips) and editorial standards on this page
 
-- Check the spelling and grammar in your articles.
-- Use a friendly tone.
-- Use simple sentences. They are easier to understand and translate into other languages.
-
-## Styles guidelines
+## Style guidelines
 
 Keep the following in mind when writing documentation.
 
-- **Write concisely**: Don't waste words. Keep sentences short and concise. Keep your article focused. Keep the number of notes to a minimum.
-- **Focus on the audience and purpose**: Before you begin writing, clearly determine who the customer is and what task he or she is trying to accomplish. Write your article to help that customer do that task.
-- **Use examples**: Provide examples to explain concepts.
-- **Organize your content**: Create sections to divide instructions into more manageable groups of steps. Use a screenshot when it adds clarity.
+* **Write concisely**: Don't waste words. Keep sentences short and concise. Keep your article focused. Keep the number of notes to a minimum.
+* **Focus on the audience and purpose**: Before you begin writing, clearly determine who the customer is and what task he or she is trying to accomplish. Write your article to help that customer do that task.
+* **Use examples**: Provide examples to explain concepts.
+* **Organize your content**: Create sections to divide instructions into more manageable groups of steps. Use a screenshot when it adds clarity.
 
+## Best practices of technical writing{#writing-tips}
 
+Technical writing, particularly for software documentation, is a specialized industry. Even the most prolific novelist gets flustered when attempting technical writing--not because the material is complex or technical, but because it's not easy making complex, technical information _simple_. To succeed, your content must be structurally consistent, scannable, reusable, and flow through the publishing pipeline without structure and syntax errors. 
+
+The following sections describe common issues that new technical writers must watch out for:
 
 ### Headings not separated by text (double headings){#double-headings}
 
@@ -37,9 +40,7 @@ For example, _Overview_ serves no purpose here:
 
 * Also, if your second heading happens to be _Overview_, it's probably unnecessary. Your H1 and first paragraph serve as the conceptual overview about the article's topic. 
 
-* Similarly, for SEO purposes, stand-alone headings like _Overview_ and _Introduction_ aren't useful. Name the product or feature that you're introducing. (Example: _Overview of Fallout reports_)
-
-  See [Headings](headings-page-titles.md) for more information.
+* Similarly, for SEO purposes, stand-alone headings like _Overview_ and _Introduction_ aren't useful by themselves. Name the product or feature that you're introducing. (Example: _Overview of Fallout reports_)
 
 ### Inconsistent cross-reference headings{#maps}
 
@@ -54,7 +55,7 @@ Use _More information_ headings for cross-reference lists (or maps). Example:
 * Do not punctuate the heading (or any heading)
 * Avoid numbers in headings
 
-  See [Headings](headings-page-titles.md) for more information.
+  See [Heading-) for more information.
 
 ### Mismatching TOC entry, breadcrumb, and page name{#toc}
 
@@ -65,11 +66,9 @@ Because we manually manage the TOC (table of contents) file, these mismatches ar
 * You might need to shorten your TOC entry, but it must clearly relate to the page name and breadcrumb.
 * Breadcrumbs are pulled in from the title metadata, so they can differ (for SEO purposes). 
 
-See [TOC](#using-toc) on this page for more guidance.
-
 ### Quotation marks instead of italics{#quotes}
 
-It's hard to resist adding quotes around a word or phrase. However, quotes are intended for quoting people, and almost never used in product documentation.
+It's hard to resist adding quotes around a word or phrase. However, quotes are intended for quoting speech, and almost never used in product documentation.
 
 **Guidance on quotation marks**
 
@@ -83,12 +82,11 @@ Writing a procedure (the _task_ content type) is not a talent that we are born w
 **Guidance for steps**
 
 * A procedure is a series of steps. A step is a brief, numbered, _single-sentence_ command.
-* Begin each step either with a verb or the _To_ infinitive (to orient the reader to the goal, as in, _To stay signed in, enable ABC_)
-* If a step has a specific goal within the overall procedure, mention the goal before the action.
+* Begin each step either with a verb or the _To_ infinitive (to orient the reader to the goal, as in, _To stay signed in, enable **Stay signed in**_). If a step has a specific goal within the overall procedure, mention the goal before the action.
 * If you have information about the step (a content type called _step info_, add it after the step (indented with the step) or after the asset (a screenshot, video, or a list of interface descriptions).
 * If your step has two actions (such as, _Select this, then that_), write it as a single, brief sentence.
-* Limit your procedure (task) to about seven to ten steps. If you're creating more than ten steps in one task, you likely need to break it into two tasks. Use your best judgment here.
-* In product documentation, do not use headings as steps. (Exception below.)
+* Limit your task to about seven to ten steps. If you're creating more than ten steps in one task, you likely need to break it into two tasks. Use your best judgment here.
+* In product documentation, do not use headings as steps. (Exception below for tutorials.)
 * For multi-page tutorials, headings as steps can be allowed. However, do not number them. Rather, spell out _Step 1:_, _Step 2:_, and so on.
 
 **Example procedure** 
@@ -106,7 +104,7 @@ To sign in at Adobe:
 
 ### Parallel lists{#lists}
 
-Using parallel construction for lists makes reading and scanning easy. Lists include a TOC, bullet lists, or numbered lists.
+Using parallel construction for lists makes reading and scanning easy. Lists include a TOC (table of contents), bullet (unordered) lists, or numbered lists.
 
 Example TOC with parallel entries:
 
@@ -120,7 +118,7 @@ The preceding TOC is a good example because:
 
 ## Title and description metadata
 
-These metadata are important for SEO, content discovery, and content quality scores on Experience League. 
+_Title_ and _description_ metadata are important for SEO, content discovery, and content quality scores on Experience League. 
 
 Here are examples of titles and descriptions:
 
@@ -146,8 +144,6 @@ The one you use depends on the size and scope of the article.
 
 (Remember, the pipe and product name are added automatically to titles.)
 
-See [Titles and descriptions](authoring-title-description.md) to learn more about these metadata.
-
 ## Ways to improve clarity (and Acrolinx scores){#tips}
 
 Here are simple ways to improve content design, clarity, and readability. These also help improve Acrolinx style scores and CQI scores on ExL.
@@ -157,7 +153,7 @@ Here are simple ways to improve content design, clarity, and readability. These 
 |Use active voice|Change passive voice to active voice|
 |Use present tense| **Weak:** *Campaign v8 will release in June.* <p>**Strong:** *Campaign v8 releases in June.*<p>Present tense is always easier to read for customers.  |
 |Avoid weak, needless adverbs|*Very*, *extremely*, *incredibly*.... <p>Adverbs are extra words that do not add significant meaning if you use strong and precise verbs, clauses, and adjectives.|
-|Use strong verbs for titles and [TOC entries](#using-toc)|Examples:<p>**Weak:** *Trait creation and management* <p>**Strong:** *Create and manage traits*<p>For more heading and title guidance on word choice, see [Heading names and page titles](headings-page-titles.md). |
+|Use strong verbs for titles and [TOC entries](#using-toc)|Examples:<p>**Weak:** *Trait creation and management* <p>**Strong:** *Create and manage traits* |
 |Use sentence [capitalization](https://docs.microsoft.com/en-us/style-guide/capitalization)| When in doubt, don't capitalize. In headings, use sentence-style capitalization. Capitalize proper nouns and the first word after a colon. In procedures, match capitalization that you see in the interface. |
 |Learn these small tips for clarity|<ul><li>Avoid *In order to* (it adds no meaning). All you need is *to.*</li><li>Avoid *Utilize.* It might sound more technical, but it isn't. *Utilize* means *to make good use of, especially of something that was not intended for the purpose but will serve*.</li><li>Avoid semi-colons: Use a period instead and begin a new sentence. Semi colons introduce needless complexity.</li><li>Colons: Use colons to introduce a list. Use colons sparingly within sentences. Capitalize the first word after a colon in a sentence.</li><li>Use the Oxford comma (three commas in a list).</li><li>Keep sentence length under 39 words.</li><li>Navigation: use _go to_ or _navigate to_.</li><li>Avoid raw URL text (use user-friendly link text) unless displaying the path is important information.</li></ul> |
 |Use a spell checker in VSC|Install Code Spell Check (extension) in Visual Studio Code.|
@@ -168,7 +164,6 @@ Here are simple ways to improve content design, clarity, and readability. These 
 
 A few more best practices and resources:
 
-* [Usage guidelines wiki](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=DMSArchitecture&title=Usage+guidelines) - A great internal wiki that provides usage advice from A to Z. (Hat tip: Scott Rhoades, Experience Platform)
 * [Scannable content](https://docs.microsoft.com/en-us/style-guide/scannable-content/): Help readers find what they need quickly, or recognize just as quickly when they're not where they need to be. Writing to facilitate scanning can help.
 * **Numbers:** In body text, spell out whole numbers from zero to nine, and use numerals for 10 or greater. See [Numbers](https://docs.microsoft.com/en-us/style-guide/numbers).
 * Write like you speak, project friendliness, and get to the point fast.
@@ -209,25 +204,9 @@ You do not need to worry about whether your product is localized or the language
 >
 >You must apply these tags prior to localizing your content.
 
-See [Applying DNL and UICONTROL to interface strings](localize.md) for guidance.
-
 ## Writing with visuals (image assets, videos)
 
-See [Writing with visuals](https://spectrum.corp.adobe.com/page/writing-with-visuals/) in the Spectrum guide for great information on how to effectively write for tutorial videos
-
-## Branding guidelines for Experience Cloud {#branding}
-
-For information about product names and branding guidelines, follow these steps:
-
-* Access [Adobe Marketing Hub](https://marketinghub.brand-portal.adobe.com) and log in.
-* Click ![search icon](assets/search-icon.png) and search for the required brand guidelines, for example, search for 'Experience Cloud guidelines' term.
-* Locate the appropriate brand guidelines and download its PDF document for reference.
-
-Another great resource is the [Marketecture](https://fieldreadiness-adobe.highspot.com/items/5e85f948a4dfa034b0b97df0?lfrm=srp.1) slide deck.
-
->[!NOTE]
->
->Adobe recommends not sharing the brand guidelines directly. The guidelines have limited usage rights and everyone must access it via the portal, after accepting the terms and conditions.
+See [Writing with visuals](https://spectrum.corp.adobe.com/page/writing-with-visuals/) in the Spectrum guide for great information on how to effectively write for tutorial videos.
 
 ### Using Adobe in product names{#product-names}
 
@@ -274,16 +253,12 @@ The `TOC.md` is your table of contents. Each guide should have one.
 * You must use proper syntax for TOC section headings (for example, `+ Processing rules {#processing-rules}`) and TOC article links (for example, `+ [Article name](article.md)`).
 * TOC article entries can be a shortened version of the article title. Follow the standards for writing overviews, concepts, and tasks in this document.
 * Avoid adding the same file multiple times to a TOC (or to multiple TOCs). Doing so causes odd behavior.
-* If your repo contains multiple user guides, your user guide directories must be at the same level, such as the subdirectories within the `help` directory. Each user guide directory must have a TOC file. No nesting user guides. See [Multiple User Guides.](user-guide-setup.md#multiple-user-guides)
-
-See [User Guide Setup](user-guide-setup.md)
+* If your repo contains multiple user guides, your user guide directories must be at the same level, such as the subdirectories within the `help` directory. Each user guide directory must have a TOC file. No nesting user guides. 
 
 ## Bold and italics{#bold}
 
 * Use bold text only for interface elements that you click in a procedure (and with UICONTROL).
 * Use italics for emphasis or when a word is confusing without it. For example, a foreign word, or when you're describing a word or defining a term.
-
-See [Markdown Syntax Style Guide](syntax-style-guide.md) for more information.
 
 ## Word choice
 
@@ -298,13 +273,3 @@ Be positive in your phrasing:
 * Don't: _You can process only 175 batch segmentation jobs per year._
 * Do: _You can process up to 175 batch segmentation jobs per year._
 
-## Gender and inclusive language{#gender}
-
-See [Gender and inclusive terminology](inclusive-language.md).
-
-## VS Code
-
-Information about extensions, shortcuts, and tips when authoring in VS Code.
-
-* [Microsoft Visual Studio Code Tips](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=aemdoc&title=Microsoft+Visual+Studio+Code+Tips) (wiki)
-* [VS Code tips and extensions](authoring-best-practices.md#visual-studio-code-tips)
