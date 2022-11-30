@@ -1,10 +1,10 @@
 ---
 lastModified: 2018-06-28
-title: Authoring guidelines for external contributors
+title: Authoring style guidelines for external contributors
 description: Learn about authoring and editorial guidelines for external contributors to Experience League.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 ---
-# Authoring style guidelines for external contributors
+# Authoring style guidelines for external contributors{#guidelines}
 
 This page provides editorial guidelines for external authors creating content or updating existing content on Experience League. Before you begin, ensure that you:
 
@@ -13,7 +13,7 @@ This page provides editorial guidelines for external authors creating content or
 * Use a friendly tone, consistent presentation, and simple sentences to improve machine translation
 * Follow [best-practices](#writing-tips) and editorial standards on this page
 
-## Style guidelines
+## Style guidelines{#style-guidelines}
 
 Keep the following in mind when writing documentation.
 
@@ -26,7 +26,7 @@ Keep the following in mind when writing documentation.
 
 Technical writing, particularly for software documentation, is a specialized industry. Even the most prolific novelist gets flustered when attempting technical writing--not because the material is complex or technical, but because it's not easy making complex, technical information _simple_. To succeed, your content must be structurally consistent, scannable, reusable, and flow through the publishing pipeline without structure and syntax errors. 
 
-The following sections describe common issues that new technical writers must watch out for:
+The following sections describe common issues that new writers must watch out for:
 
 ### Headings not separated by text (double headings){#double-headings}
 
@@ -112,7 +112,7 @@ The preceding TOC is a good example because:
 * Procedures (tasks) are active verbs (not gerunds)
 * All entries use sentence capitalization
 
-## Title and description metadata
+## Title and description metadata{#metadata}
 
 _Title_ and _description_ metadata are important for SEO, content discovery, and content quality scores on Experience League. 
 
@@ -166,7 +166,7 @@ A few more best practices and resources:
 
 See [Top 10 Writing Tips](https://docs.microsoft.com/en-us/style-guide/top-10-tips-style-voice) in the [Microsoft&reg; Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/) for more information.
 
-## Alt-text
+## Alt-text{#alt-text}
 
 Add meaningful alt-text to your assets (images). Consider alt-text that matches:
 
@@ -176,7 +176,7 @@ Add meaningful alt-text to your assets (images). Consider alt-text that matches:
 
 Google considers the alt-text in SEO results.
 
-## Localization - DNL and UICONTROL
+## Localization - DNL and UICONTROL{#localization}
 
 You do not need to worry about whether your product is localized or the languages that ExL uses. However, you help improve the quality of localization by applying the following two (required) Markdown tags where appropriate:
 
@@ -194,15 +194,9 @@ You do not need to worry about whether your product is localized or the language
 
   Syntax example: `Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
 
-  This tag enables Experience League to preserve the string in English when necessary. Meaning, the system knows if the product is not localized in Italian, for example. However, a customer might read Italian documentation on Experience League while using an English UI. In this case, your interface references remain in English to match the UI.
-
 >[!IMPORTANT]
 >
 >You must apply these tags prior to localizing your content.
-
-## Writing with visuals (image assets, videos)
-
-See [Writing with visuals](https://spectrum.corp.adobe.com/page/writing-with-visuals/) in the Spectrum guide for great information on how to effectively write for tutorial videos.
 
 ### Using Adobe in product names{#product-names}
 
@@ -255,17 +249,3 @@ The `TOC.md` is your table of contents. Each guide should have one.
 
 * Use bold text only for interface elements that you click in a procedure (and with UICONTROL).
 * Use italics for emphasis or when a word is confusing without it. For example, a foreign word, or when you're describing a word or defining a term.
-
-## Word choice
-
-Avoid referring to your audience or Adobe product users as _customers_. Doing so implies that we see them only as sources of money. You can, however, refer to the user's customers:
-
-* Don't: _A customer may only process 175 batch segmentation jobs per year._
-* Do: _You may process up to 175 batch segmentation jobs per year._
-* Do: _Experience Platform enables your organization to see a 360-degree profile of each of your individual customers._
-
-Be positive in your phrasing:
-
-* Don't: _You can process only 175 batch segmentation jobs per year._
-* Do: _You can process up to 175 batch segmentation jobs per year._
-
