@@ -5,21 +5,23 @@ description: The guide describes how you can contribute suggestions and addition
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 ---
-# Contributor Guide Overview for Adobe Documentation
+# Contributor Guide for Adobe Documentation
 
-## What is Collaborative Documentation
+This guide describes how you can contribute to Adobe enterprise help on Experience League.
 
-The technical documentation and enablement content for Adobe Experience Cloud and other Adobe Enterprise products transitioned to a new platform. This new platform is based on open source principles that utilize Github, Markdown, and Adobe Experience Cloud solutions. 
+## What is collaborative documentation?
 
-This open source model improves content quality, and communication between customers, documentation teams and product teams. On every page you can now rate content usefulness, log issues, and even contribute content suggestions as Git pull requests (PRs). The Adobe documentation teams monitor the contributions and issues on a daily basis and make updates, tweaks and adjustments as necessary.
+The technical documentation and enablement content for Adobe Experience Cloud and other Adobe Enterprise products are based on open source principles that uses GitHub, Markdown, and Adobe Experience Cloud solutions. 
 
-## Working with Collaborative Documentation
+This open-source model improves content quality and communication between customers, documentation teams, and product teams. On every page you can now rate content usefulness, log issues, and even contribute content suggestions as Git pull requests (PRs). The Adobe documentation teams monitor the contributions and issues on a daily basis and make updates, tweaks and adjustments as necessary.
+
+## Working with collaborative documentation
 
 As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you have the choice of contributing to this documentation in several simple ways;
 
-* rate the helpfulness of the page
-* log an issue against a specific page
-* even submit a quick edits through to authoring entire articles, complete with assets and code samples
+* Rate the helpfulness of the page
+* Log an issue against a specific page
+* Submit a quick edits through to authoring entire articles, complete with assets and code samples
 
 This guide outlines everything you need to know to interact with and contribute to this material set.
  
@@ -60,7 +62,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
 That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
 
-## Log an Issue
+## Log an issue
 
 Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
 
