@@ -5,7 +5,7 @@ description: The guide describes how you can contribute suggestions and addition
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 ---
-# Contributor Guide for Adobe Documentation
+# Contributor Guide for Adobe documentation
 
 This guide describes how you can contribute to Adobe enterprise help on Experience League.
 
@@ -39,7 +39,7 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
 
    You only need to submit an Adobe CLA one time.
-1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+1. Click **[!UICONTROL Edit this page]** in the right column to go to the markdown source file on GitHub.
 
    ![Edit this page icon](/help/assets/git_edit.png)
 
@@ -51,42 +51,48 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
    ![Location of the pencil icon](assets/edit-icon.png)
 
-1. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
-1. Once you have made your change(s), scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+1. Make your changes in the web editor. 
+
+   You can click the **[!UICONTROL Preview changes]** tab to check formatting of your change.
+1. After you make your changes, scroll to the bottom of the page. 
+
+   Enter a title and description for your PR, then click **[!UICONTROL Propose file change]** as shown in the following figure:
 
    ![proposing your change](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >If you get a validation error message about signing a Contributor License Agreement (CLA), click **Details** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
+   >If you get a validation error message about signing a Contributor License Agreement (CLA), click **[!UICONTROL Details]** to open the license agreement. Sign the agreement, if acceptable. Then close and open pull request, and continue.
 
-That's all there is to it. Thank you! Documentation team members will review and merge your pull request.
+That's all there is to it. Documentation team members will review and merge your pull request. Thank you!
 
 ## Log an issue
 
-Another easy way to let us know about a problem with a piece of content is to 'Log an Issue'.
+Another easy way to let us know about a problem with a piece of content is to use **[!UICONTROL Log an Issue]**.
 
-1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
+1. If you see a problem with a piece of content, click the **[!UICONTROL Log an Issue]** icon in the right column.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >You will need to log in to your GitHub account, or create a new account, to log an issue. 
+   >To log an issue, you must log in to your GitHub account, or create an account. 
    
-   Clicking this link will allow you to log a quick ticket with us, using the Github Issue interface.
+   Clicking this link allows you to log a quick ticket with Experience League, using the Github Issue interface.
    
-1. The URL of the page with the issue will automatically populate in the description field. Fill in the title, write a short description of the issue, and then click *Submit new issue*.
+   The URL of the page with the issue automatically populate in the description field. 
+
+1. Fill in the title, write a short description of the issue, and then click *Submit new issue*.
 
    ![](assets/git_issue_example.png)
 
-Submitting an issue will directly notify the content team for this page who will be able to take action. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
+Submitting an issue notifies the content team for this page, who can address your issue. When we have updated the content, we'll let you know in the Github Issues interface, and it will notify you by email when updated or closed.
 
 ## Understand GitHub permissions
 
 The GitHub editing UI adapts to your repository permissions. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo.
 
-Adobe uses pull requests for all changes, even for contributors that have write access. Most repositories have the `master` branch protected so that updates must be submitted as pull requests.
+Adobe uses pull requests for all changes, even for contributors that have write access. Most repositories have the `main` branch protected so that updates must be submitted as pull requests.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions, or use advanced Git features, we recommend that you [fork the repo and work locally](setup/full-workflow.md).
 
@@ -94,4 +100,4 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 
 With a solution set as large as Adobe's, the documentation is always a work in progress. If you spot errors, log an issue, if you have suggestions on material please let us know. Tell us what information you were looking for. Let us know if you couldn't find what you needed, or if you had difficulty completing your task, please let us know how we can help you learn our solutions.
 
-Thanks from the Collaborative Documentation team and all the writers and content producers in the [!UICONTROL Adobe Experience Cloud].
+Thanks from the Collaborative Documentation team and all the writers and content producers in Experience League.
