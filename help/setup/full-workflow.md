@@ -1,6 +1,6 @@
 ---
 title: GitHub contribution workflow for major changes
-description: this article shows you how to use the "major" contributor workflow to make contributions to adobe documentation.
+description: Learn how to make contributions to Adobe documentation on Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
 ---
 # GitHub contribution workflow for major changes
@@ -38,19 +38,19 @@ In this workflow, changes flow in a repetitive cycle. Starting from your device'
 
 ### Use GitHub flow
 
-Recall from [Git and GitHub fundamentals](git-fundamentals.md) that a Git repository contains a master branch, plus any additional work-in-progress branches that have not been integrated into master. Whenever you introduce a set of logically related changes, it’s a best practice to create a *working branch* to manage your changes through the workflow. We refer to it here as a working branch because it's a workspace to iterate/refine changes, until they can be integrated back into the master branch.
+Recall from [Git and GitHub fundamentals](git-fundamentals.md) that a Git repository contains a main branch, plus any additional work-in-progress branches that have not been integrated into main. Whenever you introduce a set of logically related changes, it's a best practice to create a *working branch* to manage your changes through the workflow. We refer to it here as a working branch because it's a workspace to iterate/refine changes, until they can be integrated back into the main branch.
 
 Isolating related changes to a specific branch allows you to control and introduce those changes independently, targeting them to a specific release time in the publishing cycle. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
 
 >[!NOTE]
 >
->Making your changes in the master branch *is not a good practice*. Imagine that you use the master branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the master branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
+>Making your changes in the main branch *is not a good practice*. Imagine that you use the main branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the main branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
 
 The next step is to create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
 
 ## Pull request processing
 
-You submit proposed changes by bundling them in a new pull request (PR) that is added to the destination repository's PR queue. A pull request enables GitHub's collaboration model, by asking for the changes from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default/master branch in the main repository.
+You submit proposed changes by bundling them in a new pull request (PR) that is added to the destination repository's PR queue. A pull request enables GitHub's collaboration model, by asking for the changes from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default/main branch in the main repository.
 
 ### Validation
 

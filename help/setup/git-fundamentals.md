@@ -22,7 +22,7 @@ Git has a unique contribution workflow and terminology to support its distribute
 Git also uses a tiered structure to store and manage content for a project:
 
 - *Repository*: Also known as a *repo*, this is the highest unit of storage. A repository contains one or more branches.
-- *Branch*: All repositories contain a default branch (typically named "master") and one or more branches that are destined to be merged back into the master branch. The master branch serves as the current version and source from which content is published. It's the parent from which all other branches in the repository are created.
+- *Branch*: All repositories contain a default branch (typically named "main") and one or more branches that are destined to be merged back into the main branch. The main branch serves as the current version and source from which content is published. It's the parent from which all other branches in the repository are created.
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
@@ -35,7 +35,7 @@ All workflows begin and end at the GitHub level, where the main repository for a
 
 ### Directory organization
 
-A project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--aligns with the organization of the article topics. Subdirectories are used for organizing content and image assets.
+A project's default/main branch serves as the current version of content for the project. The content in the main branch--and branches created from it--aligns with the organization of the article topics. Subdirectories are used for organizing content and image assets.
 
 You can typically find a main `help` directory off the root of the repository. The articles directory contains a set of subdirectories. Articles in the subdirectories are formatted as Markdown files that use an *.md* extension.
 
