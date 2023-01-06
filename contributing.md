@@ -14,7 +14,7 @@ This project adheres to the Adobe [code of conduct](code-of-conduct.md). By part
 
 ## Contributor Guide Documentation
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Have A Question?
 
