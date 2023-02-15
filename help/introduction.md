@@ -1,11 +1,11 @@
 ---
-title: Contributor guide for Adobe documentation
+title: Contributor guide for Adobe Documentation
 seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: The guide describes how you can contribute suggestions and additions to the Adobe documentation site.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 ---
-# Contributor Guide for Adobe documentation
+# Contributor Guide for Adobe Documentation
 
 This guide describes how you can contribute to Adobe enterprise help on Experience League.
 
