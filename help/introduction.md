@@ -17,11 +17,15 @@ This open-source model improves content quality and communication between custom
 
 ## Working with collaborative documentation
 
-As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you have the choice of contributing to this documentation in several simple ways;
+As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you have the choice of contributing to this documentation in several simple ways. 
 
-* Rate the helpfulness of the page
-* Log an issue against a specific page
-* Submit a quick edits through to authoring entire articles, complete with assets and code samples
+* Rate the helpfulness of the page &#10102; and write a optional comment &#10103;
+* Report an issue against a specific page (requires Git login) &#10104;
+* Submit a quick edit through to authoring entire articles, complete with assets and code samples (requires Git login) &#10105;
+
+![Feedback](assets/feedback-options.png)
+
+These options appear at the bottom of the page a few second after it's opened. If you dismiss the feedback area, you can reload the page to bring it back.
 
 This guide outlines everything you need to know to interact with and contribute to this material set.
  
@@ -32,16 +36,23 @@ This guide outlines everything you need to know to interact with and contribute 
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## Rate the helpfulness of the page and write a comment
+
+A few seconds after you open a page, a feedback area appears at the bottom of the page. Click up or down to indicate whether the page was helpful.
+
+Feel free to leave a comment to provide additional feedback.
+
 ## Make quick edits to existing documents
 
-Making quick edits is a good way to fix small errors and omissions in documents. If an article displays an edit button as shown below, you can make a quick fix yourself. When you edit the document, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve and publish the suggestion.
+If you would like to provide more detailed feedback, making quick edits is a good way to fix small errors and omissions in documents. When you suggest an edit, you submit a pull request (PR) to submit the fix/suggestion to us, and we can vet, approve, and publish the suggestion.
 
 1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
 
    You only need to submit an Adobe CLA one time.
-1. Click **[!UICONTROL Edit this page]** in the right column to go to the markdown source file on GitHub.
 
-   ![Edit this page icon](/help/assets/git_edit.png)
+1. In the feedback area that appears at the bottom of the article, click **[!UICONTROL Detailed feedback options]**, and then click **[!UICONTROL Suggest an edit]** to go to the markdown source file on GitHub.
+
+   ![Edit this page icon](/help/assets/feedback-suggest-edit.png)
 
 1. Click the pencil icon to edit the article.
 
@@ -49,11 +60,12 @@ Making quick edits is a good way to fix small errors and omissions in documents.
    >
    >If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.  
 
-   ![Location of the pencil icon](assets/edit-icon.png)
+   ![Location of the pencil icon](assets/git_edit.png)
 
 1. Make your changes in the web editor. 
 
    You can click the **[!UICONTROL Preview changes]** tab to check formatting of your change.
+
 1. After you make your changes, scroll to the bottom of the page. 
 
    Enter a title and description for your PR, then click **[!UICONTROL Propose file change]** as shown in the following figure:
@@ -66,17 +78,17 @@ Making quick edits is a good way to fix small errors and omissions in documents.
 
 That's all there is to it. Documentation team members will review and merge your pull request. Thank you!
 
-## Log an issue
+## Report an issue
 
-Another easy way to let us know about a problem with a piece of content is to use **[!UICONTROL Log an Issue]**.
+Another easy way to let us know about a problem with a piece of content is to use **[!UICONTROL Report an issue]**.
 
-1. If you see a problem with a piece of content, click the **[!UICONTROL Log an Issue]** icon in the right column.
+1. In the feedback area that appears at the bottom of the article, click **[!UICONTROL Detailed feedback options]**, and then click **[!UICONTROL Report an issue]** to go to the markdown source file on GitHub.
 
-   ![](assets/git_log_issue.png)
+   ![Report issue](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >To log an issue, you must log in to your GitHub account, or create an account. 
+   >To report an issue, you must log in to your GitHub account, or create an account. 
    
    Clicking this link allows you to log a quick ticket with Experience League, using the Github Issue interface.
    
