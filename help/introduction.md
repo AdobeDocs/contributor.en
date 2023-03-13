@@ -19,7 +19,7 @@ This open-source model improves content quality and communication between custom
 
 As a user of this material - regardless of if you are an employee, partner, customer or even prospective customers - you have the choice of contributing to this documentation in several simple ways. 
 
-* Rate the helpfulness of the page &#10102; and write a optional comment &#10103;
+* Rate the helpfulness of the page &#10102; and write an optional comment &#10103;
 * Report an issue against a specific page (requires Git login) &#10104;
 * Submit a quick edit through to authoring entire articles, complete with assets and code samples (requires Git login) &#10105;
 
