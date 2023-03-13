@@ -80,11 +80,13 @@ You can also embed lists within lists and add content between list items.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -100,11 +102,13 @@ Displayed:
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
-   | How | are you? |  
+   | How | are you? |
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -171,8 +175,6 @@ Displayed:
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
-**NOTE:** For images that should not be localized, create a separate `do-not-localize` folder in the assets folder. Typically, images without text or images containing only sample content would be placed there. This removes any "noise" from the assets folder and reduces the amount of questions.
-
 ### Code blocks
 
 Markdown supports the placement of code blocks both inline in a sentence and as a separate "fenced" block between sentences. For details, see [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -202,10 +204,10 @@ Adobe articles use standard Markdown for most article formatting, such as paragr
 
 * Note blocks
 * Embedded videos
-* Do not localize
-* Component properties, such as assigning a different heading ID to a heading
+* Translation tags
+* Component properties, such as assigning a different heading ID to a heading and specifying an image size
 
-Use the Markdown block quote ( > ) at the beginning of every line to tie together an extended component, such as a note. If you need to use subcomponents within components, add an extra level of block quotes (>  >) for that subcomponent section. For example, a NOTE within a DONOTLOCALIZE section should begin with >    >.
+Use the Markdown block quote ( > ) at the beginning of every line to tie together an extended component, such as a note. 
 
 Some common Markdown elements such as headings and code blocks include extended properties. If you need to change default properties, add the parameters in french braces /{ /} after the component. Extended properties are described in context.
 
@@ -223,7 +225,6 @@ You can choose from these types of note blocks to draw attention to specific con
 * `[!PREREQUISITES]`
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
-
 
 ```markdown
 >[!NOTE]
@@ -267,6 +268,7 @@ The "More Like This" component in AEM appears at the end of an article. It displ
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -274,6 +276,7 @@ The "More Like This" component in AEM appears at the end of an article. It displ
 Displayed:
 
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 
@@ -327,7 +330,7 @@ Alt text that contains underscores won't be rendered properly. For example, inst
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-OUr best practice is to use hyphens (-) instead of underscores (_) in filenames.
+Our best practice is to use hyphens (-) instead of underscores (_) in filenames.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
