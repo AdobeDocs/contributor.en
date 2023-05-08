@@ -269,12 +269,7 @@ Displayed:
 
 The "More Like This" component in AEM appears at the end of an article. It displays related links. When the article is rendered, it can be formatted the same as level-2 headings (##) without being added to the mini-TOC.
 
-```markdown
->[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
-```
+![morelikethis syntax](assets/more-like-this-syntax.png)
 
 Displayed:
 
