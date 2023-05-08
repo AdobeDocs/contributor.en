@@ -71,7 +71,7 @@ Displayed:
 
 * First item in an unordered list.
 * Another item.
-* Here we go again.
+* Here we go &nbsp;again.
 
 You can also embed lists within lists and add content between list items.
 
@@ -113,7 +113,7 @@ Displayed:
 
    >[!NOTE]
    >
-   >This is note text.
+   >This is note &nbsp;text.
 
 1. Do another step.
 
@@ -280,8 +280,8 @@ Displayed:
 
 >[!MORELIKETHIS]
 >
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article &nbsp;1](https://helpx.adobe.com/support/analytics.html)
+>* [Article &nbsp;2](https://helpx.adobe.com/support/audience-manager.html)
 
 ### UICONTROL and DNL
 
@@ -305,7 +305,9 @@ During machine translation, items tagged with `[!UICONTROL]` are checked against
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**NOTE:** Of the three tagging options, this is the most crucial to deliver high quality and is mandatory.
+>[!NOTE]
+>
+>Of the three tagging options, this is the most crucial to deliver high quality and is mandatory.
 
 **`[!DNL]`**
 
