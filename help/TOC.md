@@ -1,6 +1,7 @@
 ---
 git-repo: https://github.com/AdobeDocs/contributor.en
-cloud: Adobe
+solution: Experience Cloud
+cloud: Experience Cloud
 index: yes
 ---
 
