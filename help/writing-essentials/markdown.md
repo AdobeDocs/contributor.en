@@ -288,17 +288,15 @@ During machine translation, items tagged with `[!UICONTROL]` are checked against
 
 **Example source content:**
 
-1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
-1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
-1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
+![sample uicontrol text](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
 
 ```markdown
-1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
-1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
-1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 -->
 
@@ -310,17 +308,16 @@ During machine translation, items tagged with `[!UICONTROL]` are checked against
 
 As a rule, we use a "Do not translate" list to tell the machine translation engines what to keep in English. The most prevalent items would be the long solution names like "Adobe Analytics", "Adobe Campaign", and "Adobe Target". However, there may be cases where we need to force the engine to use English because the term in question may be used in a specific or general way. This most obvious case would be short names for the solutions like "Analytics", "Campaign", "Target" etc. It would be difficult for a machine to understand that these are solution names and not general terms. The tag may also be used for third-party names/features which always remain in English or for shorter sections of text like a phrase or sentence which must remain in English.
 
-**Example:**
+**Example source content:**
 
-* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
+![sample dnl text](assets/sample-dnl.png)
 
 <!--
 **Source:**
 
 ```markdown
-* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 -->
 
