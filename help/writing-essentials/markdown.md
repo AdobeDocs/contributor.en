@@ -286,12 +286,13 @@ All of our Markdown help content is localized using machine translation initiall
 
 During machine translation, items tagged with `[!UICONTROL]` are checked against a localization database for the appropriate translation. In the case that the UI is not localized, this tag will allow the system to leave the UI reference in English for that particular language (ie. Analytics references in Italian).
 
-**Example:**
+**Example source content:**
 
-1. Go to the **Run Process** screen.
-1. Choose **File** > **Print** > **Print All** to print all the files on your server.
-1. The Processing Rules dialog box appears.
+1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
+1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
+1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 
+<!--
 **Source:**
 
 ```markdown
@@ -299,10 +300,11 @@ During machine translation, items tagged with `[!UICONTROL]` are checked against
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
->Of the three tagging options, this is the most crucial to deliver high quality and is mandatory.
+>Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 
 **`[!DNL]`**
 
@@ -310,15 +312,17 @@ As a rule, we use a "Do not translate" list to tell the machine translation engi
 
 **Example:**
 
-* With Target, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. Analytics can also help you with reporting to easily digest that data.
+* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 
+<!--
 **Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## Gotchas and troubleshooting
 
