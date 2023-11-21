@@ -298,11 +298,11 @@ During machine translation, items tagged with `[!UICONTROL]` are checked against
 1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
--->
 
 >[!NOTE]
 >
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
+-->
 
 **`[!DNL]`**
 
