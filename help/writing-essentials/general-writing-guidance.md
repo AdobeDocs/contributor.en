@@ -24,7 +24,7 @@ Keep the following in mind when writing documentation.
 
 ## Best practices of technical writing{#writing-tips}
 
-Technical writing, particularly for software documentation, is a specialized industry. Even the most prolific novelist gets flustered when attempting technical writing--not because the material is complex or technical, but because it's not easy making complex, technical information _simple_. To succeed, your content must be structurally consistent, scannable, reusable, and flow through the publishing pipeline without structure and syntax errors. 
+Technical writing, particularly for software documentation, is a specialized industry. Even the most prolific novelist gets flustered when attempting technical writing--not because the material is complex or technical, but because it's not easy making complex, technical information *simple*. To succeed, your content must be structurally consistent, scannable, reusable, and flow through the publishing pipeline without structure and syntax errors. 
 
 The following sections describe common issues that new writers must watch out for:
 
@@ -32,17 +32,17 @@ The following sections describe common issues that new writers must watch out fo
 
 If you have two headings with no text separating them, add missing text (to introduce the second topic heading). Or, you can remove one of the headings. The second one is probably unnecessary. 
 
-For example, _Overview_ serves no purpose here:
+For example, *Overview* serves no purpose here:
 
 ![Double headings](assets/headings-double.png)
 
-* Also, if your second heading happens to be _Overview_, it's probably unnecessary. Your H1 and first paragraph serve as the conceptual overview about the article's topic. 
+* Also, if your second heading happens to be *Overview*, it's probably unnecessary. Your H1 and first paragraph serve as the conceptual overview about the article's topic. 
 
-* Similarly, for SEO purposes, stand-alone headings like _Overview_ and _Introduction_ aren't useful by themselves. Name the product or feature that you're introducing. (Example: _Overview of Fallout reports_)
+* Similarly, for SEO purposes, stand-alone headings like *Overview* and *Introduction* aren't useful by themselves. Name the product or feature that you're introducing. (Example: *Overview of Fallout reports*)
 
 ### Inconsistent cross-reference headings{#maps}
 
-Use _More information_ headings for cross-reference lists (or maps). Example:
+Use *More information* headings for cross-reference lists (or maps). Example:
 
 ![Cross reference list](assets/headings-more-info.png)
 
@@ -73,17 +73,17 @@ It's hard to resist adding quotes around a word or phrase. However, quotes are i
 
 ### Procedures{#steps}
 
-Writing a procedure (the _task_ content type) is not a talent that we are born with. Building a readable, clear procedure takes practice.
+Writing a procedure (the *task* content type) is not a talent that we are born with. Building a readable, clear procedure takes practice.
 
 **Guidance for steps**
 
-* A procedure is a series of steps. A step is a brief, numbered, _single-sentence_ command.
-* Begin each step either with a verb or the _To_ infinitive (to orient the reader to the goal, as in, _To stay signed in, enable **Stay signed in**_). If a step has a specific goal within the overall procedure, mention the goal before the action.
-* If you have information about the step (a content type called _step info_, add it after the step (indented with the step) or after the asset (a screenshot, video, or a list of interface descriptions).
-* If your step has two actions (such as, _Select this, then that_), write it as a single, brief sentence.
+* A procedure is a series of steps. A step is a brief, numbered, *single-sentence* command.
+* Begin each step either with a verb or the *To* infinitive (to orient the reader to the goal, as in, *To stay signed in, enable **Stay signed in***). If a step has a specific goal within the overall procedure, mention the goal before the action.
+* If you have information about the step (a content type called *step info*), add it after the step (indented with the step) or after the asset (a screenshot, video, or a list of interface descriptions).
+* If your step has two actions (such as, *Select this, then that*), write it as a single, brief sentence.
 * Limit your task to about seven to ten steps. If you're creating more than ten steps in one task, you likely need to break it into two tasks. Use your best judgment here.
 * In product documentation, do not use headings as steps. (Exception below for tutorials.)
-* For multi-page tutorials, headings as steps can be allowed. However, do not number them. Rather, spell out _Step 1:_, _Step 2:_, and so on.
+* For multi-page tutorials, headings as steps can be allowed. However, do not number them. Rather, spell out *Step 1:*, *Step 2:*, and so on.
 
 **Example procedure** 
 
@@ -114,29 +114,29 @@ The preceding TOC is a good example because:
 
 ## Title and description metadata{#metadata}
 
-_Title_ and _description_ metadata are important for SEO, content discovery, and content quality scores on Experience League. 
+*Title* and *description* metadata are important for SEO, content discovery, and content quality scores on Experience League. 
 
 Here are examples of titles and descriptions:
 
 **Descriptions for concept articles**
 
-* _Learn about segments in Adobe Analytics. Get help on configuring the Segmentation panel in a workspace._
-* _Find help on using segments in a Page Views report in Adobe Analytics._
+* *Learn about segments in Adobe Analytics. Get help on configuring the Segmentation panel in a workspace.*
+* *Find help on using segments in a Page Views report in Adobe Analytics.*
 
 **Descriptions for procedure/task articles**
 
-* _Learn how to create a segment in Adobe Analytics._
-* _Create a segment in Adobe Analytics. Learn how to select, configure, and run a report based on the segment you create._ 
+* *Learn how to create a segment in Adobe Analytics.*
+* *Create a segment in Adobe Analytics. Learn how to select, configure, and run a report based on the segment you create.* 
 
 The one you use depends on the size and scope of the article.
 
 **Title for a concept article**
 
-* _Segments in Page Views reports_
+* *Segments in Page Views reports*
 
 **Title for a procedure/task article**
 
-* _Create a segment for a Page Views report_
+* *Create a segment for a Page Views report*
 
 (Remember, the pipe and product name are added automatically to titles.)
 
@@ -151,12 +151,10 @@ Here are simple ways to improve content design, clarity, and readability. These 
 |Avoid weak, needless adverbs|*Very*, *extremely*, *incredibly*.... <p>Adverbs are extra words that do not add significant meaning if you use strong and precise verbs, clauses, and adjectives.|
 |Use strong verbs for titles and [TOC entries](#using-toc)|Examples:<p>**Weak:** *Trait creation and management* <p>**Strong:** *Create and manage traits* |
 |Use sentence [capitalization](https://docs.microsoft.com/en-us/style-guide/capitalization)| When in doubt, don't capitalize. In headings, use sentence-style capitalization. Capitalize proper nouns and the first word after a colon. In procedures, match capitalization that you see in the interface. |
-|Learn these small tips for clarity|<ul><li>Avoid *In order to* (it adds no meaning). All you need is *to.*</li><li>Avoid *Utilize.* It might sound more technical, but it isn't. *Utilize* means *to make good use of, especially of something that was not intended for the purpose but will serve*.</li><li>Avoid semi-colons: Use a period instead and begin a new sentence. Semi colons introduce needless complexity.</li><li>Colons: Use colons to introduce a list. Use colons sparingly within sentences. Capitalize the first word after a colon in a sentence.</li><li>Use the Oxford comma (three commas in a list).</li><li>Keep sentence length under 39 words.</li><li>Navigation: use _go to_ or _navigate to_.</li><li>Avoid raw URL text (use user-friendly link text) unless displaying the path is important information.</li></ul> |
+|Learn these small tips for clarity|<ul><li>Avoid *In order to* (it adds no meaning). All you need is *to.*</li><li>Avoid *Utilize.* It might sound more technical, but it isn't. *Utilize* means *to make good use of, especially of something that was not intended for the purpose but will serve*.</li><li>Avoid semi-colons: Use a period instead and begin a new sentence. Semi colons introduce needless complexity.</li><li>Colons: Use colons to introduce a list. Use colons sparingly within sentences. Capitalize the first word after a colon in a sentence.</li><li>Use the Oxford comma (three commas in a list).</li><li>Keep sentence length under 39 words.</li><li>Navigation: use *go to* or *navigate to*.</li><li>Avoid raw URL text (use user-friendly link text) unless displaying the path is important information.</li></ul> |
 |Use a spell checker in VSC|Install Code Spell Check (extension) in Visual Studio Code.|
-|Change _click_ to _go to_ or _select_  |_Click_ is a device-specific word (with accessibility issues), and the trend is to move away from it. Here are suggestions for changing it:<ul><li>Navigation: _Go to File > Print_.</li><li>Clicking: _Select File > Print_ or _Select OK_. </li></ul>See [Describing interactions with the UI](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) for more ideas on the best word choice in various situations.|
+|Change *click* to *go to* or *select*  |*Click* is a device-specific word (with accessibility issues), and the trend is to move away from it. Here are suggestions for changing it:<ul><li>Navigation: *Go to File > Print*.</li><li>Clicking: *Select File > Print* or *Select OK*. </li></ul>See [Describing interactions with the UI](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) for more ideas on the best word choice in various situations.|
 |Run Acrolinx in VSC |Acrolinx checks for style and grammar issues. It checks URLs, terminology, spelling, and more. It helps you improve your clarity and improves translation on Experience League content. |
-
-{style="table-layout:auto"}
 
 A few more best practices and resources:
 
@@ -182,7 +180,7 @@ You do not need to worry about whether your product is localized or the language
 
 * `DNL`
 
-  DNL means _do not localize_. You use it only for trademarked Adobe product names, all of which must remain in English.
+  DNL means *do not localize*. You use it only for trademarked Adobe product names, all of which must remain in English.
 
   Syntax examples: `[!DNL Adobe Campaign]` or `[!DNL Workfront]`
 
@@ -200,7 +198,7 @@ You do not need to worry about whether your product is localized or the language
 
 ### Using Adobe in product names{#product-names}
 
-For corporate identity, we usually include _Adobe_ in the first reference of a product at the guide level. Depending on space considerations, you can drop Adobe in a heading, but then the first reference in the body copy should include the full name. Certain products, such as _Adobe Audition_ and _Adobe Premiere Pro_, require the use of Adobe on first or most prominent reference in every piece of collateral because it is part of the legal, trademarked name. 
+For corporate identity, we usually include *Adobe* in the first reference of a product at the guide level. Depending on space considerations, you can drop Adobe in a heading, but then the first reference in the body copy should include the full name. Certain products, such as *Adobe Audition* and *Adobe Premiere Pro*, require the use of Adobe on first or most prominent reference in every piece of collateral because it is part of the legal, trademarked name. 
 
 ## First paragraphs{#firstparas}
 
@@ -208,17 +206,17 @@ Your first paragraph should define the topic and describe what the reader learns
 
 Sample first paragraph (concept):
 
-  _Audiences are collections of visitors (a list of visitor IDs). Adobe's audience service manages the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud._
+  *Audiences are collections of visitors (a list of visitor IDs). Adobe's audience service manages the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud.*
 
 Sample first paragraph (task):
 
-  _Create the customer attribute source (CSV and FIN files) and upload the data. You can activate the data source when you are ready. After the data source is active, share the attribute data to Analytics and Target._
+  *Create the customer attribute source (CSV and FIN files) and upload the data. You can activate the data source when you are ready. After the data source is active, share the attribute data to Analytics and Target.*
 
 ### SEO tips for first paragraphs{#seo}
 
 * Include search terms in first paragraphs.
 * Use terms that readers use.
-* Include synonyms and, if necessary, previous usage of terms. For example, "The Experience Cloud ID Service (ECID), previously known as _visitor ID_ or as acronyms like MID, MCVID, provides a universal, persistent ID that identifies visitors."
+* Include synonyms and, if necessary, previous usage of terms. For example, "The Experience Cloud ID Service (ECID), previously known as *visitor ID* or as acronyms like MID, MCVID, provides a universal, persistent ID that identifies visitors."
 * Include SEO terms in links.
 * Avoid placing essential terms in complex tables. Complex tables don't yield reliable search results. Text in images is not search. Captions are searched.
 
