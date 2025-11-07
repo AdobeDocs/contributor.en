@@ -2,6 +2,8 @@
 git-repo: https://github.com/AdobeDocs/contributor.en
 solution: Experience Cloud
 cloud: Experience Cloud
+user-guide-title: Contributor Guide
+user-guide-description: Instructions for contributors to Adobe documentation
 index: yes
 ---
 

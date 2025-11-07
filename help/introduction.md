@@ -112,4 +112,4 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 
 With a solution set as large as Adobe's, the documentation is always a work in progress. If you spot errors, log an issue, if you have suggestions on material please let us know. Tell us what information you were looking for. Let us know if you couldn't find what you needed, or if you had difficulty completing your task, please let us know how we can help you learn our solutions.
 
-Thanks from the Collaborative Documentation team and all the writers and content producers in Experience League. We appreciate your help.
+Thanks from the Collaborative Documentation team and all the writers and content producers in Experience League. Thanks for your help.
