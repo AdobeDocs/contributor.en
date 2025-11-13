@@ -21,7 +21,6 @@ If you prefer a command-line interface (CLI) over a graphical user interface (GU
 
 Git learning resources are available here: 
 
-* [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 * [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Git terminology](https://help.github.com/articles/github-glossary)
 
