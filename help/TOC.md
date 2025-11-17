@@ -26,3 +26,6 @@ index: yes
 + Conduct and contributions {#conduct-contributions}
   + [Code of Conduct](conduct/code-of-conduct.md)
   + [Contributions overview](conduct/contributing.md)
++ Testing ignore {#testing}
+  + [Analytics with id](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+  + [Auth guide](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
