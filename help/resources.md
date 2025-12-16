@@ -7,7 +7,6 @@ exl-id: a112954a-76d9-4ee7-86be-676c5bd92994
 
 If you are unfamiliar with Git or GitHub, check out these resources.
 
-- [Git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics): Basic overview of Git basics.
 - [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 - [Interactive primer](https://try.github.io/): This is an online git tutorial. It exposes you to the basics of git.
 - Pro Git e-book [web](https://git-scm.com/book/en/v2) or [PDF](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): View this thorough Git reference in HTML or PDF format.

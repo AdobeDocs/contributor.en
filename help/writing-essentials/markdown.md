@@ -140,7 +140,6 @@ Simple tables work adequately in Markdown. However, tables that include multiple
 For more information on creating tables, see:
 
 * GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-* The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
 * [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Links
