@@ -28,7 +28,7 @@ You fork the appropriate repository into your own GitHub account so that you hav
 
 To contribute to Adobe documentation, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Then you use pull requests to merge changes into the read-only central shared repository.
 
-<!---
+<!--
 ![GitHub Triangle](/assets/git-and-github-initial-setup.png)
 
 If you're new to GitHub, watch the following video for a conceptual overview of the forking and cloning process:
