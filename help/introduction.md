@@ -27,14 +27,7 @@ As a user of this material - regardless of if you are an employee, partner, cust
 
 These options appear at the bottom of the page a few second after it's opened. If you dismiss the feedback area, you can reload the page to bring it back.
 
-This guide outlines everything you need to know to interact with and contribute to this material set.
- 
-<!--
->[!IMPORTANT]
->All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
->
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
--->
+This guide outlines what you need to know to interact with and contribute to this material set.
 
 ## Rate the helpfulness of the page and write a comment
 
