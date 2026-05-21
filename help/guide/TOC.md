@@ -13,7 +13,7 @@ index: true
 
 # Contributor Guide for Adobe documentation{#contributor-guide}
 
-+ [Introduction](/help/introduction.md)
++ [Introduction](/help/guide/introduction.md)
 + Set up with GitHub {#setup}
   + [Set up GitHub account](setup/github-signup.md)
   + [Install Git and Markdown authoring tools](setup/install-tools.md)

@@ -45,7 +45,7 @@ If you would like to provide more detailed feedback, making quick edits is a goo
 
 1. In the feedback area that appears at the bottom of the article, click **[!UICONTROL Detailed feedback options]**, and then click **[!UICONTROL Suggest an edit]** to go to the markdown source file on GitHub.
 
-   ![Edit this page icon](/help/assets/feedback-suggest-edit.png)
+   ![Edit this page icon](/help/guide/assets/feedback-suggest-edit.png)
 
 1. Click the pencil icon to edit the article.
 
